@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Arrowverse Tracker</title>
+  <link rel="stylesheet" href="popup.css" />
+</head>
+<body>
+  <div id="app">
+    <header>
+      <span class="logo">A</span>
+      <div>
+        <h1>Arrowverse Tracker</h1>
+        <p id="subtitle">Chronological watch order</p>
+      </div>
+    </header>
+
+    <section id="summary-section">
+      <h2>Now Watching</h2>
+      <div class="hero-card">
+        <div id="current-episode">Loading...</div>
+        <p id="current-title">Reading progress</p>
+      </div>
+      <div class="stats-grid">
+        <div><span>Watched</span><strong id="watched-count">--</strong></div>
+        <div><span>Next</span><strong id="next-episode">--</strong></div>
+        <div><span>Show switch</span><strong id="show-switch">--</strong></div>
+        <div><span>Crossover</span><strong id="next-crossover">--</strong></div>
+      </div>
+      <div class="button-row">
+        <button id="mark-current">Mark watched</button>
+        <button id="undo-current" class="secondary">Mark unwatched</button>
+      </div>
+    </section>
+
+    <section>
+      <div class="section-header">
+        <h2>Episodes</h2>
+        <button id="open-app" class="text-btn">Open full tracker</button>
+      </div>
+      <input id="episode-search" type="search" placeholder="Search show, title, crossover..." />
+      <select id="show-filter">
+        <option value="">All shows</option>
+      </select>
+      <ul id="episode-list"></ul>
+    </section>
+  </div>
+  <script src="arrowverse-data.js"></script>
+  <script src="arrowverse-store.js"></script>
+  <script src="popup.js"></script>
+</body>
+</html>

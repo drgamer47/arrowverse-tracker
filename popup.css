@@ -1,0 +1,263 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  width: 380px;
+  background: #080808;
+  color: #fff;
+  font-family: 'Segoe UI', Arial, sans-serif;
+  font-size: 13px;
+}
+
+#app {
+  min-height: 520px;
+  padding-bottom: 12px;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  background: #000;
+  padding: 14px 16px;
+  border-bottom: 2px solid #e50914;
+}
+
+.logo {
+  background: #e50914;
+  color: #fff;
+  font-weight: 900;
+  font-size: 18px;
+  width: 28px;
+  height: 28px;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+h1 {
+  font-size: 16px;
+  font-weight: 700;
+  letter-spacing: 0.03em;
+}
+
+#subtitle {
+  color: #8a8a8a;
+  font-size: 11px;
+  margin-top: 2px;
+}
+
+section {
+  padding: 14px 16px;
+  border-bottom: 1px solid #2a2a2a;
+}
+
+h2 {
+  font-size: 11px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: #e50914;
+  margin-bottom: 10px;
+}
+
+.hero-card {
+  background: linear-gradient(135deg, rgba(229, 9, 20, 0.2), rgba(28, 28, 28, 0.95));
+  border: 1px solid rgba(229, 9, 20, 0.35);
+  border-radius: 12px;
+  padding: 14px;
+  margin-bottom: 12px;
+}
+
+#current-episode {
+  font-size: 22px;
+  font-weight: 800;
+  line-height: 1.1;
+}
+
+#current-title {
+  color: #ccc;
+  font-size: 12px;
+  margin-top: 6px;
+  line-height: 1.35;
+}
+
+.stats-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 8px;
+}
+
+.stats-grid div {
+  background: #151515;
+  border: 1px solid #262626;
+  border-radius: 10px;
+  padding: 10px;
+  min-height: 64px;
+}
+
+.stats-grid span {
+  display: block;
+  color: #888;
+  font-size: 11px;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  margin-bottom: 5px;
+}
+
+.stats-grid strong {
+  display: block;
+  color: #fff;
+  font-size: 13px;
+  line-height: 1.25;
+}
+
+.button-row {
+  display: flex;
+  gap: 8px;
+  margin-top: 12px;
+}
+
+button {
+  background: #e50914;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  padding: 9px 10px;
+  font-size: 13px;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #f40612;
+}
+
+.secondary {
+  background: #2a2a2a;
+}
+
+.secondary:hover {
+  background: #3a3a3a;
+}
+
+.button-row button {
+  flex: 1;
+}
+
+.section-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.section-header h2 {
+  margin-bottom: 0;
+}
+
+.text-btn {
+  background: none;
+  border: none;
+  color: #aaa;
+  font-size: 11px;
+  cursor: pointer;
+  text-decoration: underline;
+  padding: 0;
+}
+
+.text-btn:hover {
+  color: #e50914;
+}
+
+#episode-search,
+#show-filter {
+  width: 100%;
+  background: #151515;
+  color: #fff;
+  border: 1px solid #333;
+  border-radius: 8px;
+  padding: 9px 10px;
+  margin-bottom: 8px;
+  outline: none;
+}
+
+#episode-search:focus,
+#show-filter:focus {
+  border-color: #e50914;
+}
+
+#episode-list {
+  list-style: none;
+  max-height: 260px;
+  overflow-y: auto;
+  scrollbar-width: thin;
+  scrollbar-color: #333 transparent;
+}
+
+#episode-list li {
+  display: grid;
+  grid-template-columns: 28px 1fr;
+  gap: 10px;
+  align-items: center;
+  padding: 10px 0;
+  border-bottom: 1px solid #222;
+  cursor: pointer;
+}
+
+#episode-list li:last-child {
+  border-bottom: none;
+}
+
+#episode-list li.current {
+  background: rgba(229, 9, 20, 0.08);
+  margin: 0 -8px;
+  padding-left: 8px;
+  padding-right: 8px;
+  border-radius: 8px;
+}
+
+#episode-list li.watched strong,
+#episode-list li.watched span {
+  color: #777;
+}
+
+.episode-toggle {
+  width: 26px;
+  height: 26px;
+  border-radius: 50%;
+  padding: 0;
+  background: #2b2b2b;
+}
+
+#episode-list li.watched .episode-toggle {
+  background: #e50914;
+}
+
+#episode-list strong,
+#episode-list span,
+#episode-list em {
+  display: block;
+}
+
+#episode-list strong {
+  color: #fff;
+  font-size: 12px;
+}
+
+#episode-list span {
+  color: #aaa;
+  font-size: 11px;
+  margin-top: 2px;
+}
+
+#episode-list em {
+  color: #e50914;
+  font-size: 12px;
+  font-style: normal;
+  margin-top: 2px;
+}

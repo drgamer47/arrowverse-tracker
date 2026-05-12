@@ -1,0 +1,79 @@
+#avt-overlay {
+  position: fixed;
+  right: 24px;
+  bottom: 82px;
+  z-index: 2147483647;
+  width: min(340px, calc(100vw - 32px));
+  background: rgba(0, 0, 0, 0.9);
+  color: #fff;
+  border: 1px solid rgba(229, 9, 20, 0.55);
+  border-radius: 14px;
+  box-shadow: 0 18px 44px rgba(0, 0, 0, 0.55);
+  padding: 16px;
+  font-family: 'Netflix Sans', Arial, sans-serif;
+  pointer-events: none;
+  transition: opacity 0.2s ease, transform 0.2s ease;
+}
+
+#avt-overlay.avt-hidden {
+  opacity: 0;
+  transform: translateY(10px);
+}
+
+.avt-kicker {
+  color: #e50914;
+  font-weight: 700;
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+  margin-bottom: 8px;
+}
+
+.avt-current {
+  color: #fff;
+  font-size: 20px;
+  font-weight: 800;
+  line-height: 1.2;
+}
+
+.avt-subtitle {
+  color: #bdbdbd;
+  font-size: 13px;
+  line-height: 1.35;
+  margin: 4px 0 14px;
+}
+
+.avt-row {
+  display: grid;
+  grid-template-columns: minmax(110px, 1fr) minmax(0, 1.4fr);
+  align-items: start;
+  gap: 12px;
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+  padding: 8px 0;
+}
+
+.avt-row span {
+  color: #8f8f8f;
+  font-size: 12px;
+}
+
+.avt-row strong {
+  color: #fff;
+  font-size: 12px;
+  font-weight: 700;
+  text-align: right;
+}
+
+.avt-hint {
+  color: #777;
+  font-size: 11px;
+  margin-top: 8px;
+  text-align: right;
+}
+
+@media (max-width: 640px) {
+  #avt-overlay {
+    right: 16px;
+    bottom: 28px;
+  }
+}
