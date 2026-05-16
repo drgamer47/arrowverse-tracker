@@ -97,15 +97,33 @@ section {
   overflow-y: auto;
 }
 
+.show-progress-row {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  margin: 0;
+}
+
 .show-progress-head {
   display: flex;
   justify-content: space-between;
+  align-items: baseline;
+  gap: 8px;
   font-size: 10px;
-  color: #aaa;
-  margin-bottom: 2px;
+}
+
+.show-progress-head .name {
+  color: #ddd;
+  font-weight: 600;
+}
+
+.show-progress-head .count {
+  color: #888;
+  flex-shrink: 0;
 }
 
 .mini-track {
+  display: block;
   height: 3px;
   background: #222;
   border-radius: 999px;
@@ -115,6 +133,11 @@ section {
 .mini-fill {
   display: block;
   height: 100%;
+  min-width: 0;
+}
+
+.mini-fill.has-progress {
+  min-width: 2px;
 }
 
 .ep-rating {

@@ -62,11 +62,13 @@
     fill.style.width = `${stats.percentWatched}%`;
 
     if (!shows) return;
-    shows.innerHTML = (stats.showProgress || [])
+        shows.innerHTML = (stats.showProgress || [])
       .map((row) => {
-        const head = `<span class="show-progress-head"><span>${escapeHtml(row.show)}</span><span>${row.watched}/${row.total}</span></span>`;
-        const track = `<span class="mini-track"><span class="mini-fill" style="width:${row.percent}%;background:${row.color}"></span></span>`;
-        return `<article class="show-progress-row">${head}${track}</article>`;
+        const fillClass = row.watched > 0 ? 'mini-fill has-progress' : 'mini-fill';
+        return '<div class="show-progress-row"><div class="show-progress-head"><span class="name">' +
+          escapeHtml(row.show) + '</span><span class="count">' + row.watched + '/' + row.total +
+          '</span></div><div class="mini-track"><span class="' + fillClass + '" style="width:' +
+          row.percent + '%;background:' + row.color + '"></span></div></div>';
       })
       .join('');
   }
