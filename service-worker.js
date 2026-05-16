@@ -1,4 +1,4 @@
-const CACHE_NAME = 'arrowverse-tracker-v2';
+const CACHE_NAME = 'arrowverse-tracker-v3';
 
 const APP_SHELL = [
   './',
@@ -36,22 +36,38 @@ self.addEventListener('activate', (event) => {
   );
 });
 
-self.addEventListener('fetch', (event) => {
-  const request = event.request;
+function isAppRequest(url) {
+  return (
+    (url.protocol === 'http:' || url.protocol === 'https:') &&
+    url.origin === self.location.origin
+  );
+}
 
+self.addEventListener('fetch', (event) => {
+  const { request } = event;
   if (request.method !== 'GET') return;
+
+  let url;
+  try {
+    url = new URL(request.url);
+  } catch {
+    return;
+  }
+
+  // Ignore extension URLs, analytics, CDNs, etc. — only cache this origin.
+  if (!isAppRequest(url)) return;
 
   event.respondWith(
     caches.match(request).then((cached) => {
       if (cached) return cached;
 
       return fetch(request).then((response) => {
-        const copy = response.clone();
-        if (new URL(request.url).origin === self.location.origin) {
+        if (response.ok && response.type === 'basic') {
+          const copy = response.clone();
           caches.open(CACHE_NAME).then((cache) => cache.put(request, copy));
         }
         return response;
       });
-    })
+    }).catch(() => caches.match('./arrowverse.html'))
   );
 });

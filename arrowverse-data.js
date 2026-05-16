@@ -11806,9 +11806,10 @@
 
   function getRemainingRuntimeSeconds(progress, startIndex, filterFn) {
     const safe = normalizeProgress(progress);
-    return ARROWVERSE_ORDER.slice(startIndex).reduce((total, episode) => {
+    return ARROWVERSE_ORDER.slice(startIndex).reduce((total, episode, offset) => {
+      const episodeIndex = startIndex + offset;
       if (safe.watched[episode.id]) return total;
-      if (filterFn && !filterFn(episode, startIndex)) return total;
+      if (filterFn && !filterFn(episode, episodeIndex)) return total;
       return total + getEpisodeRuntimeMinutes(episode) * 60;
     }, 0);
   }
