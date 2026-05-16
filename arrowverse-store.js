@@ -151,12 +151,20 @@
     });
   }
 
+  function enrichProgress(progress) {
+    let safe = Data.normalizeProgress(progress);
+    if (root.ArrowverseAnalytics) {
+      safe = root.ArrowverseAnalytics.backfillLegacyAnalytics(safe);
+    }
+    return safe;
+  }
+
   async function getProgress() {
     const chromeProgress = await readChromeStorage();
     const localProgress = readLocalMirror();
     const localBest = getNewerProgress(chromeProgress, localProgress);
     const remoteProgress = await readSupabaseProgress();
-    const progress = Data.normalizeProgress(getNewerProgress(localBest, remoteProgress));
+    const progress = enrichProgress(getNewerProgress(localBest, remoteProgress));
 
     writeLocalMirror(progress);
     await writeChromeStorage(progress);
@@ -175,7 +183,22 @@
 
   async function markWatched(id, watched) {
     const progress = await getProgress();
-    return saveProgress(Data.markEpisode(progress, id, watched));
+    let next = progress;
+    let newlyUnlocked = [];
+
+    if (root.ArrowverseAnalytics) {
+      const result = root.ArrowverseAnalytics.applyWatchMutation(progress, id, watched);
+      next = result.progress;
+      newlyUnlocked = result.newlyUnlocked;
+    } else {
+      next = Data.markEpisode(progress, id, watched);
+    }
+
+    const saved = await saveProgress(next);
+    if (newlyUnlocked.length) {
+      root.dispatchEvent?.(new CustomEvent('arrowverse-milestone', { detail: { keys: newlyUnlocked } }));
+    }
+    return saved;
   }
 
   async function setCurrent(id) {

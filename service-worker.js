@@ -1,10 +1,11 @@
-const CACHE_NAME = 'arrowverse-tracker-v1';
+const CACHE_NAME = 'arrowverse-tracker-v2';
 
 const APP_SHELL = [
   './',
   './arrowverse.html',
   './arrowverse-app.js',
   './arrowverse-data.js',
+  './arrowverse-analytics.js',
   './arrowverse-store.js',
   './config.js',
   './pwa-manifest.json',

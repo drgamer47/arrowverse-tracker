@@ -18,6 +18,9 @@
 
     <section id="summary-section">
       <h2>Now Watching</h2>
+      <p id="overall-progress-label" class="progress-label">0 / 830 · 0%</p>
+      <div class="overall-progress-track"><div class="overall-progress-fill" id="overall-progress-fill"></div></div>
+      <div id="show-progress-bars" class="show-progress-bars"></div>
       <div class="hero-card">
         <div id="current-episode">Loading...</div>
         <p id="current-title">Reading progress</p>
@@ -27,6 +30,8 @@
         <div><span>Next</span><strong id="next-episode">--</strong></div>
         <div><span>Show switch</span><strong id="show-switch">--</strong></div>
         <div><span>Crossover</span><strong id="next-crossover">--</strong></div>
+        <div><span>Season time</span><strong id="time-season">--</strong></div>
+        <div><span>Total time</span><strong id="time-total">--</strong></div>
       </div>
       <div class="button-row">
         <button id="mark-current">Mark watched</button>
@@ -40,6 +45,7 @@
         <button id="open-app" class="text-btn">Open full tracker</button>
       </div>
       <input id="episode-search" type="search" placeholder="Search show, title, crossover..." />
+      <button id="sort-rating" type="button" class="secondary sort-btn">Sort by rating</button>
       <select id="show-filter">
         <option value="">All shows</option>
       </select>
@@ -47,6 +53,7 @@
     </section>
   </div>
   <script src="arrowverse-data.js"></script>
+  <script src="arrowverse-analytics.js"></script>
   <script src="arrowverse-store.js"></script>
   <script src="popup.js"></script>
 </body>

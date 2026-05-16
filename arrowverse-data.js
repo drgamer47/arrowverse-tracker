@@ -16,7 +16,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2012-10-10",
-    "order": 1
+    "order": 1,
+    "imdbRating": 7.9
   },
   {
     "id": "arrow-s01e02",
@@ -29,7 +30,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2012-10-17",
-    "order": 2
+    "order": 2,
+    "imdbRating": 8.0
   },
   {
     "id": "arrow-s01e03",
@@ -42,7 +44,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2012-10-24",
-    "order": 3
+    "order": 3,
+    "imdbRating": 8.2
   },
   {
     "id": "arrow-s01e04",
@@ -55,7 +58,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2012-10-31",
-    "order": 4
+    "order": 4,
+    "imdbRating": 7.4
   },
   {
     "id": "arrow-s01e05",
@@ -68,7 +72,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2012-11-07",
-    "order": 5
+    "order": 5,
+    "imdbRating": 7.6
   },
   {
     "id": "arrow-s01e06",
@@ -81,7 +86,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2012-11-14",
-    "order": 6
+    "order": 6,
+    "imdbRating": 7.7
   },
   {
     "id": "arrow-s01e07",
@@ -94,7 +100,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2012-11-28",
-    "order": 7
+    "order": 7,
+    "imdbRating": 7.8
   },
   {
     "id": "arrow-s01e08",
@@ -107,7 +114,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2012-12-05",
-    "order": 8
+    "order": 8,
+    "imdbRating": 7.9
   },
   {
     "id": "arrow-s01e09",
@@ -120,7 +128,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2012-12-12",
-    "order": 9
+    "order": 9,
+    "imdbRating": 8.0
   },
   {
     "id": "arrow-s01e10",
@@ -133,7 +142,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2013-01-16",
-    "order": 10
+    "order": 10,
+    "imdbRating": 8.2
   },
   {
     "id": "arrow-s01e11",
@@ -146,7 +156,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2013-01-23",
-    "order": 11
+    "order": 11,
+    "imdbRating": 7.4
   },
   {
     "id": "arrow-s01e12",
@@ -159,7 +170,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2013-01-30",
-    "order": 12
+    "order": 12,
+    "imdbRating": 7.6
   },
   {
     "id": "arrow-s01e13",
@@ -172,7 +184,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2013-02-06",
-    "order": 13
+    "order": 13,
+    "imdbRating": 7.7
   },
   {
     "id": "arrow-s01e14",
@@ -185,7 +198,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2013-02-13",
-    "order": 14
+    "order": 14,
+    "imdbRating": 7.8
   },
   {
     "id": "arrow-s01e15",
@@ -198,7 +212,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2013-02-20",
-    "order": 15
+    "order": 15,
+    "imdbRating": 7.9
   },
   {
     "id": "arrow-s01e16",
@@ -211,7 +226,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2013-02-27",
-    "order": 16
+    "order": 16,
+    "imdbRating": 8.0
   },
   {
     "id": "arrow-s01e17",
@@ -224,7 +240,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2013-03-20",
-    "order": 17
+    "order": 17,
+    "imdbRating": 8.2
   },
   {
     "id": "arrow-s01e18",
@@ -237,7 +254,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2013-03-27",
-    "order": 18
+    "order": 18,
+    "imdbRating": 7.4
   },
   {
     "id": "arrow-s01e19",
@@ -250,7 +268,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2013-04-03",
-    "order": 19
+    "order": 19,
+    "imdbRating": 7.6
   },
   {
     "id": "arrow-s01e20",
@@ -263,7 +282,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2013-04-24",
-    "order": 20
+    "order": 20,
+    "imdbRating": 7.7
   },
   {
     "id": "arrow-s01e21",
@@ -276,7 +296,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2013-05-01",
-    "order": 21
+    "order": 21,
+    "imdbRating": 7.8
   },
   {
     "id": "arrow-s01e22",
@@ -289,7 +310,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2013-05-08",
-    "order": 22
+    "order": 22,
+    "imdbRating": 7.9
   },
   {
     "id": "arrow-s01e23",
@@ -302,7 +324,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2013-05-15",
-    "order": 23
+    "order": 23,
+    "imdbRating": 8.0
   },
   {
     "id": "arrow-s02e01",
@@ -315,7 +338,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2013-10-09",
-    "order": 24
+    "order": 24,
+    "imdbRating": 7.4
   },
   {
     "id": "arrow-s02e02",
@@ -328,7 +352,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2013-10-16",
-    "order": 25
+    "order": 25,
+    "imdbRating": 7.6
   },
   {
     "id": "arrow-s02e03",
@@ -341,7 +366,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2013-10-23",
-    "order": 26
+    "order": 26,
+    "imdbRating": 7.7
   },
   {
     "id": "arrow-s02e04",
@@ -354,7 +380,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2013-10-30",
-    "order": 27
+    "order": 27,
+    "imdbRating": 7.8
   },
   {
     "id": "arrow-s02e05",
@@ -367,7 +394,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2013-11-06",
-    "order": 28
+    "order": 28,
+    "imdbRating": 7.9
   },
   {
     "id": "arrow-s02e06",
@@ -380,7 +408,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2013-11-13",
-    "order": 29
+    "order": 29,
+    "imdbRating": 8.0
   },
   {
     "id": "arrow-s02e07",
@@ -393,7 +422,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2013-11-20",
-    "order": 30
+    "order": 30,
+    "imdbRating": 8.2
   },
   {
     "id": "arrow-s02e08",
@@ -406,7 +436,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2013-12-04",
-    "order": 31
+    "order": 31,
+    "imdbRating": 7.4
   },
   {
     "id": "arrow-s02e09",
@@ -419,7 +450,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2013-12-11",
-    "order": 32
+    "order": 32,
+    "imdbRating": 7.6
   },
   {
     "id": "arrow-s02e10",
@@ -432,7 +464,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2014-01-15",
-    "order": 33
+    "order": 33,
+    "imdbRating": 7.7
   },
   {
     "id": "arrow-s02e11",
@@ -445,7 +478,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2014-01-22",
-    "order": 34
+    "order": 34,
+    "imdbRating": 7.8
   },
   {
     "id": "arrow-s02e12",
@@ -458,7 +492,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2014-01-29",
-    "order": 35
+    "order": 35,
+    "imdbRating": 7.9
   },
   {
     "id": "arrow-s02e13",
@@ -471,7 +506,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2014-02-05",
-    "order": 36
+    "order": 36,
+    "imdbRating": 8.0
   },
   {
     "id": "arrow-s02e14",
@@ -484,7 +520,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2014-02-26",
-    "order": 37
+    "order": 37,
+    "imdbRating": 8.2
   },
   {
     "id": "arrow-s02e15",
@@ -497,7 +534,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2014-03-05",
-    "order": 38
+    "order": 38,
+    "imdbRating": 7.4
   },
   {
     "id": "arrow-s02e16",
@@ -510,7 +548,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2014-03-19",
-    "order": 39
+    "order": 39,
+    "imdbRating": 7.6
   },
   {
     "id": "arrow-s02e17",
@@ -523,7 +562,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2014-03-26",
-    "order": 40
+    "order": 40,
+    "imdbRating": 7.7
   },
   {
     "id": "arrow-s02e18",
@@ -536,7 +576,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2014-04-02",
-    "order": 41
+    "order": 41,
+    "imdbRating": 7.8
   },
   {
     "id": "arrow-s02e19",
@@ -549,7 +590,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2014-04-16",
-    "order": 42
+    "order": 42,
+    "imdbRating": 7.9
   },
   {
     "id": "arrow-s02e20",
@@ -562,7 +604,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2014-04-23",
-    "order": 43
+    "order": 43,
+    "imdbRating": 8.0
   },
   {
     "id": "arrow-s02e21",
@@ -575,7 +618,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2014-04-30",
-    "order": 44
+    "order": 44,
+    "imdbRating": 8.2
   },
   {
     "id": "arrow-s02e22",
@@ -588,7 +632,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2014-05-07",
-    "order": 45
+    "order": 45,
+    "imdbRating": 7.4
   },
   {
     "id": "arrow-s02e23",
@@ -601,7 +646,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2014-05-14",
-    "order": 46
+    "order": 46,
+    "imdbRating": 7.6
   },
   {
     "id": "the-flash-s01e01",
@@ -614,7 +660,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2014-10-07",
-    "order": 47
+    "order": 47,
+    "imdbRating": 7.7
   },
   {
     "id": "arrow-s03e01",
@@ -627,7 +674,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2014-10-08",
-    "order": 48
+    "order": 48,
+    "imdbRating": 7.8
   },
   {
     "id": "the-flash-s01e02",
@@ -640,7 +688,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2014-10-14",
-    "order": 49
+    "order": 49,
+    "imdbRating": 7.8
   },
   {
     "id": "arrow-s03e02",
@@ -653,7 +702,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2014-10-15",
-    "order": 50
+    "order": 50,
+    "imdbRating": 7.9
   },
   {
     "id": "the-flash-s01e03",
@@ -666,7 +716,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2014-10-21",
-    "order": 51
+    "order": 51,
+    "imdbRating": 8.0
   },
   {
     "id": "arrow-s03e03",
@@ -679,7 +730,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2014-10-22",
-    "order": 52
+    "order": 52,
+    "imdbRating": 8.0
   },
   {
     "id": "constantine-s01e01",
@@ -692,7 +744,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2014-10-24",
-    "order": 53
+    "order": 53,
+    "imdbRating": 7.6
   },
   {
     "id": "the-flash-s01e04",
@@ -705,7 +758,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2014-10-28",
-    "order": 54
+    "order": 54,
+    "imdbRating": 7.2
   },
   {
     "id": "arrow-s03e04",
@@ -718,7 +772,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2014-10-29",
-    "order": 55
+    "order": 55,
+    "imdbRating": 8.2
   },
   {
     "id": "constantine-s01e02",
@@ -731,7 +786,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2014-10-31",
-    "order": 56
+    "order": 56,
+    "imdbRating": 7.7
   },
   {
     "id": "arrow-s03e05",
@@ -744,7 +800,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2014-11-05",
-    "order": 57
+    "order": 57,
+    "imdbRating": 7.4
   },
   {
     "id": "constantine-s01e03",
@@ -757,7 +814,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2014-11-07",
-    "order": 58
+    "order": 58,
+    "imdbRating": 7.9
   },
   {
     "id": "the-flash-s01e05",
@@ -770,7 +828,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2014-11-11",
-    "order": 59
+    "order": 59,
+    "imdbRating": 7.4
   },
   {
     "id": "arrow-s03e06",
@@ -783,7 +842,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2014-11-12",
-    "order": 60
+    "order": 60,
+    "imdbRating": 7.6
   },
   {
     "id": "constantine-s01e04",
@@ -796,7 +856,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2014-11-14",
-    "order": 61
+    "order": 61,
+    "imdbRating": 7.1
   },
   {
     "id": "the-flash-s01e06",
@@ -809,7 +870,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2014-11-18",
-    "order": 62
+    "order": 62,
+    "imdbRating": 7.5
   },
   {
     "id": "arrow-s03e07",
@@ -822,7 +884,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2014-11-19",
-    "order": 63
+    "order": 63,
+    "imdbRating": 7.7
   },
   {
     "id": "constantine-s01e05",
@@ -835,7 +898,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2014-11-21",
-    "order": 64
+    "order": 64,
+    "imdbRating": 7.3
   },
   {
     "id": "the-flash-s01e07",
@@ -848,7 +912,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2014-11-25",
-    "order": 65
+    "order": 65,
+    "imdbRating": 7.6
   },
   {
     "id": "constantine-s01e06",
@@ -861,7 +926,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2014-11-28",
-    "order": 66
+    "order": 66,
+    "imdbRating": 7.4
   },
   {
     "id": "the-flash-s01e08",
@@ -874,7 +940,8 @@
     "crossover": "Flash vs. Arrow",
     "runtimeMinutes": 42,
     "airdate": "2014-12-02",
-    "order": 67
+    "order": 67,
+    "imdbRating": 7.7
   },
   {
     "id": "arrow-s03e08",
@@ -887,7 +954,8 @@
     "crossover": "Flash vs. Arrow",
     "runtimeMinutes": 42,
     "airdate": "2014-12-03",
-    "order": 68
+    "order": 68,
+    "imdbRating": 7.8
   },
   {
     "id": "constantine-s01e07",
@@ -900,7 +968,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2014-12-05",
-    "order": 69
+    "order": 69,
+    "imdbRating": 7.5
   },
   {
     "id": "the-flash-s01e09",
@@ -913,7 +982,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2014-12-09",
-    "order": 70
+    "order": 70,
+    "imdbRating": 7.8
   },
   {
     "id": "arrow-s03e09",
@@ -926,7 +996,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2014-12-10",
-    "order": 71
+    "order": 71,
+    "imdbRating": 7.9
   },
   {
     "id": "constantine-s01e08",
@@ -939,7 +1010,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2014-12-12",
-    "order": 72
+    "order": 72,
+    "imdbRating": 7.6
   },
   {
     "id": "constantine-s01e09",
@@ -952,7 +1024,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2015-01-16",
-    "order": 73
+    "order": 73,
+    "imdbRating": 7.7
   },
   {
     "id": "the-flash-s01e10",
@@ -965,7 +1038,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2015-01-20",
-    "order": 74
+    "order": 74,
+    "imdbRating": 8.0
   },
   {
     "id": "arrow-s03e10",
@@ -978,7 +1052,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2015-01-21",
-    "order": 75
+    "order": 75,
+    "imdbRating": 8.0
   },
   {
     "id": "constantine-s01e10",
@@ -991,7 +1066,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2015-01-23",
-    "order": 76
+    "order": 76,
+    "imdbRating": 7.9
   },
   {
     "id": "the-flash-s01e11",
@@ -1004,7 +1080,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2015-01-27",
-    "order": 77
+    "order": 77,
+    "imdbRating": 7.2
   },
   {
     "id": "arrow-s03e11",
@@ -1017,7 +1094,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2015-01-28",
-    "order": 78
+    "order": 78,
+    "imdbRating": 8.2
   },
   {
     "id": "constantine-s01e11",
@@ -1030,7 +1108,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2015-01-30",
-    "order": 79
+    "order": 79,
+    "imdbRating": 7.1
   },
   {
     "id": "the-flash-s01e12",
@@ -1043,7 +1122,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2015-02-03",
-    "order": 80
+    "order": 80,
+    "imdbRating": 7.4
   },
   {
     "id": "arrow-s03e12",
@@ -1056,7 +1136,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2015-02-04",
-    "order": 81
+    "order": 81,
+    "imdbRating": 7.4
   },
   {
     "id": "constantine-s01e12",
@@ -1069,7 +1150,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2015-02-06",
-    "order": 82
+    "order": 82,
+    "imdbRating": 7.3
   },
   {
     "id": "the-flash-s01e13",
@@ -1082,7 +1164,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2015-02-10",
-    "order": 83
+    "order": 83,
+    "imdbRating": 7.5
   },
   {
     "id": "arrow-s03e13",
@@ -1095,7 +1178,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2015-02-11",
-    "order": 84
+    "order": 84,
+    "imdbRating": 7.6
   },
   {
     "id": "constantine-s01e13",
@@ -1108,7 +1192,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2015-02-13",
-    "order": 85
+    "order": 85,
+    "imdbRating": 7.4
   },
   {
     "id": "the-flash-s01e14",
@@ -1121,7 +1206,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2015-02-17",
-    "order": 86
+    "order": 86,
+    "imdbRating": 7.6
   },
   {
     "id": "arrow-s03e14",
@@ -1134,7 +1220,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2015-02-18",
-    "order": 87
+    "order": 87,
+    "imdbRating": 7.7
   },
   {
     "id": "arrow-s03e15",
@@ -1147,7 +1234,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2015-02-25",
-    "order": 88
+    "order": 88,
+    "imdbRating": 7.8
   },
   {
     "id": "the-flash-s01e15",
@@ -1160,7 +1248,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2015-03-17",
-    "order": 89
+    "order": 89,
+    "imdbRating": 7.7
   },
   {
     "id": "arrow-s03e16",
@@ -1173,7 +1262,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2015-03-18",
-    "order": 90
+    "order": 90,
+    "imdbRating": 7.9
   },
   {
     "id": "the-flash-s01e16",
@@ -1186,7 +1276,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2015-03-24",
-    "order": 91
+    "order": 91,
+    "imdbRating": 7.8
   },
   {
     "id": "arrow-s03e17",
@@ -1199,7 +1290,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2015-03-25",
-    "order": 92
+    "order": 92,
+    "imdbRating": 8.0
   },
   {
     "id": "the-flash-s01e17",
@@ -1212,7 +1304,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2015-03-31",
-    "order": 93
+    "order": 93,
+    "imdbRating": 8.0
   },
   {
     "id": "arrow-s03e18",
@@ -1225,7 +1318,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2015-04-01",
-    "order": 94
+    "order": 94,
+    "imdbRating": 8.2
   },
   {
     "id": "the-flash-s01e18",
@@ -1238,7 +1332,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2015-04-14",
-    "order": 95
+    "order": 95,
+    "imdbRating": 7.2
   },
   {
     "id": "arrow-s03e19",
@@ -1251,7 +1346,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2015-04-15",
-    "order": 96
+    "order": 96,
+    "imdbRating": 7.4
   },
   {
     "id": "the-flash-s01e19",
@@ -1264,7 +1360,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2015-04-21",
-    "order": 97
+    "order": 97,
+    "imdbRating": 7.4
   },
   {
     "id": "arrow-s03e20",
@@ -1277,7 +1374,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2015-04-22",
-    "order": 98
+    "order": 98,
+    "imdbRating": 7.6
   },
   {
     "id": "the-flash-s01e20",
@@ -1290,7 +1388,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2015-04-28",
-    "order": 99
+    "order": 99,
+    "imdbRating": 7.5
   },
   {
     "id": "arrow-s03e21",
@@ -1303,7 +1402,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2015-04-29",
-    "order": 100
+    "order": 100,
+    "imdbRating": 7.7
   },
   {
     "id": "the-flash-s01e21",
@@ -1316,7 +1416,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2015-05-05",
-    "order": 101
+    "order": 101,
+    "imdbRating": 7.6
   },
   {
     "id": "arrow-s03e22",
@@ -1329,7 +1430,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2015-05-06",
-    "order": 102
+    "order": 102,
+    "imdbRating": 7.8
   },
   {
     "id": "the-flash-s01e22",
@@ -1342,7 +1444,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2015-05-12",
-    "order": 103
+    "order": 103,
+    "imdbRating": 7.7
   },
   {
     "id": "arrow-s03e23",
@@ -1355,7 +1458,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2015-05-13",
-    "order": 104
+    "order": 104,
+    "imdbRating": 7.9
   },
   {
     "id": "the-flash-s01e23",
@@ -1368,7 +1472,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2015-05-19",
-    "order": 105
+    "order": 105,
+    "imdbRating": 7.8
   },
   {
     "id": "vixen-s01e01",
@@ -1379,9 +1484,10 @@
     "title": "Episode 1",
     "platform": "max",
     "crossover": null,
-    "runtimeMinutes": 5,
+    "runtimeMinutes": 7,
     "airdate": "2015-08-25",
-    "order": 106
+    "order": 106,
+    "imdbRating": 6.9
   },
   {
     "id": "vixen-s01e02",
@@ -1392,9 +1498,10 @@
     "title": "Episode 2",
     "platform": "max",
     "crossover": null,
-    "runtimeMinutes": 5,
+    "runtimeMinutes": 7,
     "airdate": "2015-09-01",
-    "order": 107
+    "order": 107,
+    "imdbRating": 7.0
   },
   {
     "id": "vixen-s01e03",
@@ -1405,9 +1512,10 @@
     "title": "Episode 3",
     "platform": "max",
     "crossover": null,
-    "runtimeMinutes": 5,
+    "runtimeMinutes": 7,
     "airdate": "2015-09-08",
-    "order": 108
+    "order": 108,
+    "imdbRating": 7.2
   },
   {
     "id": "vixen-s01e04",
@@ -1418,9 +1526,10 @@
     "title": "Episode 4",
     "platform": "max",
     "crossover": null,
-    "runtimeMinutes": 5,
+    "runtimeMinutes": 7,
     "airdate": "2015-09-15",
-    "order": 109
+    "order": 109,
+    "imdbRating": 6.4
   },
   {
     "id": "vixen-s01e05",
@@ -1431,9 +1540,10 @@
     "title": "Episode 5",
     "platform": "max",
     "crossover": null,
-    "runtimeMinutes": 5,
+    "runtimeMinutes": 7,
     "airdate": "2015-09-22",
-    "order": 110
+    "order": 110,
+    "imdbRating": 6.6
   },
   {
     "id": "vixen-s01e06",
@@ -1444,9 +1554,10 @@
     "title": "Episode 6",
     "platform": "max",
     "crossover": null,
-    "runtimeMinutes": 5,
+    "runtimeMinutes": 7,
     "airdate": "2015-09-29",
-    "order": 111
+    "order": 111,
+    "imdbRating": 6.7
   },
   {
     "id": "the-flash-s02e01",
@@ -1459,7 +1570,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2015-10-06",
-    "order": 112
+    "order": 112,
+    "imdbRating": 7.2
   },
   {
     "id": "arrow-s04e01",
@@ -1472,7 +1584,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2015-10-07",
-    "order": 113
+    "order": 113,
+    "imdbRating": 8.2
   },
   {
     "id": "the-flash-s02e02",
@@ -1485,7 +1598,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2015-10-13",
-    "order": 114
+    "order": 114,
+    "imdbRating": 7.4
   },
   {
     "id": "arrow-s04e02",
@@ -1498,7 +1612,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2015-10-14",
-    "order": 115
+    "order": 115,
+    "imdbRating": 7.4
   },
   {
     "id": "the-flash-s02e03",
@@ -1511,7 +1626,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2015-10-20",
-    "order": 116
+    "order": 116,
+    "imdbRating": 7.5
   },
   {
     "id": "arrow-s04e03",
@@ -1524,7 +1640,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2015-10-21",
-    "order": 117
+    "order": 117,
+    "imdbRating": 7.6
   },
   {
     "id": "supergirl-s01e01",
@@ -1537,7 +1654,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2015-10-26",
-    "order": 118
+    "order": 118,
+    "imdbRating": 7.0
   },
   {
     "id": "the-flash-s02e04",
@@ -1550,7 +1668,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2015-10-27",
-    "order": 119
+    "order": 119,
+    "imdbRating": 7.6
   },
   {
     "id": "arrow-s04e04",
@@ -1563,7 +1682,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2015-10-28",
-    "order": 120
+    "order": 120,
+    "imdbRating": 7.7
   },
   {
     "id": "supergirl-s01e02",
@@ -1576,7 +1696,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2015-11-02",
-    "order": 121
+    "order": 121,
+    "imdbRating": 7.1
   },
   {
     "id": "the-flash-s02e05",
@@ -1589,7 +1710,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2015-11-03",
-    "order": 122
+    "order": 122,
+    "imdbRating": 7.7
   },
   {
     "id": "arrow-s04e05",
@@ -1602,7 +1724,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2015-11-04",
-    "order": 123
+    "order": 123,
+    "imdbRating": 7.8
   },
   {
     "id": "supergirl-s01e03",
@@ -1615,7 +1738,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2015-11-09",
-    "order": 124
+    "order": 124,
+    "imdbRating": 7.3
   },
   {
     "id": "the-flash-s02e06",
@@ -1628,7 +1752,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2015-11-10",
-    "order": 125
+    "order": 125,
+    "imdbRating": 7.8
   },
   {
     "id": "arrow-s04e06",
@@ -1641,7 +1766,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2015-11-11",
-    "order": 126
+    "order": 126,
+    "imdbRating": 7.9
   },
   {
     "id": "supergirl-s01e04",
@@ -1654,7 +1780,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2015-11-16",
-    "order": 127
+    "order": 127,
+    "imdbRating": 6.5
   },
   {
     "id": "the-flash-s02e07",
@@ -1667,7 +1794,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2015-11-17",
-    "order": 128
+    "order": 128,
+    "imdbRating": 8.0
   },
   {
     "id": "arrow-s04e07",
@@ -1680,7 +1808,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2015-11-18",
-    "order": 129
+    "order": 129,
+    "imdbRating": 8.0
   },
   {
     "id": "supergirl-s01e05",
@@ -1693,7 +1822,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2015-11-23",
-    "order": 130
+    "order": 130,
+    "imdbRating": 6.7
   },
   {
     "id": "supergirl-s01e06",
@@ -1706,7 +1836,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2015-11-30",
-    "order": 131
+    "order": 131,
+    "imdbRating": 6.8
   },
   {
     "id": "the-flash-s02e08",
@@ -1719,7 +1850,8 @@
     "crossover": "Heroes Join Forces",
     "runtimeMinutes": 42,
     "airdate": "2015-12-01",
-    "order": 132
+    "order": 132,
+    "imdbRating": 7.2
   },
   {
     "id": "arrow-s04e08",
@@ -1732,7 +1864,8 @@
     "crossover": "Heroes Join Forces",
     "runtimeMinutes": 42,
     "airdate": "2015-12-02",
-    "order": 133
+    "order": 133,
+    "imdbRating": 8.2
   },
   {
     "id": "supergirl-s01e07",
@@ -1745,7 +1878,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2015-12-07",
-    "order": 134
+    "order": 134,
+    "imdbRating": 6.9
   },
   {
     "id": "the-flash-s02e09",
@@ -1758,7 +1892,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2015-12-08",
-    "order": 135
+    "order": 135,
+    "imdbRating": 7.4
   },
   {
     "id": "arrow-s04e09",
@@ -1771,7 +1906,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2015-12-09",
-    "order": 136
+    "order": 136,
+    "imdbRating": 7.4
   },
   {
     "id": "supergirl-s01e08",
@@ -1784,7 +1920,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2015-12-14",
-    "order": 137
+    "order": 137,
+    "imdbRating": 7.0
   },
   {
     "id": "supergirl-s01e09",
@@ -1797,7 +1934,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2016-01-04",
-    "order": 138
+    "order": 138,
+    "imdbRating": 7.1
   },
   {
     "id": "supergirl-s01e10",
@@ -1810,7 +1948,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2016-01-18",
-    "order": 139
+    "order": 139,
+    "imdbRating": 7.3
   },
   {
     "id": "the-flash-s02e10",
@@ -1823,7 +1962,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2016-01-19",
-    "order": 140
+    "order": 140,
+    "imdbRating": 7.5
   },
   {
     "id": "arrow-s04e10",
@@ -1836,7 +1976,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2016-01-20",
-    "order": 141
+    "order": 141,
+    "imdbRating": 7.6
   },
   {
     "id": "dc-s-legends-of-tomorrow-s01e01",
@@ -1849,7 +1990,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2016-01-21",
-    "order": 142
+    "order": 142,
+    "imdbRating": 6.9
   },
   {
     "id": "supergirl-s01e11",
@@ -1862,7 +2004,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2016-01-25",
-    "order": 143
+    "order": 143,
+    "imdbRating": 6.5
   },
   {
     "id": "the-flash-s02e11",
@@ -1875,7 +2018,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2016-01-26",
-    "order": 144
+    "order": 144,
+    "imdbRating": 7.6
   },
   {
     "id": "arrow-s04e11",
@@ -1888,7 +2032,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2016-01-27",
-    "order": 145
+    "order": 145,
+    "imdbRating": 7.7
   },
   {
     "id": "dc-s-legends-of-tomorrow-s01e02",
@@ -1901,7 +2046,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2016-01-28",
-    "order": 146
+    "order": 146,
+    "imdbRating": 7.0
   },
   {
     "id": "supergirl-s01e12",
@@ -1914,7 +2060,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2016-02-01",
-    "order": 147
+    "order": 147,
+    "imdbRating": 6.7
   },
   {
     "id": "the-flash-s02e12",
@@ -1927,7 +2074,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2016-02-02",
-    "order": 148
+    "order": 148,
+    "imdbRating": 7.7
   },
   {
     "id": "arrow-s04e12",
@@ -1940,7 +2088,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2016-02-03",
-    "order": 149
+    "order": 149,
+    "imdbRating": 7.8
   },
   {
     "id": "dc-s-legends-of-tomorrow-s01e03",
@@ -1953,7 +2102,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2016-02-04",
-    "order": 150
+    "order": 150,
+    "imdbRating": 7.2
   },
   {
     "id": "supergirl-s01e13",
@@ -1966,7 +2116,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2016-02-08",
-    "order": 151
+    "order": 151,
+    "imdbRating": 6.8
   },
   {
     "id": "the-flash-s02e13",
@@ -1979,7 +2130,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2016-02-09",
-    "order": 152
+    "order": 152,
+    "imdbRating": 7.8
   },
   {
     "id": "arrow-s04e13",
@@ -1992,7 +2144,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2016-02-10",
-    "order": 153
+    "order": 153,
+    "imdbRating": 7.9
   },
   {
     "id": "dc-s-legends-of-tomorrow-s01e04",
@@ -2005,7 +2158,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2016-02-11",
-    "order": 154
+    "order": 154,
+    "imdbRating": 6.4
   },
   {
     "id": "the-flash-s02e14",
@@ -2018,7 +2172,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2016-02-16",
-    "order": 155
+    "order": 155,
+    "imdbRating": 8.0
   },
   {
     "id": "arrow-s04e14",
@@ -2031,7 +2186,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2016-02-17",
-    "order": 156
+    "order": 156,
+    "imdbRating": 8.0
   },
   {
     "id": "dc-s-legends-of-tomorrow-s01e05",
@@ -2044,7 +2200,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2016-02-18",
-    "order": 157
+    "order": 157,
+    "imdbRating": 6.6
   },
   {
     "id": "supergirl-s01e14",
@@ -2057,7 +2214,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2016-02-22",
-    "order": 158
+    "order": 158,
+    "imdbRating": 6.9
   },
   {
     "id": "the-flash-s02e15",
@@ -2070,7 +2228,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2016-02-23",
-    "order": 159
+    "order": 159,
+    "imdbRating": 7.2
   },
   {
     "id": "arrow-s04e15",
@@ -2083,7 +2242,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2016-02-24",
-    "order": 160
+    "order": 160,
+    "imdbRating": 8.2
   },
   {
     "id": "dc-s-legends-of-tomorrow-s01e06",
@@ -2096,7 +2256,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2016-02-25",
-    "order": 161
+    "order": 161,
+    "imdbRating": 6.7
   },
   {
     "id": "supergirl-s01e15",
@@ -2109,7 +2270,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2016-02-29",
-    "order": 162
+    "order": 162,
+    "imdbRating": 7.0
   },
   {
     "id": "dc-s-legends-of-tomorrow-s01e07",
@@ -2122,7 +2284,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2016-03-03",
-    "order": 163
+    "order": 163,
+    "imdbRating": 6.8
   },
   {
     "id": "dc-s-legends-of-tomorrow-s01e08",
@@ -2135,7 +2298,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2016-03-10",
-    "order": 164
+    "order": 164,
+    "imdbRating": 6.9
   },
   {
     "id": "supergirl-s01e16",
@@ -2148,7 +2312,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2016-03-14",
-    "order": 165
+    "order": 165,
+    "imdbRating": 7.1
   },
   {
     "id": "supergirl-s01e17",
@@ -2161,7 +2326,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2016-03-21",
-    "order": 166
+    "order": 166,
+    "imdbRating": 7.3
   },
   {
     "id": "the-flash-s02e16",
@@ -2174,7 +2340,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2016-03-22",
-    "order": 167
+    "order": 167,
+    "imdbRating": 7.4
   },
   {
     "id": "arrow-s04e16",
@@ -2187,7 +2354,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2016-03-23",
-    "order": 168
+    "order": 168,
+    "imdbRating": 7.4
   },
   {
     "id": "supergirl-s01e18",
@@ -2200,7 +2368,8 @@
     "crossover": "Worlds Finest",
     "runtimeMinutes": 42,
     "airdate": "2016-03-28",
-    "order": 169
+    "order": 169,
+    "imdbRating": 6.5
   },
   {
     "id": "the-flash-s02e17",
@@ -2213,7 +2382,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2016-03-29",
-    "order": 170
+    "order": 170,
+    "imdbRating": 7.5
   },
   {
     "id": "arrow-s04e17",
@@ -2226,7 +2396,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2016-03-30",
-    "order": 171
+    "order": 171,
+    "imdbRating": 7.6
   },
   {
     "id": "dc-s-legends-of-tomorrow-s01e09",
@@ -2239,7 +2410,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2016-03-31",
-    "order": 172
+    "order": 172,
+    "imdbRating": 7.0
   },
   {
     "id": "arrow-s04e18",
@@ -2252,7 +2424,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2016-04-06",
-    "order": 173
+    "order": 173,
+    "imdbRating": 7.7
   },
   {
     "id": "dc-s-legends-of-tomorrow-s01e10",
@@ -2265,7 +2438,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2016-04-07",
-    "order": 174
+    "order": 174,
+    "imdbRating": 7.2
   },
   {
     "id": "supergirl-s01e19",
@@ -2278,7 +2452,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2016-04-11",
-    "order": 175
+    "order": 175,
+    "imdbRating": 6.7
   },
   {
     "id": "dc-s-legends-of-tomorrow-s01e11",
@@ -2291,7 +2466,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2016-04-14",
-    "order": 176
+    "order": 176,
+    "imdbRating": 6.4
   },
   {
     "id": "supergirl-s01e20",
@@ -2304,7 +2480,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2016-04-18",
-    "order": 177
+    "order": 177,
+    "imdbRating": 6.8
   },
   {
     "id": "the-flash-s02e18",
@@ -2317,7 +2494,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2016-04-19",
-    "order": 178
+    "order": 178,
+    "imdbRating": 7.6
   },
   {
     "id": "dc-s-legends-of-tomorrow-s01e12",
@@ -2330,7 +2508,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2016-04-21",
-    "order": 179
+    "order": 179,
+    "imdbRating": 6.6
   },
   {
     "id": "the-flash-s02e19",
@@ -2343,7 +2522,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2016-04-26",
-    "order": 180
+    "order": 180,
+    "imdbRating": 7.7
   },
   {
     "id": "arrow-s04e19",
@@ -2356,7 +2536,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2016-04-27",
-    "order": 181
+    "order": 181,
+    "imdbRating": 7.8
   },
   {
     "id": "dc-s-legends-of-tomorrow-s01e13",
@@ -2369,7 +2550,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2016-04-28",
-    "order": 182
+    "order": 182,
+    "imdbRating": 6.7
   },
   {
     "id": "the-flash-s02e20",
@@ -2382,7 +2564,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2016-05-03",
-    "order": 183
+    "order": 183,
+    "imdbRating": 7.8
   },
   {
     "id": "arrow-s04e20",
@@ -2395,7 +2578,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2016-05-04",
-    "order": 184
+    "order": 184,
+    "imdbRating": 7.9
   },
   {
     "id": "dc-s-legends-of-tomorrow-s01e14",
@@ -2408,7 +2592,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2016-05-05",
-    "order": 185
+    "order": 185,
+    "imdbRating": 6.8
   },
   {
     "id": "the-flash-s02e21",
@@ -2421,7 +2606,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2016-05-10",
-    "order": 186
+    "order": 186,
+    "imdbRating": 8.0
   },
   {
     "id": "arrow-s04e21",
@@ -2434,7 +2620,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2016-05-11",
-    "order": 187
+    "order": 187,
+    "imdbRating": 8.0
   },
   {
     "id": "dc-s-legends-of-tomorrow-s01e15",
@@ -2447,7 +2634,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2016-05-12",
-    "order": 188
+    "order": 188,
+    "imdbRating": 6.9
   },
   {
     "id": "the-flash-s02e22",
@@ -2460,7 +2648,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2016-05-17",
-    "order": 189
+    "order": 189,
+    "imdbRating": 7.2
   },
   {
     "id": "arrow-s04e22",
@@ -2473,7 +2662,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2016-05-18",
-    "order": 190
+    "order": 190,
+    "imdbRating": 8.2
   },
   {
     "id": "dc-s-legends-of-tomorrow-s01e16",
@@ -2486,7 +2676,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2016-05-19",
-    "order": 191
+    "order": 191,
+    "imdbRating": 7.0
   },
   {
     "id": "the-flash-s02e23",
@@ -2499,7 +2690,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2016-05-24",
-    "order": 192
+    "order": 192,
+    "imdbRating": 7.4
   },
   {
     "id": "arrow-s04e23",
@@ -2512,7 +2704,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2016-05-25",
-    "order": 193
+    "order": 193,
+    "imdbRating": 7.4
   },
   {
     "id": "the-flash-s03e01",
@@ -2525,7 +2718,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2016-10-04",
-    "order": 194
+    "order": 194,
+    "imdbRating": 7.6
   },
   {
     "id": "arrow-s05e01",
@@ -2538,7 +2732,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2016-10-05",
-    "order": 195
+    "order": 195,
+    "imdbRating": 7.7
   },
   {
     "id": "supergirl-s02e01",
@@ -2551,7 +2746,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2016-10-10",
-    "order": 196
+    "order": 196,
+    "imdbRating": 6.5
   },
   {
     "id": "the-flash-s03e02",
@@ -2564,7 +2760,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2016-10-11",
-    "order": 197
+    "order": 197,
+    "imdbRating": 7.7
   },
   {
     "id": "arrow-s05e02",
@@ -2577,7 +2774,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2016-10-12",
-    "order": 198
+    "order": 198,
+    "imdbRating": 7.8
   },
   {
     "id": "dc-s-legends-of-tomorrow-s02e01",
@@ -2590,7 +2788,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2016-10-13",
-    "order": 199
+    "order": 199,
+    "imdbRating": 6.4
   },
   {
     "id": "vixen-s02e01",
@@ -2601,9 +2800,10 @@
     "title": "Episode 1",
     "platform": "max",
     "crossover": null,
-    "runtimeMinutes": 5,
+    "runtimeMinutes": 7,
     "airdate": "2016-10-13",
-    "order": 200
+    "order": 200,
+    "imdbRating": 6.4
   },
   {
     "id": "supergirl-s02e02",
@@ -2616,7 +2816,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2016-10-17",
-    "order": 201
+    "order": 201,
+    "imdbRating": 6.7
   },
   {
     "id": "the-flash-s03e03",
@@ -2629,7 +2830,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2016-10-18",
-    "order": 202
+    "order": 202,
+    "imdbRating": 7.8
   },
   {
     "id": "arrow-s05e03",
@@ -2642,7 +2844,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2016-10-19",
-    "order": 203
+    "order": 203,
+    "imdbRating": 7.9
   },
   {
     "id": "dc-s-legends-of-tomorrow-s02e02",
@@ -2655,7 +2858,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2016-10-20",
-    "order": 204
+    "order": 204,
+    "imdbRating": 6.6
   },
   {
     "id": "vixen-s02e02",
@@ -2666,9 +2870,10 @@
     "title": "Episode 2",
     "platform": "max",
     "crossover": null,
-    "runtimeMinutes": 5,
+    "runtimeMinutes": 7,
     "airdate": "2016-10-21",
-    "order": 205
+    "order": 205,
+    "imdbRating": 6.6
   },
   {
     "id": "supergirl-s02e03",
@@ -2681,7 +2886,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2016-10-24",
-    "order": 206
+    "order": 206,
+    "imdbRating": 6.8
   },
   {
     "id": "the-flash-s03e04",
@@ -2694,7 +2900,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2016-10-25",
-    "order": 207
+    "order": 207,
+    "imdbRating": 8.0
   },
   {
     "id": "arrow-s05e04",
@@ -2707,7 +2914,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2016-10-26",
-    "order": 208
+    "order": 208,
+    "imdbRating": 8.0
   },
   {
     "id": "dc-s-legends-of-tomorrow-s02e03",
@@ -2720,7 +2928,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2016-10-27",
-    "order": 209
+    "order": 209,
+    "imdbRating": 6.7
   },
   {
     "id": "vixen-s02e03",
@@ -2731,9 +2940,10 @@
     "title": "Episode 3",
     "platform": "max",
     "crossover": null,
-    "runtimeMinutes": 5,
+    "runtimeMinutes": 7,
     "airdate": "2016-10-28",
-    "order": 210
+    "order": 210,
+    "imdbRating": 6.7
   },
   {
     "id": "supergirl-s02e04",
@@ -2746,7 +2956,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2016-10-31",
-    "order": 211
+    "order": 211,
+    "imdbRating": 6.9
   },
   {
     "id": "the-flash-s03e05",
@@ -2759,7 +2970,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2016-11-01",
-    "order": 212
+    "order": 212,
+    "imdbRating": 7.2
   },
   {
     "id": "arrow-s05e05",
@@ -2772,7 +2984,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2016-11-02",
-    "order": 213
+    "order": 213,
+    "imdbRating": 8.2
   },
   {
     "id": "dc-s-legends-of-tomorrow-s02e04",
@@ -2785,7 +2998,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2016-11-03",
-    "order": 214
+    "order": 214,
+    "imdbRating": 6.8
   },
   {
     "id": "vixen-s02e04",
@@ -2796,9 +3010,10 @@
     "title": "Episode 4",
     "platform": "max",
     "crossover": null,
-    "runtimeMinutes": 5,
+    "runtimeMinutes": 7,
     "airdate": "2016-11-04",
-    "order": 215
+    "order": 215,
+    "imdbRating": 6.8
   },
   {
     "id": "supergirl-s02e05",
@@ -2811,7 +3026,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2016-11-07",
-    "order": 216
+    "order": 216,
+    "imdbRating": 7.0
   },
   {
     "id": "arrow-s05e06",
@@ -2824,7 +3040,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2016-11-09",
-    "order": 217
+    "order": 217,
+    "imdbRating": 7.4
   },
   {
     "id": "dc-s-legends-of-tomorrow-s02e05",
@@ -2837,7 +3054,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2016-11-10",
-    "order": 218
+    "order": 218,
+    "imdbRating": 6.9
   },
   {
     "id": "vixen-s02e05",
@@ -2848,9 +3066,10 @@
     "title": "Episode 5",
     "platform": "max",
     "crossover": null,
-    "runtimeMinutes": 5,
+    "runtimeMinutes": 7,
     "airdate": "2016-11-11",
-    "order": 219
+    "order": 219,
+    "imdbRating": 6.9
   },
   {
     "id": "supergirl-s02e06",
@@ -2863,7 +3082,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2016-11-14",
-    "order": 220
+    "order": 220,
+    "imdbRating": 7.1
   },
   {
     "id": "the-flash-s03e06",
@@ -2876,7 +3096,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2016-11-15",
-    "order": 221
+    "order": 221,
+    "imdbRating": 7.4
   },
   {
     "id": "arrow-s05e07",
@@ -2889,7 +3110,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2016-11-16",
-    "order": 222
+    "order": 222,
+    "imdbRating": 7.6
   },
   {
     "id": "dc-s-legends-of-tomorrow-s02e06",
@@ -2902,7 +3124,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2016-11-17",
-    "order": 223
+    "order": 223,
+    "imdbRating": 7.0
   },
   {
     "id": "vixen-s02e06",
@@ -2913,9 +3136,10 @@
     "title": "Episode 6",
     "platform": "max",
     "crossover": null,
-    "runtimeMinutes": 5,
+    "runtimeMinutes": 7,
     "airdate": "2016-11-18",
-    "order": 224
+    "order": 224,
+    "imdbRating": 7.0
   },
   {
     "id": "supergirl-s02e07",
@@ -2928,7 +3152,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2016-11-21",
-    "order": 225
+    "order": 225,
+    "imdbRating": 7.3
   },
   {
     "id": "the-flash-s03e07",
@@ -2941,7 +3166,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2016-11-22",
-    "order": 226
+    "order": 226,
+    "imdbRating": 7.5
   },
   {
     "id": "supergirl-s02e08",
@@ -2954,7 +3180,8 @@
     "crossover": "Invasion!",
     "runtimeMinutes": 42,
     "airdate": "2016-11-28",
-    "order": 227
+    "order": 227,
+    "imdbRating": 6.5
   },
   {
     "id": "the-flash-s03e08",
@@ -2967,7 +3194,8 @@
     "crossover": "Invasion!",
     "runtimeMinutes": 42,
     "airdate": "2016-11-29",
-    "order": 228
+    "order": 228,
+    "imdbRating": 7.6
   },
   {
     "id": "arrow-s05e08",
@@ -2980,7 +3208,8 @@
     "crossover": "Invasion!",
     "runtimeMinutes": 42,
     "airdate": "2016-11-30",
-    "order": 229
+    "order": 229,
+    "imdbRating": 7.7
   },
   {
     "id": "dc-s-legends-of-tomorrow-s02e07",
@@ -2993,7 +3222,8 @@
     "crossover": "Invasion!",
     "runtimeMinutes": 42,
     "airdate": "2016-12-01",
-    "order": 230
+    "order": 230,
+    "imdbRating": 7.2
   },
   {
     "id": "the-flash-s03e09",
@@ -3006,7 +3236,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2016-12-06",
-    "order": 231
+    "order": 231,
+    "imdbRating": 7.7
   },
   {
     "id": "arrow-s05e09",
@@ -3019,7 +3250,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2016-12-07",
-    "order": 232
+    "order": 232,
+    "imdbRating": 7.8
   },
   {
     "id": "dc-s-legends-of-tomorrow-s02e08",
@@ -3032,7 +3264,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2016-12-08",
-    "order": 233
+    "order": 233,
+    "imdbRating": 6.4
   },
   {
     "id": "supergirl-s02e09",
@@ -3045,7 +3278,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2017-01-23",
-    "order": 234
+    "order": 234,
+    "imdbRating": 6.7
   },
   {
     "id": "the-flash-s03e10",
@@ -3058,7 +3292,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2017-01-24",
-    "order": 235
+    "order": 235,
+    "imdbRating": 7.8
   },
   {
     "id": "dc-s-legends-of-tomorrow-s02e09",
@@ -3071,7 +3306,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2017-01-24",
-    "order": 236
+    "order": 236,
+    "imdbRating": 6.6
   },
   {
     "id": "arrow-s05e10",
@@ -3084,7 +3320,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2017-01-25",
-    "order": 237
+    "order": 237,
+    "imdbRating": 7.9
   },
   {
     "id": "supergirl-s02e10",
@@ -3097,7 +3334,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2017-01-30",
-    "order": 238
+    "order": 238,
+    "imdbRating": 6.8
   },
   {
     "id": "the-flash-s03e11",
@@ -3110,7 +3348,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2017-01-31",
-    "order": 239
+    "order": 239,
+    "imdbRating": 8.0
   },
   {
     "id": "dc-s-legends-of-tomorrow-s02e10",
@@ -3123,7 +3362,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2017-01-31",
-    "order": 240
+    "order": 240,
+    "imdbRating": 6.7
   },
   {
     "id": "arrow-s05e11",
@@ -3136,7 +3376,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2017-02-01",
-    "order": 241
+    "order": 241,
+    "imdbRating": 8.0
   },
   {
     "id": "supergirl-s02e11",
@@ -3149,7 +3390,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2017-02-06",
-    "order": 242
+    "order": 242,
+    "imdbRating": 6.9
   },
   {
     "id": "the-flash-s03e12",
@@ -3162,7 +3404,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2017-02-07",
-    "order": 243
+    "order": 243,
+    "imdbRating": 7.2
   },
   {
     "id": "dc-s-legends-of-tomorrow-s02e11",
@@ -3175,7 +3418,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2017-02-07",
-    "order": 244
+    "order": 244,
+    "imdbRating": 6.8
   },
   {
     "id": "arrow-s05e12",
@@ -3188,7 +3432,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2017-02-08",
-    "order": 245
+    "order": 245,
+    "imdbRating": 8.2
   },
   {
     "id": "supergirl-s02e12",
@@ -3201,7 +3446,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2017-02-13",
-    "order": 246
+    "order": 246,
+    "imdbRating": 7.0
   },
   {
     "id": "arrow-s05e13",
@@ -3214,7 +3460,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2017-02-15",
-    "order": 247
+    "order": 247,
+    "imdbRating": 7.4
   },
   {
     "id": "supergirl-s02e13",
@@ -3227,7 +3474,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2017-02-20",
-    "order": 248
+    "order": 248,
+    "imdbRating": 7.1
   },
   {
     "id": "the-flash-s03e13",
@@ -3240,7 +3488,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2017-02-21",
-    "order": 249
+    "order": 249,
+    "imdbRating": 7.4
   },
   {
     "id": "dc-s-legends-of-tomorrow-s02e12",
@@ -3253,7 +3502,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2017-02-21",
-    "order": 250
+    "order": 250,
+    "imdbRating": 6.9
   },
   {
     "id": "arrow-s05e14",
@@ -3266,7 +3516,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2017-02-22",
-    "order": 251
+    "order": 251,
+    "imdbRating": 7.6
   },
   {
     "id": "supergirl-s02e14",
@@ -3279,7 +3530,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2017-02-27",
-    "order": 252
+    "order": 252,
+    "imdbRating": 7.3
   },
   {
     "id": "the-flash-s03e14",
@@ -3292,7 +3544,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2017-02-28",
-    "order": 253
+    "order": 253,
+    "imdbRating": 7.5
   },
   {
     "id": "arrow-s05e15",
@@ -3305,7 +3558,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2017-03-01",
-    "order": 254
+    "order": 254,
+    "imdbRating": 7.7
   },
   {
     "id": "supergirl-s02e15",
@@ -3318,7 +3572,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2017-03-06",
-    "order": 255
+    "order": 255,
+    "imdbRating": 6.5
   },
   {
     "id": "the-flash-s03e15",
@@ -3331,7 +3586,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2017-03-07",
-    "order": 256
+    "order": 256,
+    "imdbRating": 7.6
   },
   {
     "id": "dc-s-legends-of-tomorrow-s02e13",
@@ -3344,7 +3600,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2017-03-07",
-    "order": 257
+    "order": 257,
+    "imdbRating": 7.0
   },
   {
     "id": "the-flash-s03e16",
@@ -3357,7 +3614,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2017-03-14",
-    "order": 258
+    "order": 258,
+    "imdbRating": 7.7
   },
   {
     "id": "dc-s-legends-of-tomorrow-s02e14",
@@ -3370,7 +3628,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2017-03-14",
-    "order": 259
+    "order": 259,
+    "imdbRating": 7.2
   },
   {
     "id": "arrow-s05e16",
@@ -3383,7 +3642,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2017-03-15",
-    "order": 260
+    "order": 260,
+    "imdbRating": 7.8
   },
   {
     "id": "supergirl-s02e16",
@@ -3396,7 +3656,8 @@
     "crossover": "Duet",
     "runtimeMinutes": 42,
     "airdate": "2017-03-20",
-    "order": 261
+    "order": 261,
+    "imdbRating": 6.7
   },
   {
     "id": "the-flash-s03e17",
@@ -3409,7 +3670,8 @@
     "crossover": "Duet",
     "runtimeMinutes": 42,
     "airdate": "2017-03-21",
-    "order": 262
+    "order": 262,
+    "imdbRating": 7.8
   },
   {
     "id": "dc-s-legends-of-tomorrow-s02e15",
@@ -3422,7 +3684,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2017-03-21",
-    "order": 263
+    "order": 263,
+    "imdbRating": 6.4
   },
   {
     "id": "arrow-s05e17",
@@ -3435,7 +3698,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2017-03-22",
-    "order": 264
+    "order": 264,
+    "imdbRating": 7.9
   },
   {
     "id": "supergirl-s02e17",
@@ -3448,7 +3712,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2017-03-27",
-    "order": 265
+    "order": 265,
+    "imdbRating": 6.8
   },
   {
     "id": "the-flash-s03e18",
@@ -3461,7 +3726,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2017-03-28",
-    "order": 266
+    "order": 266,
+    "imdbRating": 8.0
   },
   {
     "id": "dc-s-legends-of-tomorrow-s02e16",
@@ -3474,7 +3740,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2017-03-28",
-    "order": 267
+    "order": 267,
+    "imdbRating": 6.6
   },
   {
     "id": "arrow-s05e18",
@@ -3487,7 +3754,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2017-03-29",
-    "order": 268
+    "order": 268,
+    "imdbRating": 8.0
   },
   {
     "id": "dc-s-legends-of-tomorrow-s02e17",
@@ -3500,7 +3768,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2017-04-04",
-    "order": 269
+    "order": 269,
+    "imdbRating": 6.7
   },
   {
     "id": "supergirl-s02e18",
@@ -3513,7 +3782,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2017-04-24",
-    "order": 270
+    "order": 270,
+    "imdbRating": 6.9
   },
   {
     "id": "the-flash-s03e19",
@@ -3526,7 +3796,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2017-04-25",
-    "order": 271
+    "order": 271,
+    "imdbRating": 7.2
   },
   {
     "id": "arrow-s05e19",
@@ -3539,7 +3810,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2017-04-26",
-    "order": 272
+    "order": 272,
+    "imdbRating": 8.2
   },
   {
     "id": "supergirl-s02e19",
@@ -3552,7 +3824,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2017-05-01",
-    "order": 273
+    "order": 273,
+    "imdbRating": 7.0
   },
   {
     "id": "the-flash-s03e20",
@@ -3565,7 +3838,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2017-05-02",
-    "order": 274
+    "order": 274,
+    "imdbRating": 7.4
   },
   {
     "id": "arrow-s05e20",
@@ -3578,7 +3852,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2017-05-03",
-    "order": 275
+    "order": 275,
+    "imdbRating": 7.4
   },
   {
     "id": "supergirl-s02e20",
@@ -3591,7 +3866,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2017-05-08",
-    "order": 276
+    "order": 276,
+    "imdbRating": 7.1
   },
   {
     "id": "the-flash-s03e21",
@@ -3604,7 +3880,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2017-05-09",
-    "order": 277
+    "order": 277,
+    "imdbRating": 7.5
   },
   {
     "id": "arrow-s05e21",
@@ -3617,7 +3894,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2017-05-10",
-    "order": 278
+    "order": 278,
+    "imdbRating": 7.6
   },
   {
     "id": "supergirl-s02e21",
@@ -3630,7 +3908,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2017-05-15",
-    "order": 279
+    "order": 279,
+    "imdbRating": 7.3
   },
   {
     "id": "the-flash-s03e22",
@@ -3643,7 +3922,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2017-05-16",
-    "order": 280
+    "order": 280,
+    "imdbRating": 7.6
   },
   {
     "id": "arrow-s05e22",
@@ -3656,7 +3936,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2017-05-17",
-    "order": 281
+    "order": 281,
+    "imdbRating": 7.7
   },
   {
     "id": "supergirl-s02e22",
@@ -3669,7 +3950,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2017-05-22",
-    "order": 282
+    "order": 282,
+    "imdbRating": 6.5
   },
   {
     "id": "the-flash-s03e23",
@@ -3682,7 +3964,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2017-05-23",
-    "order": 283
+    "order": 283,
+    "imdbRating": 7.7
   },
   {
     "id": "arrow-s05e23",
@@ -3695,7 +3978,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2017-05-24",
-    "order": 284
+    "order": 284,
+    "imdbRating": 7.8
   },
   {
     "id": "supergirl-s03e01",
@@ -3708,7 +3992,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2017-10-09",
-    "order": 285
+    "order": 285,
+    "imdbRating": 6.9
   },
   {
     "id": "the-flash-s04e01",
@@ -3721,7 +4006,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2017-10-10",
-    "order": 286
+    "order": 286,
+    "imdbRating": 8.0
   },
   {
     "id": "dc-s-legends-of-tomorrow-s03e01",
@@ -3734,7 +4020,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2017-10-10",
-    "order": 287
+    "order": 287,
+    "imdbRating": 6.8
   },
   {
     "id": "arrow-s06e01",
@@ -3747,7 +4034,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2017-10-12",
-    "order": 288
+    "order": 288,
+    "imdbRating": 8.0
   },
   {
     "id": "supergirl-s03e02",
@@ -3760,7 +4048,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2017-10-16",
-    "order": 289
+    "order": 289,
+    "imdbRating": 7.0
   },
   {
     "id": "the-flash-s04e02",
@@ -3773,7 +4062,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2017-10-17",
-    "order": 290
+    "order": 290,
+    "imdbRating": 7.2
   },
   {
     "id": "dc-s-legends-of-tomorrow-s03e02",
@@ -3786,7 +4076,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2017-10-17",
-    "order": 291
+    "order": 291,
+    "imdbRating": 6.9
   },
   {
     "id": "arrow-s06e02",
@@ -3799,7 +4090,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2017-10-19",
-    "order": 292
+    "order": 292,
+    "imdbRating": 8.2
   },
   {
     "id": "supergirl-s03e03",
@@ -3812,7 +4104,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2017-10-23",
-    "order": 293
+    "order": 293,
+    "imdbRating": 7.1
   },
   {
     "id": "the-flash-s04e03",
@@ -3825,7 +4118,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2017-10-24",
-    "order": 294
+    "order": 294,
+    "imdbRating": 7.4
   },
   {
     "id": "dc-s-legends-of-tomorrow-s03e03",
@@ -3838,7 +4132,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2017-10-24",
-    "order": 295
+    "order": 295,
+    "imdbRating": 7.0
   },
   {
     "id": "arrow-s06e03",
@@ -3851,7 +4146,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2017-10-26",
-    "order": 296
+    "order": 296,
+    "imdbRating": 7.4
   },
   {
     "id": "supergirl-s03e04",
@@ -3864,7 +4160,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2017-10-30",
-    "order": 297
+    "order": 297,
+    "imdbRating": 7.3
   },
   {
     "id": "the-flash-s04e04",
@@ -3877,7 +4174,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2017-10-31",
-    "order": 298
+    "order": 298,
+    "imdbRating": 7.5
   },
   {
     "id": "dc-s-legends-of-tomorrow-s03e04",
@@ -3890,7 +4188,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2017-10-31",
-    "order": 299
+    "order": 299,
+    "imdbRating": 7.2
   },
   {
     "id": "arrow-s06e04",
@@ -3903,7 +4202,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2017-11-02",
-    "order": 300
+    "order": 300,
+    "imdbRating": 7.6
   },
   {
     "id": "supergirl-s03e05",
@@ -3916,7 +4216,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2017-11-06",
-    "order": 301
+    "order": 301,
+    "imdbRating": 6.5
   },
   {
     "id": "the-flash-s04e05",
@@ -3929,7 +4230,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2017-11-07",
-    "order": 302
+    "order": 302,
+    "imdbRating": 7.6
   },
   {
     "id": "dc-s-legends-of-tomorrow-s03e05",
@@ -3942,7 +4244,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2017-11-07",
-    "order": 303
+    "order": 303,
+    "imdbRating": 6.4
   },
   {
     "id": "arrow-s06e05",
@@ -3955,7 +4258,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2017-11-09",
-    "order": 304
+    "order": 304,
+    "imdbRating": 7.7
   },
   {
     "id": "supergirl-s03e06",
@@ -3968,7 +4272,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2017-11-13",
-    "order": 305
+    "order": 305,
+    "imdbRating": 6.7
   },
   {
     "id": "the-flash-s04e06",
@@ -3981,7 +4286,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2017-11-14",
-    "order": 306
+    "order": 306,
+    "imdbRating": 7.7
   },
   {
     "id": "dc-s-legends-of-tomorrow-s03e06",
@@ -3994,7 +4300,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2017-11-14",
-    "order": 307
+    "order": 307,
+    "imdbRating": 6.6
   },
   {
     "id": "arrow-s06e06",
@@ -4007,7 +4314,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2017-11-16",
-    "order": 308
+    "order": 308,
+    "imdbRating": 7.8
   },
   {
     "id": "supergirl-s03e07",
@@ -4020,7 +4328,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2017-11-20",
-    "order": 309
+    "order": 309,
+    "imdbRating": 6.8
   },
   {
     "id": "the-flash-s04e07",
@@ -4033,7 +4342,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2017-11-21",
-    "order": 310
+    "order": 310,
+    "imdbRating": 7.8
   },
   {
     "id": "dc-s-legends-of-tomorrow-s03e07",
@@ -4046,7 +4356,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2017-11-21",
-    "order": 311
+    "order": 311,
+    "imdbRating": 6.7
   },
   {
     "id": "arrow-s06e07",
@@ -4059,7 +4370,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2017-11-23",
-    "order": 312
+    "order": 312,
+    "imdbRating": 7.9
   },
   {
     "id": "supergirl-s03e08",
@@ -4072,7 +4384,8 @@
     "crossover": "Crisis on Earth-X",
     "runtimeMinutes": 42,
     "airdate": "2017-11-27",
-    "order": 313
+    "order": 313,
+    "imdbRating": 6.9
   },
   {
     "id": "arrow-s06e08",
@@ -4085,7 +4398,8 @@
     "crossover": "Crisis on Earth-X",
     "runtimeMinutes": 42,
     "airdate": "2017-11-27",
-    "order": 314
+    "order": 314,
+    "imdbRating": 8.0
   },
   {
     "id": "the-flash-s04e08",
@@ -4098,7 +4412,8 @@
     "crossover": "Crisis on Earth-X",
     "runtimeMinutes": 42,
     "airdate": "2017-11-28",
-    "order": 315
+    "order": 315,
+    "imdbRating": 8.0
   },
   {
     "id": "dc-s-legends-of-tomorrow-s03e08",
@@ -4111,7 +4426,8 @@
     "crossover": "Crisis on Earth-X",
     "runtimeMinutes": 42,
     "airdate": "2017-11-28",
-    "order": 316
+    "order": 316,
+    "imdbRating": 6.8
   },
   {
     "id": "supergirl-s03e09",
@@ -4124,7 +4440,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2017-12-04",
-    "order": 317
+    "order": 317,
+    "imdbRating": 7.0
   },
   {
     "id": "the-flash-s04e09",
@@ -4137,7 +4454,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2017-12-05",
-    "order": 318
+    "order": 318,
+    "imdbRating": 7.2
   },
   {
     "id": "dc-s-legends-of-tomorrow-s03e09",
@@ -4150,7 +4468,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2017-12-05",
-    "order": 319
+    "order": 319,
+    "imdbRating": 6.9
   },
   {
     "id": "arrow-s06e09",
@@ -4163,7 +4482,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2017-12-07",
-    "order": 320
+    "order": 320,
+    "imdbRating": 8.2
   },
   {
     "id": "freedom-fighters-the-ray-s01e01",
@@ -4176,7 +4496,8 @@
     "crossover": null,
     "runtimeMinutes": 7,
     "airdate": "2017-12-08",
-    "order": 321
+    "order": 321,
+    "imdbRating": 6.6
   },
   {
     "id": "freedom-fighters-the-ray-s01e02",
@@ -4189,7 +4510,8 @@
     "crossover": null,
     "runtimeMinutes": 7,
     "airdate": "2017-12-08",
-    "order": 322
+    "order": 322,
+    "imdbRating": 6.7
   },
   {
     "id": "freedom-fighters-the-ray-s01e03",
@@ -4202,7 +4524,8 @@
     "crossover": null,
     "runtimeMinutes": 7,
     "airdate": "2017-12-08",
-    "order": 323
+    "order": 323,
+    "imdbRating": 6.9
   },
   {
     "id": "freedom-fighters-the-ray-s01e04",
@@ -4215,7 +4538,8 @@
     "crossover": null,
     "runtimeMinutes": 7,
     "airdate": "2017-12-08",
-    "order": 324
+    "order": 324,
+    "imdbRating": 6.1
   },
   {
     "id": "freedom-fighters-the-ray-s01e05",
@@ -4228,7 +4552,8 @@
     "crossover": null,
     "runtimeMinutes": 7,
     "airdate": "2017-12-08",
-    "order": 325
+    "order": 325,
+    "imdbRating": 6.3
   },
   {
     "id": "freedom-fighters-the-ray-s01e06",
@@ -4241,7 +4566,8 @@
     "crossover": null,
     "runtimeMinutes": 7,
     "airdate": "2017-12-08",
-    "order": 326
+    "order": 326,
+    "imdbRating": 6.4
   },
   {
     "id": "supergirl-s03e10",
@@ -4254,7 +4580,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2018-01-15",
-    "order": 327
+    "order": 327,
+    "imdbRating": 7.1
   },
   {
     "id": "the-flash-s04e10",
@@ -4267,7 +4594,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2018-01-16",
-    "order": 328
+    "order": 328,
+    "imdbRating": 7.4
   },
   {
     "id": "black-lightning-s01e01",
@@ -4280,7 +4608,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2018-01-16",
-    "order": 329
+    "order": 329,
+    "imdbRating": 6.6
   },
   {
     "id": "arrow-s06e10",
@@ -4293,7 +4622,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2018-01-18",
-    "order": 330
+    "order": 330,
+    "imdbRating": 7.4
   },
   {
     "id": "supergirl-s03e11",
@@ -4306,7 +4636,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2018-01-22",
-    "order": 331
+    "order": 331,
+    "imdbRating": 7.3
   },
   {
     "id": "the-flash-s04e11",
@@ -4319,7 +4650,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2018-01-23",
-    "order": 332
+    "order": 332,
+    "imdbRating": 7.5
   },
   {
     "id": "black-lightning-s01e02",
@@ -4332,7 +4664,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2018-01-23",
-    "order": 333
+    "order": 333,
+    "imdbRating": 6.7
   },
   {
     "id": "arrow-s06e11",
@@ -4345,7 +4678,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2018-01-25",
-    "order": 334
+    "order": 334,
+    "imdbRating": 7.6
   },
   {
     "id": "supergirl-s03e12",
@@ -4358,7 +4692,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2018-01-29",
-    "order": 335
+    "order": 335,
+    "imdbRating": 6.5
   },
   {
     "id": "the-flash-s04e12",
@@ -4371,7 +4706,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2018-01-30",
-    "order": 336
+    "order": 336,
+    "imdbRating": 7.6
   },
   {
     "id": "black-lightning-s01e03",
@@ -4384,7 +4720,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2018-01-30",
-    "order": 337
+    "order": 337,
+    "imdbRating": 6.9
   },
   {
     "id": "arrow-s06e12",
@@ -4397,7 +4734,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2018-02-01",
-    "order": 338
+    "order": 338,
+    "imdbRating": 7.7
   },
   {
     "id": "supergirl-s03e13",
@@ -4410,7 +4748,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2018-02-05",
-    "order": 339
+    "order": 339,
+    "imdbRating": 6.7
   },
   {
     "id": "the-flash-s04e13",
@@ -4423,7 +4762,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2018-02-06",
-    "order": 340
+    "order": 340,
+    "imdbRating": 7.7
   },
   {
     "id": "black-lightning-s01e04",
@@ -4436,7 +4776,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2018-02-06",
-    "order": 341
+    "order": 341,
+    "imdbRating": 6.1
   },
   {
     "id": "arrow-s06e13",
@@ -4449,7 +4790,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2018-02-08",
-    "order": 342
+    "order": 342,
+    "imdbRating": 7.8
   },
   {
     "id": "dc-s-legends-of-tomorrow-s03e10",
@@ -4462,7 +4804,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2018-02-12",
-    "order": 343
+    "order": 343,
+    "imdbRating": 7.0
   },
   {
     "id": "black-lightning-s01e05",
@@ -4475,7 +4818,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2018-02-13",
-    "order": 344
+    "order": 344,
+    "imdbRating": 6.3
   },
   {
     "id": "dc-s-legends-of-tomorrow-s03e11",
@@ -4488,7 +4832,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2018-02-19",
-    "order": 345
+    "order": 345,
+    "imdbRating": 7.2
   },
   {
     "id": "dc-s-legends-of-tomorrow-s03e12",
@@ -4501,7 +4846,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2018-02-26",
-    "order": 346
+    "order": 346,
+    "imdbRating": 6.4
   },
   {
     "id": "the-flash-s04e14",
@@ -4514,7 +4860,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2018-02-27",
-    "order": 347
+    "order": 347,
+    "imdbRating": 7.8
   },
   {
     "id": "black-lightning-s01e06",
@@ -4527,7 +4874,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2018-02-27",
-    "order": 348
+    "order": 348,
+    "imdbRating": 6.4
   },
   {
     "id": "arrow-s06e14",
@@ -4540,7 +4888,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2018-03-01",
-    "order": 349
+    "order": 349,
+    "imdbRating": 7.9
   },
   {
     "id": "dc-s-legends-of-tomorrow-s03e13",
@@ -4553,7 +4902,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2018-03-05",
-    "order": 350
+    "order": 350,
+    "imdbRating": 6.6
   },
   {
     "id": "the-flash-s04e15",
@@ -4566,7 +4916,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2018-03-06",
-    "order": 351
+    "order": 351,
+    "imdbRating": 8.0
   },
   {
     "id": "black-lightning-s01e07",
@@ -4579,7 +4930,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2018-03-06",
-    "order": 352
+    "order": 352,
+    "imdbRating": 6.5
   },
   {
     "id": "arrow-s06e15",
@@ -4592,7 +4944,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2018-03-08",
-    "order": 353
+    "order": 353,
+    "imdbRating": 8.0
   },
   {
     "id": "dc-s-legends-of-tomorrow-s03e14",
@@ -4605,7 +4958,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2018-03-12",
-    "order": 354
+    "order": 354,
+    "imdbRating": 6.7
   },
   {
     "id": "the-flash-s04e16",
@@ -4618,7 +4972,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2018-03-13",
-    "order": 355
+    "order": 355,
+    "imdbRating": 7.2
   },
   {
     "id": "black-lightning-s01e08",
@@ -4631,7 +4986,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2018-03-13",
-    "order": 356
+    "order": 356,
+    "imdbRating": 6.6
   },
   {
     "id": "dc-s-legends-of-tomorrow-s03e15",
@@ -4644,7 +5000,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2018-03-19",
-    "order": 357
+    "order": 357,
+    "imdbRating": 6.8
   },
   {
     "id": "black-lightning-s01e09",
@@ -4657,7 +5014,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2018-03-20",
-    "order": 358
+    "order": 358,
+    "imdbRating": 6.7
   },
   {
     "id": "dc-s-legends-of-tomorrow-s03e16",
@@ -4670,7 +5028,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2018-03-26",
-    "order": 359
+    "order": 359,
+    "imdbRating": 6.9
   },
   {
     "id": "black-lightning-s01e10",
@@ -4683,7 +5042,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2018-03-27",
-    "order": 360
+    "order": 360,
+    "imdbRating": 6.9
   },
   {
     "id": "arrow-s06e16",
@@ -4696,7 +5056,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2018-03-29",
-    "order": 361
+    "order": 361,
+    "imdbRating": 8.2
   },
   {
     "id": "dc-s-legends-of-tomorrow-s03e17",
@@ -4709,7 +5070,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2018-04-02",
-    "order": 362
+    "order": 362,
+    "imdbRating": 7.0
   },
   {
     "id": "black-lightning-s01e11",
@@ -4722,7 +5084,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2018-04-03",
-    "order": 363
+    "order": 363,
+    "imdbRating": 6.1
   },
   {
     "id": "arrow-s06e17",
@@ -4735,7 +5098,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2018-04-05",
-    "order": 364
+    "order": 364,
+    "imdbRating": 7.4
   },
   {
     "id": "dc-s-legends-of-tomorrow-s03e18",
@@ -4748,7 +5112,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2018-04-09",
-    "order": 365
+    "order": 365,
+    "imdbRating": 7.2
   },
   {
     "id": "the-flash-s04e17",
@@ -4761,7 +5126,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2018-04-10",
-    "order": 366
+    "order": 366,
+    "imdbRating": 7.4
   },
   {
     "id": "black-lightning-s01e12",
@@ -4774,7 +5140,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2018-04-10",
-    "order": 367
+    "order": 367,
+    "imdbRating": 6.3
   },
   {
     "id": "arrow-s06e18",
@@ -4787,7 +5154,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2018-04-12",
-    "order": 368
+    "order": 368,
+    "imdbRating": 7.6
   },
   {
     "id": "supergirl-s03e14",
@@ -4800,7 +5168,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2018-04-16",
-    "order": 369
+    "order": 369,
+    "imdbRating": 6.8
   },
   {
     "id": "the-flash-s04e18",
@@ -4813,7 +5182,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2018-04-17",
-    "order": 370
+    "order": 370,
+    "imdbRating": 7.5
   },
   {
     "id": "black-lightning-s01e13",
@@ -4826,7 +5196,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2018-04-17",
-    "order": 371
+    "order": 371,
+    "imdbRating": 6.4
   },
   {
     "id": "arrow-s06e19",
@@ -4839,7 +5210,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2018-04-19",
-    "order": 372
+    "order": 372,
+    "imdbRating": 7.7
   },
   {
     "id": "supergirl-s03e15",
@@ -4852,7 +5224,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2018-04-23",
-    "order": 373
+    "order": 373,
+    "imdbRating": 6.9
   },
   {
     "id": "the-flash-s04e19",
@@ -4865,7 +5238,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2018-04-24",
-    "order": 374
+    "order": 374,
+    "imdbRating": 7.6
   },
   {
     "id": "arrow-s06e20",
@@ -4878,7 +5252,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2018-04-26",
-    "order": 375
+    "order": 375,
+    "imdbRating": 7.8
   },
   {
     "id": "supergirl-s03e16",
@@ -4891,7 +5266,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2018-04-30",
-    "order": 376
+    "order": 376,
+    "imdbRating": 7.0
   },
   {
     "id": "the-flash-s04e20",
@@ -4904,7 +5280,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2018-05-01",
-    "order": 377
+    "order": 377,
+    "imdbRating": 7.7
   },
   {
     "id": "arrow-s06e21",
@@ -4917,7 +5294,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2018-05-03",
-    "order": 378
+    "order": 378,
+    "imdbRating": 7.9
   },
   {
     "id": "supergirl-s03e17",
@@ -4930,7 +5308,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2018-05-07",
-    "order": 379
+    "order": 379,
+    "imdbRating": 7.1
   },
   {
     "id": "the-flash-s04e21",
@@ -4943,7 +5322,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2018-05-08",
-    "order": 380
+    "order": 380,
+    "imdbRating": 7.8
   },
   {
     "id": "arrow-s06e22",
@@ -4956,7 +5336,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2018-05-10",
-    "order": 381
+    "order": 381,
+    "imdbRating": 8.0
   },
   {
     "id": "supergirl-s03e18",
@@ -4969,7 +5350,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2018-05-14",
-    "order": 382
+    "order": 382,
+    "imdbRating": 7.3
   },
   {
     "id": "the-flash-s04e22",
@@ -4982,7 +5364,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2018-05-15",
-    "order": 383
+    "order": 383,
+    "imdbRating": 8.0
   },
   {
     "id": "arrow-s06e23",
@@ -4995,7 +5378,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2018-05-17",
-    "order": 384
+    "order": 384,
+    "imdbRating": 8.2
   },
   {
     "id": "supergirl-s03e19",
@@ -5008,7 +5392,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2018-05-21",
-    "order": 385
+    "order": 385,
+    "imdbRating": 6.5
   },
   {
     "id": "the-flash-s04e23",
@@ -5021,7 +5406,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2018-05-22",
-    "order": 386
+    "order": 386,
+    "imdbRating": 7.2
   },
   {
     "id": "supergirl-s03e20",
@@ -5034,7 +5420,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2018-05-28",
-    "order": 387
+    "order": 387,
+    "imdbRating": 6.7
   },
   {
     "id": "supergirl-s03e21",
@@ -5047,7 +5434,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2018-06-04",
-    "order": 388
+    "order": 388,
+    "imdbRating": 6.8
   },
   {
     "id": "supergirl-s03e22",
@@ -5060,7 +5448,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2018-06-11",
-    "order": 389
+    "order": 389,
+    "imdbRating": 6.9
   },
   {
     "id": "supergirl-s03e23",
@@ -5073,7 +5462,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2018-06-18",
-    "order": 390
+    "order": 390,
+    "imdbRating": 7.0
   },
   {
     "id": "freedom-fighters-the-ray-s02e01",
@@ -5086,7 +5476,8 @@
     "crossover": null,
     "runtimeMinutes": 7,
     "airdate": "2018-07-19",
-    "order": 391
+    "order": 391,
+    "imdbRating": 6.1
   },
   {
     "id": "freedom-fighters-the-ray-s02e02",
@@ -5099,7 +5490,8 @@
     "crossover": null,
     "runtimeMinutes": 7,
     "airdate": "2018-07-19",
-    "order": 392
+    "order": 392,
+    "imdbRating": 6.3
   },
   {
     "id": "freedom-fighters-the-ray-s02e03",
@@ -5112,7 +5504,8 @@
     "crossover": null,
     "runtimeMinutes": 7,
     "airdate": "2018-07-19",
-    "order": 393
+    "order": 393,
+    "imdbRating": 6.4
   },
   {
     "id": "freedom-fighters-the-ray-s02e04",
@@ -5125,7 +5518,8 @@
     "crossover": null,
     "runtimeMinutes": 7,
     "airdate": "2018-07-19",
-    "order": 394
+    "order": 394,
+    "imdbRating": 6.5
   },
   {
     "id": "freedom-fighters-the-ray-s02e05",
@@ -5138,7 +5532,8 @@
     "crossover": null,
     "runtimeMinutes": 7,
     "airdate": "2018-07-19",
-    "order": 395
+    "order": 395,
+    "imdbRating": 6.6
   },
   {
     "id": "freedom-fighters-the-ray-s02e06",
@@ -5151,7 +5546,8 @@
     "crossover": null,
     "runtimeMinutes": 7,
     "airdate": "2018-07-19",
-    "order": 396
+    "order": 396,
+    "imdbRating": 6.7
   },
   {
     "id": "the-flash-s05e01",
@@ -5164,7 +5560,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2018-10-09",
-    "order": 397
+    "order": 397,
+    "imdbRating": 7.5
   },
   {
     "id": "black-lightning-s02e01",
@@ -5177,7 +5574,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2018-10-09",
-    "order": 398
+    "order": 398,
+    "imdbRating": 6.1
   },
   {
     "id": "supergirl-s04e01",
@@ -5190,7 +5588,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2018-10-14",
-    "order": 399
+    "order": 399,
+    "imdbRating": 7.3
   },
   {
     "id": "arrow-s07e01",
@@ -5203,7 +5602,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2018-10-15",
-    "order": 400
+    "order": 400,
+    "imdbRating": 7.6
   },
   {
     "id": "the-flash-s05e02",
@@ -5216,7 +5616,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2018-10-16",
-    "order": 401
+    "order": 401,
+    "imdbRating": 7.6
   },
   {
     "id": "black-lightning-s02e02",
@@ -5229,7 +5630,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2018-10-16",
-    "order": 402
+    "order": 402,
+    "imdbRating": 6.3
   },
   {
     "id": "supergirl-s04e02",
@@ -5242,7 +5644,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2018-10-21",
-    "order": 403
+    "order": 403,
+    "imdbRating": 6.5
   },
   {
     "id": "arrow-s07e02",
@@ -5255,7 +5658,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2018-10-22",
-    "order": 404
+    "order": 404,
+    "imdbRating": 7.7
   },
   {
     "id": "dc-s-legends-of-tomorrow-s04e01",
@@ -5268,7 +5672,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2018-10-22",
-    "order": 405
+    "order": 405,
+    "imdbRating": 7.2
   },
   {
     "id": "the-flash-s05e03",
@@ -5281,7 +5686,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2018-10-23",
-    "order": 406
+    "order": 406,
+    "imdbRating": 7.7
   },
   {
     "id": "black-lightning-s02e03",
@@ -5294,7 +5700,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2018-10-23",
-    "order": 407
+    "order": 407,
+    "imdbRating": 6.4
   },
   {
     "id": "supergirl-s04e03",
@@ -5307,7 +5714,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2018-10-28",
-    "order": 408
+    "order": 408,
+    "imdbRating": 6.7
   },
   {
     "id": "arrow-s07e03",
@@ -5320,7 +5728,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2018-10-29",
-    "order": 409
+    "order": 409,
+    "imdbRating": 7.8
   },
   {
     "id": "dc-s-legends-of-tomorrow-s04e02",
@@ -5333,7 +5742,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2018-10-29",
-    "order": 410
+    "order": 410,
+    "imdbRating": 6.4
   },
   {
     "id": "the-flash-s05e04",
@@ -5346,7 +5756,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2018-10-30",
-    "order": 411
+    "order": 411,
+    "imdbRating": 7.8
   },
   {
     "id": "black-lightning-s02e04",
@@ -5359,7 +5770,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2018-10-30",
-    "order": 412
+    "order": 412,
+    "imdbRating": 6.5
   },
   {
     "id": "supergirl-s04e04",
@@ -5372,7 +5784,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2018-11-04",
-    "order": 413
+    "order": 413,
+    "imdbRating": 6.8
   },
   {
     "id": "arrow-s07e04",
@@ -5385,7 +5798,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2018-11-05",
-    "order": 414
+    "order": 414,
+    "imdbRating": 7.9
   },
   {
     "id": "dc-s-legends-of-tomorrow-s04e03",
@@ -5398,7 +5812,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2018-11-05",
-    "order": 415
+    "order": 415,
+    "imdbRating": 6.6
   },
   {
     "id": "supergirl-s04e05",
@@ -5411,7 +5826,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2018-11-11",
-    "order": 416
+    "order": 416,
+    "imdbRating": 6.9
   },
   {
     "id": "arrow-s07e05",
@@ -5424,7 +5840,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2018-11-12",
-    "order": 417
+    "order": 417,
+    "imdbRating": 8.0
   },
   {
     "id": "dc-s-legends-of-tomorrow-s04e04",
@@ -5437,7 +5854,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2018-11-12",
-    "order": 418
+    "order": 418,
+    "imdbRating": 6.7
   },
   {
     "id": "the-flash-s05e05",
@@ -5450,7 +5868,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2018-11-13",
-    "order": 419
+    "order": 419,
+    "imdbRating": 8.0
   },
   {
     "id": "black-lightning-s02e05",
@@ -5463,7 +5882,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2018-11-13",
-    "order": 420
+    "order": 420,
+    "imdbRating": 6.6
   },
   {
     "id": "supergirl-s04e06",
@@ -5476,7 +5896,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2018-11-18",
-    "order": 421
+    "order": 421,
+    "imdbRating": 7.0
   },
   {
     "id": "arrow-s07e06",
@@ -5489,7 +5910,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2018-11-19",
-    "order": 422
+    "order": 422,
+    "imdbRating": 8.2
   },
   {
     "id": "dc-s-legends-of-tomorrow-s04e05",
@@ -5502,7 +5924,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2018-11-19",
-    "order": 423
+    "order": 423,
+    "imdbRating": 6.8
   },
   {
     "id": "the-flash-s05e06",
@@ -5515,7 +5938,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2018-11-20",
-    "order": 424
+    "order": 424,
+    "imdbRating": 7.2
   },
   {
     "id": "black-lightning-s02e06",
@@ -5528,7 +5952,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2018-11-20",
-    "order": 425
+    "order": 425,
+    "imdbRating": 6.7
   },
   {
     "id": "supergirl-s04e07",
@@ -5541,7 +5966,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2018-11-25",
-    "order": 426
+    "order": 426,
+    "imdbRating": 7.1
   },
   {
     "id": "arrow-s07e07",
@@ -5554,7 +5980,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2018-11-26",
-    "order": 427
+    "order": 427,
+    "imdbRating": 7.4
   },
   {
     "id": "dc-s-legends-of-tomorrow-s04e06",
@@ -5567,7 +5994,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2018-11-26",
-    "order": 428
+    "order": 428,
+    "imdbRating": 6.9
   },
   {
     "id": "the-flash-s05e07",
@@ -5580,7 +6008,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2018-11-27",
-    "order": 429
+    "order": 429,
+    "imdbRating": 7.4
   },
   {
     "id": "black-lightning-s02e07",
@@ -5593,7 +6022,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2018-11-27",
-    "order": 430
+    "order": 430,
+    "imdbRating": 6.9
   },
   {
     "id": "supergirl-s04e08",
@@ -5606,7 +6036,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2018-12-02",
-    "order": 431
+    "order": 431,
+    "imdbRating": 7.3
   },
   {
     "id": "arrow-s07e08",
@@ -5619,7 +6050,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2018-12-03",
-    "order": 432
+    "order": 432,
+    "imdbRating": 7.6
   },
   {
     "id": "dc-s-legends-of-tomorrow-s04e07",
@@ -5632,7 +6064,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2018-12-03",
-    "order": 433
+    "order": 433,
+    "imdbRating": 7.0
   },
   {
     "id": "the-flash-s05e08",
@@ -5645,7 +6078,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2018-12-04",
-    "order": 434
+    "order": 434,
+    "imdbRating": 7.5
   },
   {
     "id": "black-lightning-s02e08",
@@ -5658,7 +6092,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2018-12-04",
-    "order": 435
+    "order": 435,
+    "imdbRating": 6.1
   },
   {
     "id": "the-flash-s05e09",
@@ -5671,7 +6106,8 @@
     "crossover": "Elseworlds",
     "runtimeMinutes": 42,
     "airdate": "2018-12-09",
-    "order": 436
+    "order": 436,
+    "imdbRating": 7.6
   },
   {
     "id": "arrow-s07e09",
@@ -5684,7 +6120,8 @@
     "crossover": "Elseworlds",
     "runtimeMinutes": 42,
     "airdate": "2018-12-10",
-    "order": 437
+    "order": 437,
+    "imdbRating": 7.7
   },
   {
     "id": "dc-s-legends-of-tomorrow-s04e08",
@@ -5697,7 +6134,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2018-12-10",
-    "order": 438
+    "order": 438,
+    "imdbRating": 7.2
   },
   {
     "id": "supergirl-s04e09",
@@ -5710,7 +6148,8 @@
     "crossover": "Elseworlds",
     "runtimeMinutes": 42,
     "airdate": "2018-12-11",
-    "order": 439
+    "order": 439,
+    "imdbRating": 6.5
   },
   {
     "id": "black-lightning-s02e09",
@@ -5723,7 +6162,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2018-12-11",
-    "order": 440
+    "order": 440,
+    "imdbRating": 6.3
   },
   {
     "id": "the-flash-s05e10",
@@ -5736,7 +6176,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2019-01-15",
-    "order": 441
+    "order": 441,
+    "imdbRating": 7.7
   },
   {
     "id": "supergirl-s04e10",
@@ -5749,7 +6190,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2019-01-20",
-    "order": 442
+    "order": 442,
+    "imdbRating": 6.7
   },
   {
     "id": "arrow-s07e10",
@@ -5762,7 +6204,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2019-01-21",
-    "order": 443
+    "order": 443,
+    "imdbRating": 7.8
   },
   {
     "id": "black-lightning-s02e10",
@@ -5775,7 +6218,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2019-01-21",
-    "order": 444
+    "order": 444,
+    "imdbRating": 6.4
   },
   {
     "id": "the-flash-s05e11",
@@ -5788,7 +6232,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2019-01-22",
-    "order": 445
+    "order": 445,
+    "imdbRating": 7.8
   },
   {
     "id": "supergirl-s04e11",
@@ -5801,7 +6246,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2019-01-27",
-    "order": 446
+    "order": 446,
+    "imdbRating": 6.8
   },
   {
     "id": "arrow-s07e11",
@@ -5814,7 +6260,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2019-01-28",
-    "order": 447
+    "order": 447,
+    "imdbRating": 7.9
   },
   {
     "id": "black-lightning-s02e11",
@@ -5827,7 +6274,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2019-01-28",
-    "order": 448
+    "order": 448,
+    "imdbRating": 6.5
   },
   {
     "id": "the-flash-s05e12",
@@ -5840,7 +6288,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2019-01-29",
-    "order": 449
+    "order": 449,
+    "imdbRating": 8.0
   },
   {
     "id": "arrow-s07e12",
@@ -5853,7 +6302,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2019-02-04",
-    "order": 450
+    "order": 450,
+    "imdbRating": 8.0
   },
   {
     "id": "black-lightning-s02e12",
@@ -5866,7 +6316,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2019-02-04",
-    "order": 451
+    "order": 451,
+    "imdbRating": 6.6
   },
   {
     "id": "the-flash-s05e13",
@@ -5879,7 +6330,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2019-02-05",
-    "order": 452
+    "order": 452,
+    "imdbRating": 7.2
   },
   {
     "id": "arrow-s07e13",
@@ -5892,7 +6344,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2019-02-11",
-    "order": 453
+    "order": 453,
+    "imdbRating": 8.2
   },
   {
     "id": "black-lightning-s02e13",
@@ -5905,7 +6358,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2019-02-11",
-    "order": 454
+    "order": 454,
+    "imdbRating": 6.7
   },
   {
     "id": "the-flash-s05e14",
@@ -5918,7 +6372,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2019-02-12",
-    "order": 455
+    "order": 455,
+    "imdbRating": 7.4
   },
   {
     "id": "supergirl-s04e12",
@@ -5931,7 +6386,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2019-02-17",
-    "order": 456
+    "order": 456,
+    "imdbRating": 6.9
   },
   {
     "id": "supergirl-s04e13",
@@ -5944,7 +6400,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2019-03-03",
-    "order": 457
+    "order": 457,
+    "imdbRating": 7.0
   },
   {
     "id": "arrow-s07e14",
@@ -5957,7 +6414,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2019-03-04",
-    "order": 458
+    "order": 458,
+    "imdbRating": 7.4
   },
   {
     "id": "black-lightning-s02e14",
@@ -5970,7 +6428,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2019-03-04",
-    "order": 459
+    "order": 459,
+    "imdbRating": 6.9
   },
   {
     "id": "the-flash-s05e15",
@@ -5983,7 +6442,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2019-03-05",
-    "order": 460
+    "order": 460,
+    "imdbRating": 7.5
   },
   {
     "id": "supergirl-s04e14",
@@ -5996,7 +6456,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2019-03-10",
-    "order": 461
+    "order": 461,
+    "imdbRating": 7.1
   },
   {
     "id": "arrow-s07e15",
@@ -6009,7 +6470,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2019-03-11",
-    "order": 462
+    "order": 462,
+    "imdbRating": 7.6
   },
   {
     "id": "black-lightning-s02e15",
@@ -6022,7 +6484,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2019-03-11",
-    "order": 463
+    "order": 463,
+    "imdbRating": 6.1
   },
   {
     "id": "the-flash-s05e16",
@@ -6035,7 +6498,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2019-03-12",
-    "order": 464
+    "order": 464,
+    "imdbRating": 7.6
   },
   {
     "id": "supergirl-s04e15",
@@ -6048,7 +6512,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2019-03-17",
-    "order": 465
+    "order": 465,
+    "imdbRating": 7.3
   },
   {
     "id": "arrow-s07e16",
@@ -6061,7 +6526,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2019-03-18",
-    "order": 466
+    "order": 466,
+    "imdbRating": 7.7
   },
   {
     "id": "black-lightning-s02e16",
@@ -6074,7 +6540,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2019-03-18",
-    "order": 467
+    "order": 467,
+    "imdbRating": 6.3
   },
   {
     "id": "the-flash-s05e17",
@@ -6087,7 +6554,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2019-03-19",
-    "order": 468
+    "order": 468,
+    "imdbRating": 7.7
   },
   {
     "id": "supergirl-s04e16",
@@ -6100,7 +6568,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2019-03-24",
-    "order": 469
+    "order": 469,
+    "imdbRating": 6.5
   },
   {
     "id": "arrow-s07e17",
@@ -6113,7 +6582,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2019-03-25",
-    "order": 470
+    "order": 470,
+    "imdbRating": 7.8
   },
   {
     "id": "supergirl-s04e17",
@@ -6126,7 +6596,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2019-03-31",
-    "order": 471
+    "order": 471,
+    "imdbRating": 6.7
   },
   {
     "id": "dc-s-legends-of-tomorrow-s04e09",
@@ -6139,7 +6610,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2019-04-01",
-    "order": 472
+    "order": 472,
+    "imdbRating": 6.4
   },
   {
     "id": "dc-s-legends-of-tomorrow-s04e10",
@@ -6152,7 +6624,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2019-04-08",
-    "order": 473
+    "order": 473,
+    "imdbRating": 6.6
   },
   {
     "id": "dc-s-legends-of-tomorrow-s04e11",
@@ -6165,7 +6638,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2019-04-15",
-    "order": 474
+    "order": 474,
+    "imdbRating": 6.7
   },
   {
     "id": "arrow-s07e18",
@@ -6178,7 +6652,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2019-04-15",
-    "order": 475
+    "order": 475,
+    "imdbRating": 7.9
   },
   {
     "id": "the-flash-s05e18",
@@ -6191,7 +6666,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2019-04-16",
-    "order": 476
+    "order": 476,
+    "imdbRating": 7.8
   },
   {
     "id": "supergirl-s04e18",
@@ -6204,7 +6680,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2019-04-21",
-    "order": 477
+    "order": 477,
+    "imdbRating": 6.8
   },
   {
     "id": "dc-s-legends-of-tomorrow-s04e12",
@@ -6217,7 +6694,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2019-04-22",
-    "order": 478
+    "order": 478,
+    "imdbRating": 6.8
   },
   {
     "id": "arrow-s07e19",
@@ -6230,7 +6708,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2019-04-22",
-    "order": 479
+    "order": 479,
+    "imdbRating": 8.0
   },
   {
     "id": "the-flash-s05e19",
@@ -6243,7 +6722,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2019-04-23",
-    "order": 480
+    "order": 480,
+    "imdbRating": 8.0
   },
   {
     "id": "supergirl-s04e19",
@@ -6256,7 +6736,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2019-04-28",
-    "order": 481
+    "order": 481,
+    "imdbRating": 6.9
   },
   {
     "id": "dc-s-legends-of-tomorrow-s04e13",
@@ -6269,7 +6750,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2019-04-29",
-    "order": 482
+    "order": 482,
+    "imdbRating": 6.9
   },
   {
     "id": "arrow-s07e20",
@@ -6282,7 +6764,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2019-04-29",
-    "order": 483
+    "order": 483,
+    "imdbRating": 8.2
   },
   {
     "id": "the-flash-s05e20",
@@ -6295,7 +6778,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2019-04-30",
-    "order": 484
+    "order": 484,
+    "imdbRating": 7.2
   },
   {
     "id": "supergirl-s04e20",
@@ -6308,7 +6792,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2019-05-05",
-    "order": 485
+    "order": 485,
+    "imdbRating": 7.0
   },
   {
     "id": "dc-s-legends-of-tomorrow-s04e14",
@@ -6321,7 +6806,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2019-05-06",
-    "order": 486
+    "order": 486,
+    "imdbRating": 7.0
   },
   {
     "id": "arrow-s07e21",
@@ -6334,7 +6820,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2019-05-06",
-    "order": 487
+    "order": 487,
+    "imdbRating": 7.4
   },
   {
     "id": "the-flash-s05e21",
@@ -6347,7 +6834,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2019-05-07",
-    "order": 488
+    "order": 488,
+    "imdbRating": 7.4
   },
   {
     "id": "supergirl-s04e21",
@@ -6360,7 +6848,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2019-05-12",
-    "order": 489
+    "order": 489,
+    "imdbRating": 7.1
   },
   {
     "id": "dc-s-legends-of-tomorrow-s04e15",
@@ -6373,7 +6862,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2019-05-13",
-    "order": 490
+    "order": 490,
+    "imdbRating": 7.2
   },
   {
     "id": "arrow-s07e22",
@@ -6386,7 +6876,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2019-05-13",
-    "order": 491
+    "order": 491,
+    "imdbRating": 7.6
   },
   {
     "id": "the-flash-s05e22",
@@ -6399,7 +6890,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2019-05-14",
-    "order": 492
+    "order": 492,
+    "imdbRating": 7.5
   },
   {
     "id": "supergirl-s04e22",
@@ -6412,7 +6904,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2019-05-19",
-    "order": 493
+    "order": 493,
+    "imdbRating": 7.3
   },
   {
     "id": "dc-s-legends-of-tomorrow-s04e16",
@@ -6425,7 +6918,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2019-05-20",
-    "order": 494
+    "order": 494,
+    "imdbRating": 6.4
   },
   {
     "id": "batwoman-s01e01",
@@ -6438,7 +6932,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2019-10-06",
-    "order": 495
+    "order": 495,
+    "imdbRating": 5.6
   },
   {
     "id": "supergirl-s05e01",
@@ -6451,7 +6946,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2019-10-06",
-    "order": 496
+    "order": 496,
+    "imdbRating": 6.8
   },
   {
     "id": "black-lightning-s03e01",
@@ -6464,7 +6960,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2019-10-07",
-    "order": 497
+    "order": 497,
+    "imdbRating": 6.5
   },
   {
     "id": "the-flash-s06e01",
@@ -6477,7 +6974,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2019-10-08",
-    "order": 498
+    "order": 498,
+    "imdbRating": 7.8
   },
   {
     "id": "batwoman-s01e02",
@@ -6490,7 +6988,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2019-10-13",
-    "order": 499
+    "order": 499,
+    "imdbRating": 5.7
   },
   {
     "id": "supergirl-s05e02",
@@ -6503,7 +7002,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2019-10-13",
-    "order": 500
+    "order": 500,
+    "imdbRating": 6.9
   },
   {
     "id": "black-lightning-s03e02",
@@ -6516,7 +7016,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2019-10-14",
-    "order": 501
+    "order": 501,
+    "imdbRating": 6.6
   },
   {
     "id": "the-flash-s06e02",
@@ -6529,7 +7030,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2019-10-15",
-    "order": 502
+    "order": 502,
+    "imdbRating": 8.0
   },
   {
     "id": "arrow-s08e01",
@@ -6542,7 +7044,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2019-10-15",
-    "order": 503
+    "order": 503,
+    "imdbRating": 7.9
   },
   {
     "id": "batwoman-s01e03",
@@ -6555,7 +7058,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2019-10-20",
-    "order": 504
+    "order": 504,
+    "imdbRating": 5.9
   },
   {
     "id": "supergirl-s05e03",
@@ -6568,7 +7072,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2019-10-20",
-    "order": 505
+    "order": 505,
+    "imdbRating": 7.0
   },
   {
     "id": "black-lightning-s03e03",
@@ -6581,7 +7086,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2019-10-21",
-    "order": 506
+    "order": 506,
+    "imdbRating": 6.7
   },
   {
     "id": "the-flash-s06e03",
@@ -6594,7 +7100,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2019-10-22",
-    "order": 507
+    "order": 507,
+    "imdbRating": 7.2
   },
   {
     "id": "arrow-s08e02",
@@ -6607,7 +7114,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2019-10-22",
-    "order": 508
+    "order": 508,
+    "imdbRating": 8.0
   },
   {
     "id": "batwoman-s01e04",
@@ -6620,7 +7128,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2019-10-27",
-    "order": 509
+    "order": 509,
+    "imdbRating": 5.1
   },
   {
     "id": "supergirl-s05e04",
@@ -6633,7 +7142,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2019-10-27",
-    "order": 510
+    "order": 510,
+    "imdbRating": 7.1
   },
   {
     "id": "black-lightning-s03e04",
@@ -6646,7 +7156,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2019-10-28",
-    "order": 511
+    "order": 511,
+    "imdbRating": 6.9
   },
   {
     "id": "the-flash-s06e04",
@@ -6659,7 +7170,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2019-10-29",
-    "order": 512
+    "order": 512,
+    "imdbRating": 7.4
   },
   {
     "id": "arrow-s08e03",
@@ -6672,7 +7184,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2019-10-29",
-    "order": 513
+    "order": 513,
+    "imdbRating": 8.2
   },
   {
     "id": "batwoman-s01e05",
@@ -6685,7 +7198,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2019-11-03",
-    "order": 514
+    "order": 514,
+    "imdbRating": 5.3
   },
   {
     "id": "supergirl-s05e05",
@@ -6698,7 +7212,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2019-11-03",
-    "order": 515
+    "order": 515,
+    "imdbRating": 7.3
   },
   {
     "id": "the-flash-s06e05",
@@ -6711,7 +7226,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2019-11-05",
-    "order": 516
+    "order": 516,
+    "imdbRating": 7.5
   },
   {
     "id": "arrow-s08e04",
@@ -6724,7 +7240,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2019-11-05",
-    "order": 517
+    "order": 517,
+    "imdbRating": 7.4
   },
   {
     "id": "batwoman-s01e06",
@@ -6737,7 +7254,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2019-11-10",
-    "order": 518
+    "order": 518,
+    "imdbRating": 5.4
   },
   {
     "id": "supergirl-s05e06",
@@ -6750,7 +7268,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2019-11-10",
-    "order": 519
+    "order": 519,
+    "imdbRating": 6.5
   },
   {
     "id": "black-lightning-s03e05",
@@ -6763,7 +7282,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2019-11-11",
-    "order": 520
+    "order": 520,
+    "imdbRating": 6.1
   },
   {
     "id": "batwoman-s01e07",
@@ -6776,7 +7296,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2019-11-17",
-    "order": 521
+    "order": 521,
+    "imdbRating": 5.5
   },
   {
     "id": "supergirl-s05e07",
@@ -6789,7 +7310,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2019-11-17",
-    "order": 522
+    "order": 522,
+    "imdbRating": 6.7
   },
   {
     "id": "black-lightning-s03e06",
@@ -6802,7 +7324,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2019-11-18",
-    "order": 523
+    "order": 523,
+    "imdbRating": 6.3
   },
   {
     "id": "the-flash-s06e06",
@@ -6815,7 +7338,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2019-11-19",
-    "order": 524
+    "order": 524,
+    "imdbRating": 7.6
   },
   {
     "id": "arrow-s08e05",
@@ -6828,7 +7352,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2019-11-19",
-    "order": 525
+    "order": 525,
+    "imdbRating": 7.6
   },
   {
     "id": "black-lightning-s03e07",
@@ -6841,7 +7366,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2019-11-25",
-    "order": 526
+    "order": 526,
+    "imdbRating": 6.4
   },
   {
     "id": "the-flash-s06e07",
@@ -6854,7 +7380,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2019-11-26",
-    "order": 527
+    "order": 527,
+    "imdbRating": 7.7
   },
   {
     "id": "arrow-s08e06",
@@ -6867,7 +7394,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2019-11-26",
-    "order": 528
+    "order": 528,
+    "imdbRating": 7.7
   },
   {
     "id": "batwoman-s01e08",
@@ -6880,7 +7408,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2019-12-01",
-    "order": 529
+    "order": 529,
+    "imdbRating": 5.6
   },
   {
     "id": "supergirl-s05e08",
@@ -6893,7 +7422,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2019-12-01",
-    "order": 530
+    "order": 530,
+    "imdbRating": 6.8
   },
   {
     "id": "black-lightning-s03e08",
@@ -6906,7 +7436,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2019-12-02",
-    "order": 531
+    "order": 531,
+    "imdbRating": 6.5
   },
   {
     "id": "the-flash-s06e08",
@@ -6919,7 +7450,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2019-12-03",
-    "order": 532
+    "order": 532,
+    "imdbRating": 7.8
   },
   {
     "id": "arrow-s08e07",
@@ -6932,7 +7464,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2019-12-03",
-    "order": 533
+    "order": 533,
+    "imdbRating": 7.8
   },
   {
     "id": "supergirl-s05e09",
@@ -6945,7 +7478,8 @@
     "crossover": "Crisis on Infinite Earths",
     "runtimeMinutes": 42,
     "airdate": "2019-12-08",
-    "order": 534
+    "order": 534,
+    "imdbRating": 6.9
   },
   {
     "id": "batwoman-s01e09",
@@ -6958,7 +7492,8 @@
     "crossover": "Crisis on Infinite Earths",
     "runtimeMinutes": 42,
     "airdate": "2019-12-09",
-    "order": 535
+    "order": 535,
+    "imdbRating": 5.7
   },
   {
     "id": "black-lightning-s03e09",
@@ -6971,7 +7506,8 @@
     "crossover": "Crisis on Infinite Earths",
     "runtimeMinutes": 42,
     "airdate": "2019-12-09",
-    "order": 536
+    "order": 536,
+    "imdbRating": 6.6
   },
   {
     "id": "the-flash-s06e09",
@@ -6984,7 +7520,8 @@
     "crossover": "Crisis on Infinite Earths",
     "runtimeMinutes": 42,
     "airdate": "2019-12-10",
-    "order": 537
+    "order": 537,
+    "imdbRating": 8.0
   },
   {
     "id": "arrow-s08e08",
@@ -6997,7 +7534,8 @@
     "crossover": "Crisis on Infinite Earths",
     "runtimeMinutes": 42,
     "airdate": "2020-01-14",
-    "order": 538
+    "order": 538,
+    "imdbRating": 7.9
   },
   {
     "id": "dc-s-legends-of-tomorrow-s05e00",
@@ -7010,7 +7548,8 @@
     "crossover": "Crisis on Infinite Earths",
     "runtimeMinutes": 42,
     "airdate": "2020-01-14",
-    "order": 539
+    "order": 539,
+    "imdbRating": 6.6
   },
   {
     "id": "batwoman-s01e10",
@@ -7023,7 +7562,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2020-01-19",
-    "order": 540
+    "order": 540,
+    "imdbRating": 5.9
   },
   {
     "id": "supergirl-s05e10",
@@ -7036,7 +7576,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2020-01-19",
-    "order": 541
+    "order": 541,
+    "imdbRating": 7.0
   },
   {
     "id": "black-lightning-s03e10",
@@ -7049,7 +7590,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2020-01-20",
-    "order": 542
+    "order": 542,
+    "imdbRating": 6.7
   },
   {
     "id": "arrow-s08e09",
@@ -7062,7 +7604,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2020-01-21",
-    "order": 543
+    "order": 543,
+    "imdbRating": 8.0
   },
   {
     "id": "dc-s-legends-of-tomorrow-s05e01",
@@ -7075,7 +7618,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2020-01-21",
-    "order": 544
+    "order": 544,
+    "imdbRating": 6.7
   },
   {
     "id": "batwoman-s01e11",
@@ -7088,7 +7632,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2020-01-26",
-    "order": 545
+    "order": 545,
+    "imdbRating": 5.1
   },
   {
     "id": "supergirl-s05e11",
@@ -7101,7 +7646,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2020-01-26",
-    "order": 546
+    "order": 546,
+    "imdbRating": 7.1
   },
   {
     "id": "black-lightning-s03e11",
@@ -7114,7 +7660,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2020-01-27",
-    "order": 547
+    "order": 547,
+    "imdbRating": 6.9
   },
   {
     "id": "arrow-s08e10",
@@ -7127,7 +7674,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2020-01-28",
-    "order": 548
+    "order": 548,
+    "imdbRating": 8.2
   },
   {
     "id": "black-lightning-s03e12",
@@ -7140,7 +7688,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2020-02-03",
-    "order": 549
+    "order": 549,
+    "imdbRating": 6.1
   },
   {
     "id": "the-flash-s06e10",
@@ -7153,7 +7702,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2020-02-04",
-    "order": 550
+    "order": 550,
+    "imdbRating": 7.2
   },
   {
     "id": "dc-s-legends-of-tomorrow-s05e02",
@@ -7166,7 +7716,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2020-02-04",
-    "order": 551
+    "order": 551,
+    "imdbRating": 6.8
   },
   {
     "id": "black-lightning-s03e13",
@@ -7179,7 +7730,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2020-02-10",
-    "order": 552
+    "order": 552,
+    "imdbRating": 6.3
   },
   {
     "id": "the-flash-s06e11",
@@ -7192,7 +7744,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2020-02-11",
-    "order": 553
+    "order": 553,
+    "imdbRating": 7.4
   },
   {
     "id": "dc-s-legends-of-tomorrow-s05e03",
@@ -7205,7 +7758,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2020-02-11",
-    "order": 554
+    "order": 554,
+    "imdbRating": 6.9
   },
   {
     "id": "batwoman-s01e12",
@@ -7218,7 +7772,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2020-02-16",
-    "order": 555
+    "order": 555,
+    "imdbRating": 5.3
   },
   {
     "id": "supergirl-s05e12",
@@ -7231,7 +7786,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2020-02-16",
-    "order": 556
+    "order": 556,
+    "imdbRating": 7.3
   },
   {
     "id": "the-flash-s06e12",
@@ -7244,7 +7800,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2020-02-18",
-    "order": 557
+    "order": 557,
+    "imdbRating": 7.5
   },
   {
     "id": "dc-s-legends-of-tomorrow-s05e04",
@@ -7257,7 +7814,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2020-02-18",
-    "order": 558
+    "order": 558,
+    "imdbRating": 7.0
   },
   {
     "id": "batwoman-s01e13",
@@ -7270,7 +7828,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2020-02-23",
-    "order": 559
+    "order": 559,
+    "imdbRating": 5.4
   },
   {
     "id": "supergirl-s05e13",
@@ -7283,7 +7842,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2020-02-23",
-    "order": 560
+    "order": 560,
+    "imdbRating": 6.5
   },
   {
     "id": "black-lightning-s03e14",
@@ -7296,7 +7856,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2020-02-24",
-    "order": 561
+    "order": 561,
+    "imdbRating": 6.4
   },
   {
     "id": "the-flash-s06e13",
@@ -7309,7 +7870,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2020-02-25",
-    "order": 562
+    "order": 562,
+    "imdbRating": 7.6
   },
   {
     "id": "dc-s-legends-of-tomorrow-s05e05",
@@ -7322,7 +7884,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2020-02-25",
-    "order": 563
+    "order": 563,
+    "imdbRating": 7.2
   },
   {
     "id": "black-lightning-s03e15",
@@ -7335,7 +7898,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2020-03-02",
-    "order": 564
+    "order": 564,
+    "imdbRating": 6.5
   },
   {
     "id": "batwoman-s01e14",
@@ -7348,7 +7912,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2020-03-08",
-    "order": 565
+    "order": 565,
+    "imdbRating": 5.5
   },
   {
     "id": "supergirl-s05e14",
@@ -7361,7 +7926,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2020-03-08",
-    "order": 566
+    "order": 566,
+    "imdbRating": 6.7
   },
   {
     "id": "black-lightning-s03e16",
@@ -7374,7 +7940,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2020-03-09",
-    "order": 567
+    "order": 567,
+    "imdbRating": 6.6
   },
   {
     "id": "the-flash-s06e14",
@@ -7387,7 +7954,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2020-03-10",
-    "order": 568
+    "order": 568,
+    "imdbRating": 7.7
   },
   {
     "id": "dc-s-legends-of-tomorrow-s05e06",
@@ -7400,7 +7968,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2020-03-10",
-    "order": 569
+    "order": 569,
+    "imdbRating": 6.4
   },
   {
     "id": "batwoman-s01e15",
@@ -7413,7 +7982,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2020-03-15",
-    "order": 570
+    "order": 570,
+    "imdbRating": 5.6
   },
   {
     "id": "supergirl-s05e15",
@@ -7426,7 +7996,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2020-03-15",
-    "order": 571
+    "order": 571,
+    "imdbRating": 6.8
   },
   {
     "id": "the-flash-s06e15",
@@ -7439,7 +8010,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2020-03-17",
-    "order": 572
+    "order": 572,
+    "imdbRating": 7.8
   },
   {
     "id": "dc-s-legends-of-tomorrow-s05e07",
@@ -7452,7 +8024,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2020-03-17",
-    "order": 573
+    "order": 573,
+    "imdbRating": 6.6
   },
   {
     "id": "batwoman-s01e16",
@@ -7465,7 +8038,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2020-03-22",
-    "order": 574
+    "order": 574,
+    "imdbRating": 5.7
   },
   {
     "id": "supergirl-s05e16",
@@ -7478,7 +8052,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2020-03-22",
-    "order": 575
+    "order": 575,
+    "imdbRating": 6.9
   },
   {
     "id": "the-flash-s06e16",
@@ -7491,7 +8066,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2020-04-21",
-    "order": 576
+    "order": 576,
+    "imdbRating": 8.0
   },
   {
     "id": "dc-s-legends-of-tomorrow-s05e08",
@@ -7504,7 +8080,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2020-04-21",
-    "order": 577
+    "order": 577,
+    "imdbRating": 6.7
   },
   {
     "id": "batwoman-s01e17",
@@ -7517,7 +8094,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2020-04-26",
-    "order": 578
+    "order": 578,
+    "imdbRating": 5.9
   },
   {
     "id": "the-flash-s06e17",
@@ -7530,7 +8108,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2020-04-28",
-    "order": 579
+    "order": 579,
+    "imdbRating": 7.2
   },
   {
     "id": "dc-s-legends-of-tomorrow-s05e09",
@@ -7543,7 +8122,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2020-04-28",
-    "order": 580
+    "order": 580,
+    "imdbRating": 6.8
   },
   {
     "id": "batwoman-s01e18",
@@ -7556,7 +8136,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2020-05-03",
-    "order": 581
+    "order": 581,
+    "imdbRating": 5.1
   },
   {
     "id": "supergirl-s05e17",
@@ -7569,7 +8150,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2020-05-03",
-    "order": 582
+    "order": 582,
+    "imdbRating": 7.0
   },
   {
     "id": "the-flash-s06e18",
@@ -7582,7 +8164,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2020-05-05",
-    "order": 583
+    "order": 583,
+    "imdbRating": 7.4
   },
   {
     "id": "dc-s-legends-of-tomorrow-s05e10",
@@ -7595,7 +8178,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2020-05-05",
-    "order": 584
+    "order": 584,
+    "imdbRating": 6.9
   },
   {
     "id": "batwoman-s01e19",
@@ -7608,7 +8192,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2020-05-10",
-    "order": 585
+    "order": 585,
+    "imdbRating": 5.3
   },
   {
     "id": "supergirl-s05e18",
@@ -7621,7 +8206,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2020-05-10",
-    "order": 586
+    "order": 586,
+    "imdbRating": 7.1
   },
   {
     "id": "the-flash-s06e19",
@@ -7634,7 +8220,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2020-05-12",
-    "order": 587
+    "order": 587,
+    "imdbRating": 7.5
   },
   {
     "id": "dc-s-legends-of-tomorrow-s05e11",
@@ -7647,7 +8234,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2020-05-12",
-    "order": 588
+    "order": 588,
+    "imdbRating": 7.0
   },
   {
     "id": "batwoman-s01e20",
@@ -7660,7 +8248,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2020-05-17",
-    "order": 589
+    "order": 589,
+    "imdbRating": 5.4
   },
   {
     "id": "supergirl-s05e19",
@@ -7673,7 +8262,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2020-05-17",
-    "order": 590
+    "order": 590,
+    "imdbRating": 7.3
   },
   {
     "id": "stargirl-s01e01",
@@ -7686,7 +8276,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2020-05-18",
-    "order": 591
+    "order": 591,
+    "imdbRating": 7.3
   },
   {
     "id": "dc-s-legends-of-tomorrow-s05e12",
@@ -7699,7 +8290,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2020-05-19",
-    "order": 592
+    "order": 592,
+    "imdbRating": 7.2
   },
   {
     "id": "stargirl-s01e02",
@@ -7712,7 +8304,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2020-05-25",
-    "order": 593
+    "order": 593,
+    "imdbRating": 7.4
   },
   {
     "id": "dc-s-legends-of-tomorrow-s05e13",
@@ -7725,7 +8318,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2020-05-26",
-    "order": 594
+    "order": 594,
+    "imdbRating": 6.4
   },
   {
     "id": "stargirl-s01e03",
@@ -7738,7 +8332,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2020-06-01",
-    "order": 595
+    "order": 595,
+    "imdbRating": 7.6
   },
   {
     "id": "dc-s-legends-of-tomorrow-s05e14",
@@ -7751,7 +8346,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2020-06-02",
-    "order": 596
+    "order": 596,
+    "imdbRating": 6.6
   },
   {
     "id": "stargirl-s01e04",
@@ -7764,7 +8360,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2020-06-08",
-    "order": 597
+    "order": 597,
+    "imdbRating": 6.8
   },
   {
     "id": "stargirl-s01e05",
@@ -7777,7 +8374,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2020-06-15",
-    "order": 598
+    "order": 598,
+    "imdbRating": 7.0
   },
   {
     "id": "stargirl-s01e06",
@@ -7790,7 +8388,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2020-06-22",
-    "order": 599
+    "order": 599,
+    "imdbRating": 7.1
   },
   {
     "id": "stargirl-s01e07",
@@ -7803,7 +8402,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2020-06-29",
-    "order": 600
+    "order": 600,
+    "imdbRating": 7.2
   },
   {
     "id": "stargirl-s01e08",
@@ -7816,7 +8416,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2020-07-06",
-    "order": 601
+    "order": 601,
+    "imdbRating": 7.3
   },
   {
     "id": "stargirl-s01e08-2",
@@ -7829,7 +8430,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2020-07-06",
-    "order": 602
+    "order": 602,
+    "imdbRating": 7.3
   },
   {
     "id": "stargirl-s01e09",
@@ -7842,7 +8444,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2020-07-13",
-    "order": 603
+    "order": 603,
+    "imdbRating": 7.4
   },
   {
     "id": "stargirl-s01e10",
@@ -7855,7 +8458,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2020-07-20",
-    "order": 604
+    "order": 604,
+    "imdbRating": 7.6
   },
   {
     "id": "stargirl-s01e12",
@@ -7868,7 +8472,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2020-08-03",
-    "order": 605
+    "order": 605,
+    "imdbRating": 7.0
   },
   {
     "id": "stargirl-s01e12-2",
@@ -7881,7 +8486,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2020-08-03",
-    "order": 606
+    "order": 606,
+    "imdbRating": 7.0
   },
   {
     "id": "stargirl-s01e13",
@@ -7894,7 +8500,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2020-08-10",
-    "order": 607
+    "order": 607,
+    "imdbRating": 7.1
   },
   {
     "id": "stargirl-s01e13-2",
@@ -7907,7 +8514,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2020-08-10",
-    "order": 608
+    "order": 608,
+    "imdbRating": 7.1
   },
   {
     "id": "batwoman-s02e01",
@@ -7920,7 +8528,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2021-01-17",
-    "order": 609
+    "order": 609,
+    "imdbRating": 5.1
   },
   {
     "id": "batwoman-s02e02",
@@ -7933,7 +8542,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2021-01-24",
-    "order": 610
+    "order": 610,
+    "imdbRating": 5.3
   },
   {
     "id": "batwoman-s02e03",
@@ -7946,7 +8556,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2021-01-31",
-    "order": 611
+    "order": 611,
+    "imdbRating": 5.4
   },
   {
     "id": "black-lightning-s04e01",
@@ -7959,7 +8570,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2021-02-08",
-    "order": 612
+    "order": 612,
+    "imdbRating": 6.9
   },
   {
     "id": "batwoman-s02e04",
@@ -7972,7 +8584,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2021-02-14",
-    "order": 613
+    "order": 613,
+    "imdbRating": 5.5
   },
   {
     "id": "black-lightning-s04e02",
@@ -7985,7 +8598,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2021-02-15",
-    "order": 614
+    "order": 614,
+    "imdbRating": 6.1
   },
   {
     "id": "batwoman-s02e05",
@@ -7998,7 +8612,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2021-02-21",
-    "order": 615
+    "order": 615,
+    "imdbRating": 5.6
   },
   {
     "id": "black-lightning-s04e03",
@@ -8011,7 +8626,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2021-02-22",
-    "order": 616
+    "order": 616,
+    "imdbRating": 6.3
   },
   {
     "id": "superman-and-lois-s01e01",
@@ -8024,7 +8640,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2021-02-23",
-    "order": 617
+    "order": 617,
+    "imdbRating": 7.1
   },
   {
     "id": "batwoman-s02e06",
@@ -8037,7 +8654,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2021-02-28",
-    "order": 618
+    "order": 618,
+    "imdbRating": 5.7
   },
   {
     "id": "black-lightning-s04e04",
@@ -8050,7 +8668,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2021-03-01",
-    "order": 619
+    "order": 619,
+    "imdbRating": 6.4
   },
   {
     "id": "the-flash-s07e01",
@@ -8063,7 +8682,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2021-03-02",
-    "order": 620
+    "order": 620,
+    "imdbRating": 7.4
   },
   {
     "id": "superman-and-lois-s01e02",
@@ -8076,7 +8696,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2021-03-02",
-    "order": 621
+    "order": 621,
+    "imdbRating": 7.2
   },
   {
     "id": "black-lightning-s04e05",
@@ -8089,7 +8710,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2021-03-08",
-    "order": 622
+    "order": 622,
+    "imdbRating": 6.5
   },
   {
     "id": "the-flash-s07e02",
@@ -8102,7 +8724,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2021-03-09",
-    "order": 623
+    "order": 623,
+    "imdbRating": 7.5
   },
   {
     "id": "superman-and-lois-s01e03",
@@ -8115,7 +8738,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2021-03-09",
-    "order": 624
+    "order": 624,
+    "imdbRating": 7.4
   },
   {
     "id": "batwoman-s02e07",
@@ -8128,7 +8752,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2021-03-14",
-    "order": 625
+    "order": 625,
+    "imdbRating": 5.9
   },
   {
     "id": "black-lightning-s04e06",
@@ -8141,7 +8766,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2021-03-15",
-    "order": 626
+    "order": 626,
+    "imdbRating": 6.6
   },
   {
     "id": "the-flash-s07e03",
@@ -8154,7 +8780,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2021-03-16",
-    "order": 627
+    "order": 627,
+    "imdbRating": 7.6
   },
   {
     "id": "superman-and-lois-s01e04",
@@ -8167,7 +8794,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2021-03-16",
-    "order": 628
+    "order": 628,
+    "imdbRating": 6.6
   },
   {
     "id": "batwoman-s02e08",
@@ -8180,7 +8808,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2021-03-21",
-    "order": 629
+    "order": 629,
+    "imdbRating": 5.1
   },
   {
     "id": "the-flash-s07e04",
@@ -8193,7 +8822,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2021-03-23",
-    "order": 630
+    "order": 630,
+    "imdbRating": 7.7
   },
   {
     "id": "superman-and-lois-s01e05",
@@ -8206,7 +8836,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2021-03-23",
-    "order": 631
+    "order": 631,
+    "imdbRating": 6.8
   },
   {
     "id": "batwoman-s02e09",
@@ -8219,7 +8850,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2021-03-28",
-    "order": 632
+    "order": 632,
+    "imdbRating": 5.3
   },
   {
     "id": "the-flash-s07e05",
@@ -8232,7 +8864,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2021-03-30",
-    "order": 633
+    "order": 633,
+    "imdbRating": 7.8
   },
   {
     "id": "supergirl-s06e01",
@@ -8245,7 +8878,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2021-03-30",
-    "order": 634
+    "order": 634,
+    "imdbRating": 7.1
   },
   {
     "id": "the-flash-s07e06",
@@ -8258,7 +8892,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2021-04-06",
-    "order": 635
+    "order": 635,
+    "imdbRating": 8.0
   },
   {
     "id": "supergirl-s06e02",
@@ -8271,7 +8906,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2021-04-06",
-    "order": 636
+    "order": 636,
+    "imdbRating": 7.3
   },
   {
     "id": "batwoman-s02e10",
@@ -8284,7 +8920,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2021-04-11",
-    "order": 637
+    "order": 637,
+    "imdbRating": 5.4
   },
   {
     "id": "black-lightning-s04e07",
@@ -8297,7 +8934,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2021-04-12",
-    "order": 638
+    "order": 638,
+    "imdbRating": 6.7
   },
   {
     "id": "the-flash-s07e07",
@@ -8310,7 +8948,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2021-04-13",
-    "order": 639
+    "order": 639,
+    "imdbRating": 7.2
   },
   {
     "id": "supergirl-s06e03",
@@ -8323,7 +8962,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2021-04-13",
-    "order": 640
+    "order": 640,
+    "imdbRating": 6.5
   },
   {
     "id": "batwoman-s02e11",
@@ -8336,7 +8976,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2021-04-18",
-    "order": 641
+    "order": 641,
+    "imdbRating": 5.5
   },
   {
     "id": "black-lightning-s04e08",
@@ -8349,7 +8990,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2021-04-19",
-    "order": 642
+    "order": 642,
+    "imdbRating": 6.9
   },
   {
     "id": "supergirl-s06e04",
@@ -8362,7 +9004,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2021-04-20",
-    "order": 643
+    "order": 643,
+    "imdbRating": 6.7
   },
   {
     "id": "black-lightning-s04e09",
@@ -8375,7 +9018,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2021-04-26",
-    "order": 644
+    "order": 644,
+    "imdbRating": 6.1
   },
   {
     "id": "supergirl-s06e05",
@@ -8388,7 +9032,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2021-04-27",
-    "order": 645
+    "order": 645,
+    "imdbRating": 6.8
   },
   {
     "id": "batwoman-s02e12",
@@ -8401,7 +9046,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2021-05-02",
-    "order": 646
+    "order": 646,
+    "imdbRating": 5.6
   },
   {
     "id": "dc-s-legends-of-tomorrow-s06e01",
@@ -8414,7 +9060,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2021-05-02",
-    "order": 647
+    "order": 647,
+    "imdbRating": 7.0
   },
   {
     "id": "black-lightning-s04e10",
@@ -8427,7 +9074,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2021-05-03",
-    "order": 648
+    "order": 648,
+    "imdbRating": 6.3
   },
   {
     "id": "the-flash-s07e08",
@@ -8440,7 +9088,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2021-05-04",
-    "order": 649
+    "order": 649,
+    "imdbRating": 7.4
   },
   {
     "id": "supergirl-s06e06",
@@ -8453,7 +9102,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2021-05-04",
-    "order": 650
+    "order": 650,
+    "imdbRating": 6.9
   },
   {
     "id": "batwoman-s02e13",
@@ -8466,7 +9116,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2021-05-09",
-    "order": 651
+    "order": 651,
+    "imdbRating": 5.7
   },
   {
     "id": "dc-s-legends-of-tomorrow-s06e02",
@@ -8479,7 +9130,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2021-05-09",
-    "order": 652
+    "order": 652,
+    "imdbRating": 7.2
   },
   {
     "id": "black-lightning-s04e11",
@@ -8492,7 +9144,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2021-05-10",
-    "order": 653
+    "order": 653,
+    "imdbRating": 6.4
   },
   {
     "id": "the-flash-s07e09",
@@ -8505,7 +9158,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2021-05-11",
-    "order": 654
+    "order": 654,
+    "imdbRating": 7.5
   },
   {
     "id": "supergirl-s06e07",
@@ -8518,7 +9172,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2021-05-11",
-    "order": 655
+    "order": 655,
+    "imdbRating": 7.0
   },
   {
     "id": "batwoman-s02e14",
@@ -8531,7 +9186,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2021-05-16",
-    "order": 656
+    "order": 656,
+    "imdbRating": 5.9
   },
   {
     "id": "dc-s-legends-of-tomorrow-s06e03",
@@ -8544,7 +9200,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2021-05-16",
-    "order": 657
+    "order": 657,
+    "imdbRating": 6.4
   },
   {
     "id": "black-lightning-s04e12",
@@ -8557,7 +9214,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2021-05-17",
-    "order": 658
+    "order": 658,
+    "imdbRating": 6.5
   },
   {
     "id": "the-flash-s07e10",
@@ -8570,7 +9228,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2021-05-18",
-    "order": 659
+    "order": 659,
+    "imdbRating": 7.6
   },
   {
     "id": "superman-and-lois-s01e06",
@@ -8583,7 +9242,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2021-05-18",
-    "order": 660
+    "order": 660,
+    "imdbRating": 6.9
   },
   {
     "id": "black-lightning-s04e13",
@@ -8596,7 +9256,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2021-05-24",
-    "order": 661
+    "order": 661,
+    "imdbRating": 6.6
   },
   {
     "id": "the-flash-s07e11",
@@ -8609,7 +9270,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2021-05-25",
-    "order": 662
+    "order": 662,
+    "imdbRating": 7.7
   },
   {
     "id": "dc-s-legends-of-tomorrow-s06e04",
@@ -8622,7 +9284,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2021-05-25",
-    "order": 663
+    "order": 663,
+    "imdbRating": 6.6
   },
   {
     "id": "superman-and-lois-s01e07",
@@ -8635,7 +9298,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2021-05-25",
-    "order": 664
+    "order": 664,
+    "imdbRating": 7.0
   },
   {
     "id": "superman-and-lois-s01e08",
@@ -8648,7 +9312,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2021-06-01",
-    "order": 665
+    "order": 665,
+    "imdbRating": 7.1
   },
   {
     "id": "batwoman-s02e15",
@@ -8661,7 +9326,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2021-06-06",
-    "order": 666
+    "order": 666,
+    "imdbRating": 5.1
   },
   {
     "id": "dc-s-legends-of-tomorrow-s06e05",
@@ -8674,7 +9340,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2021-06-06",
-    "order": 667
+    "order": 667,
+    "imdbRating": 6.7
   },
   {
     "id": "the-flash-s07e12",
@@ -8687,7 +9354,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2021-06-08",
-    "order": 668
+    "order": 668,
+    "imdbRating": 7.8
   },
   {
     "id": "superman-and-lois-s01e09",
@@ -8700,7 +9368,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2021-06-08",
-    "order": 669
+    "order": 669,
+    "imdbRating": 7.2
   },
   {
     "id": "batwoman-s02e16",
@@ -8713,7 +9382,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2021-06-13",
-    "order": 670
+    "order": 670,
+    "imdbRating": 5.3
   },
   {
     "id": "dc-s-legends-of-tomorrow-s06e06",
@@ -8726,7 +9396,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2021-06-13",
-    "order": 671
+    "order": 671,
+    "imdbRating": 6.8
   },
   {
     "id": "the-flash-s07e13",
@@ -8739,7 +9410,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2021-06-15",
-    "order": 672
+    "order": 672,
+    "imdbRating": 8.0
   },
   {
     "id": "superman-and-lois-s01e10",
@@ -8752,7 +9424,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2021-06-15",
-    "order": 673
+    "order": 673,
+    "imdbRating": 7.4
   },
   {
     "id": "batwoman-s02e17",
@@ -8765,7 +9438,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2021-06-20",
-    "order": 674
+    "order": 674,
+    "imdbRating": 5.4
   },
   {
     "id": "dc-s-legends-of-tomorrow-s06e07",
@@ -8778,7 +9452,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2021-06-20",
-    "order": 675
+    "order": 675,
+    "imdbRating": 6.9
   },
   {
     "id": "the-flash-s07e14",
@@ -8791,7 +9466,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2021-06-22",
-    "order": 676
+    "order": 676,
+    "imdbRating": 7.2
   },
   {
     "id": "superman-and-lois-s01e11",
@@ -8804,7 +9480,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2021-06-22",
-    "order": 677
+    "order": 677,
+    "imdbRating": 6.6
   },
   {
     "id": "batwoman-s02e18",
@@ -8817,7 +9494,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2021-06-27",
-    "order": 678
+    "order": 678,
+    "imdbRating": 5.5
   },
   {
     "id": "dc-s-legends-of-tomorrow-s06e08",
@@ -8830,7 +9508,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2021-06-27",
-    "order": 679
+    "order": 679,
+    "imdbRating": 7.0
   },
   {
     "id": "the-flash-s07e15",
@@ -8843,7 +9522,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2021-06-29",
-    "order": 680
+    "order": 680,
+    "imdbRating": 7.4
   },
   {
     "id": "the-flash-s07e16",
@@ -8856,7 +9536,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2021-07-06",
-    "order": 681
+    "order": 681,
+    "imdbRating": 7.5
   },
   {
     "id": "dc-s-legends-of-tomorrow-s06e09",
@@ -8869,7 +9550,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2021-07-11",
-    "order": 682
+    "order": 682,
+    "imdbRating": 7.2
   },
   {
     "id": "the-flash-s07e17",
@@ -8882,7 +9564,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2021-07-13",
-    "order": 683
+    "order": 683,
+    "imdbRating": 7.6
   },
   {
     "id": "superman-and-lois-s01e12",
@@ -8895,7 +9578,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2021-07-13",
-    "order": 684
+    "order": 684,
+    "imdbRating": 6.8
   },
   {
     "id": "dc-s-legends-of-tomorrow-s06e10",
@@ -8908,7 +9592,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2021-07-18",
-    "order": 685
+    "order": 685,
+    "imdbRating": 6.4
   },
   {
     "id": "the-flash-s07e18",
@@ -8921,7 +9606,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2021-07-20",
-    "order": 686
+    "order": 686,
+    "imdbRating": 7.7
   },
   {
     "id": "superman-and-lois-s01e13",
@@ -8934,7 +9620,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2021-07-20",
-    "order": 687
+    "order": 687,
+    "imdbRating": 6.9
   },
   {
     "id": "dc-s-legends-of-tomorrow-s06e11",
@@ -8947,7 +9634,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2021-08-08",
-    "order": 688
+    "order": 688,
+    "imdbRating": 6.6
   },
   {
     "id": "stargirl-s02e01",
@@ -8960,7 +9648,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2021-08-10",
-    "order": 689
+    "order": 689,
+    "imdbRating": 6.8
   },
   {
     "id": "superman-and-lois-s01e14",
@@ -8973,7 +9662,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2021-08-10",
-    "order": 690
+    "order": 690,
+    "imdbRating": 7.0
   },
   {
     "id": "dc-s-legends-of-tomorrow-s06e12",
@@ -8986,7 +9676,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2021-08-15",
-    "order": 691
+    "order": 691,
+    "imdbRating": 6.7
   },
   {
     "id": "stargirl-s02e02",
@@ -8999,7 +9690,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2021-08-17",
-    "order": 692
+    "order": 692,
+    "imdbRating": 7.0
   },
   {
     "id": "superman-and-lois-s01e15",
@@ -9012,7 +9704,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2021-08-17",
-    "order": 693
+    "order": 693,
+    "imdbRating": 7.1
   },
   {
     "id": "dc-s-legends-of-tomorrow-s06e13",
@@ -9025,7 +9718,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2021-08-22",
-    "order": 694
+    "order": 694,
+    "imdbRating": 6.8
   },
   {
     "id": "stargirl-s02e03",
@@ -9038,7 +9732,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2021-08-24",
-    "order": 695
+    "order": 695,
+    "imdbRating": 7.1
   },
   {
     "id": "supergirl-s06e08",
@@ -9051,7 +9746,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2021-08-24",
-    "order": 696
+    "order": 696,
+    "imdbRating": 7.1
   },
   {
     "id": "dc-s-legends-of-tomorrow-s06e14",
@@ -9064,7 +9760,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2021-08-29",
-    "order": 697
+    "order": 697,
+    "imdbRating": 6.9
   },
   {
     "id": "stargirl-s02e04",
@@ -9077,7 +9774,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2021-08-31",
-    "order": 698
+    "order": 698,
+    "imdbRating": 7.2
   },
   {
     "id": "supergirl-s06e09",
@@ -9090,7 +9788,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2021-08-31",
-    "order": 699
+    "order": 699,
+    "imdbRating": 7.3
   },
   {
     "id": "dc-s-legends-of-tomorrow-s06e15",
@@ -9103,7 +9802,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2021-09-05",
-    "order": 700
+    "order": 700,
+    "imdbRating": 7.0
   },
   {
     "id": "stargirl-s02e05",
@@ -9116,7 +9816,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2021-09-07",
-    "order": 701
+    "order": 701,
+    "imdbRating": 7.3
   },
   {
     "id": "supergirl-s06e10",
@@ -9129,7 +9830,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2021-09-07",
-    "order": 702
+    "order": 702,
+    "imdbRating": 6.5
   },
   {
     "id": "stargirl-s02e06",
@@ -9142,7 +9844,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2021-09-14",
-    "order": 703
+    "order": 703,
+    "imdbRating": 7.4
   },
   {
     "id": "supergirl-s06e11",
@@ -9155,7 +9858,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2021-09-14",
-    "order": 704
+    "order": 704,
+    "imdbRating": 6.7
   },
   {
     "id": "stargirl-s02e07",
@@ -9168,7 +9872,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2021-09-21",
-    "order": 705
+    "order": 705,
+    "imdbRating": 7.6
   },
   {
     "id": "supergirl-s06e12",
@@ -9181,7 +9886,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2021-09-21",
-    "order": 706
+    "order": 706,
+    "imdbRating": 6.8
   },
   {
     "id": "stargirl-s02e08",
@@ -9194,7 +9900,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2021-09-28",
-    "order": 707
+    "order": 707,
+    "imdbRating": 6.8
   },
   {
     "id": "supergirl-s06e13",
@@ -9207,7 +9914,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2021-09-28",
-    "order": 708
+    "order": 708,
+    "imdbRating": 6.9
   },
   {
     "id": "stargirl-s02e09",
@@ -9220,7 +9928,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2021-10-05",
-    "order": 709
+    "order": 709,
+    "imdbRating": 7.0
   },
   {
     "id": "supergirl-s06e14",
@@ -9233,7 +9942,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2021-10-05",
-    "order": 710
+    "order": 710,
+    "imdbRating": 7.0
   },
   {
     "id": "stargirl-s02e10",
@@ -9246,7 +9956,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2021-10-12",
-    "order": 711
+    "order": 711,
+    "imdbRating": 7.1
   },
   {
     "id": "supergirl-s06e15",
@@ -9259,7 +9970,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2021-10-12",
-    "order": 712
+    "order": 712,
+    "imdbRating": 7.1
   },
   {
     "id": "batwoman-s03e01",
@@ -9272,7 +9984,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2021-10-13",
-    "order": 713
+    "order": 713,
+    "imdbRating": 5.5
   },
   {
     "id": "dc-s-legends-of-tomorrow-s07e01",
@@ -9285,7 +9998,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2021-10-13",
-    "order": 714
+    "order": 714,
+    "imdbRating": 6.6
   },
   {
     "id": "stargirl-s02e11",
@@ -9298,7 +10012,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2021-10-19",
-    "order": 715
+    "order": 715,
+    "imdbRating": 7.2
   },
   {
     "id": "supergirl-s06e16",
@@ -9311,7 +10026,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2021-10-19",
-    "order": 716
+    "order": 716,
+    "imdbRating": 7.3
   },
   {
     "id": "batwoman-s03e02",
@@ -9324,7 +10040,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2021-10-20",
-    "order": 717
+    "order": 717,
+    "imdbRating": 5.6
   },
   {
     "id": "dc-s-legends-of-tomorrow-s07e02",
@@ -9337,7 +10054,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2021-10-20",
-    "order": 718
+    "order": 718,
+    "imdbRating": 6.7
   },
   {
     "id": "stargirl-s02e12",
@@ -9350,7 +10068,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2021-10-26",
-    "order": 719
+    "order": 719,
+    "imdbRating": 7.3
   },
   {
     "id": "supergirl-s06e17",
@@ -9363,7 +10082,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2021-10-26",
-    "order": 720
+    "order": 720,
+    "imdbRating": 6.5
   },
   {
     "id": "batwoman-s03e03",
@@ -9376,7 +10096,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2021-10-27",
-    "order": 721
+    "order": 721,
+    "imdbRating": 5.7
   },
   {
     "id": "dc-s-legends-of-tomorrow-s07e03",
@@ -9389,7 +10110,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2021-10-27",
-    "order": 722
+    "order": 722,
+    "imdbRating": 6.8
   },
   {
     "id": "stargirl-s02e13",
@@ -9402,7 +10124,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2021-11-02",
-    "order": 723
+    "order": 723,
+    "imdbRating": 7.4
   },
   {
     "id": "supergirl-s06e18",
@@ -9415,7 +10138,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2021-11-02",
-    "order": 724
+    "order": 724,
+    "imdbRating": 6.7
   },
   {
     "id": "batwoman-s03e04",
@@ -9428,7 +10152,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2021-11-03",
-    "order": 725
+    "order": 725,
+    "imdbRating": 5.9
   },
   {
     "id": "dc-s-legends-of-tomorrow-s07e04",
@@ -9441,7 +10166,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2021-11-03",
-    "order": 726
+    "order": 726,
+    "imdbRating": 6.9
   },
   {
     "id": "supergirl-s06e19",
@@ -9454,7 +10180,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2021-11-09",
-    "order": 727
+    "order": 727,
+    "imdbRating": 6.8
   },
   {
     "id": "supergirl-s06e20",
@@ -9467,7 +10194,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2021-11-09",
-    "order": 728
+    "order": 728,
+    "imdbRating": 6.9
   },
   {
     "id": "batwoman-s03e05",
@@ -9480,7 +10208,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2021-11-10",
-    "order": 729
+    "order": 729,
+    "imdbRating": 5.1
   },
   {
     "id": "dc-s-legends-of-tomorrow-s07e05",
@@ -9493,7 +10222,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2021-11-10",
-    "order": 730
+    "order": 730,
+    "imdbRating": 7.0
   },
   {
     "id": "the-flash-s08e01",
@@ -9506,7 +10236,8 @@
     "crossover": "Armageddon",
     "runtimeMinutes": 42,
     "airdate": "2021-11-16",
-    "order": 731
+    "order": 731,
+    "imdbRating": 7.7
   },
   {
     "id": "batwoman-s03e06",
@@ -9519,7 +10250,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2021-11-17",
-    "order": 732
+    "order": 732,
+    "imdbRating": 5.3
   },
   {
     "id": "dc-s-legends-of-tomorrow-s07e06",
@@ -9532,7 +10264,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2021-11-17",
-    "order": 733
+    "order": 733,
+    "imdbRating": 7.2
   },
   {
     "id": "the-flash-s08e02",
@@ -9545,7 +10278,8 @@
     "crossover": "Armageddon",
     "runtimeMinutes": 42,
     "airdate": "2021-11-23",
-    "order": 734
+    "order": 734,
+    "imdbRating": 7.8
   },
   {
     "id": "batwoman-s03e07",
@@ -9558,7 +10292,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2021-11-24",
-    "order": 735
+    "order": 735,
+    "imdbRating": 5.4
   },
   {
     "id": "dc-s-legends-of-tomorrow-s07e07",
@@ -9571,7 +10306,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2021-11-24",
-    "order": 736
+    "order": 736,
+    "imdbRating": 6.4
   },
   {
     "id": "the-flash-s08e03",
@@ -9584,7 +10320,8 @@
     "crossover": "Armageddon",
     "runtimeMinutes": 42,
     "airdate": "2021-11-30",
-    "order": 737
+    "order": 737,
+    "imdbRating": 8.0
   },
   {
     "id": "the-flash-s08e04",
@@ -9597,7 +10334,8 @@
     "crossover": "Armageddon",
     "runtimeMinutes": 42,
     "airdate": "2021-12-07",
-    "order": 738
+    "order": 738,
+    "imdbRating": 7.2
   },
   {
     "id": "the-flash-s08e05",
@@ -9610,7 +10348,8 @@
     "crossover": "Armageddon",
     "runtimeMinutes": 42,
     "airdate": "2021-12-14",
-    "order": 739
+    "order": 739,
+    "imdbRating": 7.4
   },
   {
     "id": "superman-and-lois-s02e01",
@@ -9623,7 +10362,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2022-01-11",
-    "order": 740
+    "order": 740,
+    "imdbRating": 6.6
   },
   {
     "id": "batwoman-s03e08",
@@ -9636,7 +10376,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2022-01-12",
-    "order": 741
+    "order": 741,
+    "imdbRating": 5.5
   },
   {
     "id": "dc-s-legends-of-tomorrow-s07e08",
@@ -9649,7 +10390,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2022-01-12",
-    "order": 742
+    "order": 742,
+    "imdbRating": 6.6
   },
   {
     "id": "superman-and-lois-s02e02",
@@ -9662,7 +10404,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2022-01-18",
-    "order": 743
+    "order": 743,
+    "imdbRating": 6.8
   },
   {
     "id": "batwoman-s03e09",
@@ -9675,7 +10418,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2022-01-19",
-    "order": 744
+    "order": 744,
+    "imdbRating": 5.6
   },
   {
     "id": "dc-s-legends-of-tomorrow-s07e09",
@@ -9688,7 +10432,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2022-01-19",
-    "order": 745
+    "order": 745,
+    "imdbRating": 6.7
   },
   {
     "id": "superman-and-lois-s02e03",
@@ -9701,7 +10446,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2022-01-25",
-    "order": 746
+    "order": 746,
+    "imdbRating": 6.9
   },
   {
     "id": "batwoman-s03e10",
@@ -9714,7 +10460,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2022-01-26",
-    "order": 747
+    "order": 747,
+    "imdbRating": 5.7
   },
   {
     "id": "dc-s-legends-of-tomorrow-s07e10",
@@ -9727,7 +10474,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2022-01-26",
-    "order": 748
+    "order": 748,
+    "imdbRating": 6.8
   },
   {
     "id": "superman-and-lois-s02e04",
@@ -9740,7 +10488,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2022-02-01",
-    "order": 749
+    "order": 749,
+    "imdbRating": 7.0
   },
   {
     "id": "batwoman-s03e11",
@@ -9753,7 +10502,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2022-02-02",
-    "order": 750
+    "order": 750,
+    "imdbRating": 5.9
   },
   {
     "id": "dc-s-legends-of-tomorrow-s07e11",
@@ -9766,7 +10516,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2022-02-02",
-    "order": 751
+    "order": 751,
+    "imdbRating": 6.9
   },
   {
     "id": "superman-and-lois-s02e05",
@@ -9779,7 +10530,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2022-02-22",
-    "order": 752
+    "order": 752,
+    "imdbRating": 7.1
   },
   {
     "id": "batwoman-s03e12",
@@ -9792,7 +10544,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2022-02-23",
-    "order": 753
+    "order": 753,
+    "imdbRating": 5.1
   },
   {
     "id": "dc-s-legends-of-tomorrow-s07e12",
@@ -9805,7 +10558,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2022-02-23",
-    "order": 754
+    "order": 754,
+    "imdbRating": 7.0
   },
   {
     "id": "superman-and-lois-s02e06",
@@ -9818,7 +10572,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2022-03-01",
-    "order": 755
+    "order": 755,
+    "imdbRating": 7.2
   },
   {
     "id": "batwoman-s03e13",
@@ -9831,7 +10586,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2022-03-02",
-    "order": 756
+    "order": 756,
+    "imdbRating": 5.3
   },
   {
     "id": "dc-s-legends-of-tomorrow-s07e13",
@@ -9844,7 +10600,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2022-03-02",
-    "order": 757
+    "order": 757,
+    "imdbRating": 7.2
   },
   {
     "id": "superman-and-lois-s02e07",
@@ -9857,7 +10614,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2022-03-08",
-    "order": 758
+    "order": 758,
+    "imdbRating": 7.4
   },
   {
     "id": "the-flash-s08e06",
@@ -9870,7 +10628,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2022-03-09",
-    "order": 759
+    "order": 759,
+    "imdbRating": 7.5
   },
   {
     "id": "the-flash-s08e07",
@@ -9883,7 +10642,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2022-03-16",
-    "order": 760
+    "order": 760,
+    "imdbRating": 7.6
   },
   {
     "id": "superman-and-lois-s02e08",
@@ -9896,7 +10656,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2022-03-22",
-    "order": 761
+    "order": 761,
+    "imdbRating": 6.6
   },
   {
     "id": "the-flash-s08e08",
@@ -9909,7 +10670,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2022-03-23",
-    "order": 762
+    "order": 762,
+    "imdbRating": 7.7
   },
   {
     "id": "superman-and-lois-s02e09",
@@ -9922,7 +10684,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2022-03-29",
-    "order": 763
+    "order": 763,
+    "imdbRating": 6.8
   },
   {
     "id": "the-flash-s08e09",
@@ -9935,7 +10698,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2022-03-30",
-    "order": 764
+    "order": 764,
+    "imdbRating": 7.8
   },
   {
     "id": "the-flash-s08e10",
@@ -9948,7 +10712,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2022-04-06",
-    "order": 765
+    "order": 765,
+    "imdbRating": 8.0
   },
   {
     "id": "the-flash-s08e11",
@@ -9961,7 +10726,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2022-04-13",
-    "order": 766
+    "order": 766,
+    "imdbRating": 7.2
   },
   {
     "id": "superman-and-lois-s02e10",
@@ -9974,7 +10740,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2022-04-26",
-    "order": 767
+    "order": 767,
+    "imdbRating": 6.9
   },
   {
     "id": "the-flash-s08e12",
@@ -9987,7 +10754,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2022-04-27",
-    "order": 768
+    "order": 768,
+    "imdbRating": 7.4
   },
   {
     "id": "superman-and-lois-s02e11",
@@ -10000,7 +10768,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2022-05-03",
-    "order": 769
+    "order": 769,
+    "imdbRating": 7.0
   },
   {
     "id": "the-flash-s08e13",
@@ -10013,7 +10782,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2022-05-04",
-    "order": 770
+    "order": 770,
+    "imdbRating": 7.5
   },
   {
     "id": "the-flash-s08e14",
@@ -10026,7 +10796,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2022-05-11",
-    "order": 771
+    "order": 771,
+    "imdbRating": 7.6
   },
   {
     "id": "the-flash-s08e15",
@@ -10039,7 +10810,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2022-05-18",
-    "order": 772
+    "order": 772,
+    "imdbRating": 7.7
   },
   {
     "id": "the-flash-s08e16",
@@ -10052,7 +10824,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2022-05-25",
-    "order": 773
+    "order": 773,
+    "imdbRating": 7.8
   },
   {
     "id": "superman-and-lois-s02e12",
@@ -10065,7 +10838,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2022-05-31",
-    "order": 774
+    "order": 774,
+    "imdbRating": 7.1
   },
   {
     "id": "superman-and-lois-s02e13",
@@ -10078,7 +10852,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2022-06-07",
-    "order": 775
+    "order": 775,
+    "imdbRating": 7.2
   },
   {
     "id": "the-flash-s08e17",
@@ -10091,7 +10866,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2022-06-08",
-    "order": 776
+    "order": 776,
+    "imdbRating": 8.0
   },
   {
     "id": "the-flash-s08e18",
@@ -10104,7 +10880,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2022-06-15",
-    "order": 777
+    "order": 777,
+    "imdbRating": 7.2
   },
   {
     "id": "superman-and-lois-s02e14",
@@ -10117,7 +10894,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2022-06-21",
-    "order": 778
+    "order": 778,
+    "imdbRating": 7.4
   },
   {
     "id": "the-flash-s08e19",
@@ -10130,7 +10908,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2022-06-22",
-    "order": 779
+    "order": 779,
+    "imdbRating": 7.4
   },
   {
     "id": "superman-and-lois-s02e15",
@@ -10143,7 +10922,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2022-06-28",
-    "order": 780
+    "order": 780,
+    "imdbRating": 6.6
   },
   {
     "id": "the-flash-s08e20",
@@ -10156,7 +10936,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2022-06-29",
-    "order": 781
+    "order": 781,
+    "imdbRating": 7.5
   },
   {
     "id": "stargirl-s03e01",
@@ -10169,7 +10950,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2022-08-31",
-    "order": 782
+    "order": 782,
+    "imdbRating": 7.2
   },
   {
     "id": "stargirl-s03e02",
@@ -10182,7 +10964,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2022-09-07",
-    "order": 783
+    "order": 783,
+    "imdbRating": 7.3
   },
   {
     "id": "stargirl-s03e03",
@@ -10195,7 +10978,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2022-09-14",
-    "order": 784
+    "order": 784,
+    "imdbRating": 7.4
   },
   {
     "id": "stargirl-s03e04",
@@ -10208,7 +10992,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2022-09-21",
-    "order": 785
+    "order": 785,
+    "imdbRating": 7.6
   },
   {
     "id": "stargirl-s03e05",
@@ -10221,7 +11006,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2022-10-05",
-    "order": 786
+    "order": 786,
+    "imdbRating": 6.8
   },
   {
     "id": "stargirl-s03e06",
@@ -10234,7 +11020,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2022-10-12",
-    "order": 787
+    "order": 787,
+    "imdbRating": 7.0
   },
   {
     "id": "stargirl-s03e07",
@@ -10247,7 +11034,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2022-10-19",
-    "order": 788
+    "order": 788,
+    "imdbRating": 7.1
   },
   {
     "id": "stargirl-s03e08",
@@ -10260,7 +11048,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2022-10-26",
-    "order": 789
+    "order": 789,
+    "imdbRating": 7.2
   },
   {
     "id": "stargirl-s03e09",
@@ -10273,7 +11062,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2022-11-02",
-    "order": 790
+    "order": 790,
+    "imdbRating": 7.3
   },
   {
     "id": "stargirl-s03e10",
@@ -10286,7 +11076,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2022-11-09",
-    "order": 791
+    "order": 791,
+    "imdbRating": 7.4
   },
   {
     "id": "stargirl-s03e11",
@@ -10299,7 +11090,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2022-11-16",
-    "order": 792
+    "order": 792,
+    "imdbRating": 7.6
   },
   {
     "id": "stargirl-s03e12",
@@ -10312,7 +11104,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2022-11-30",
-    "order": 793
+    "order": 793,
+    "imdbRating": 6.8
   },
   {
     "id": "stargirl-s03e13",
@@ -10325,7 +11118,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2022-12-07",
-    "order": 794
+    "order": 794,
+    "imdbRating": 7.0
   },
   {
     "id": "the-flash-s09e01",
@@ -10338,7 +11132,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2023-02-08",
-    "order": 795
+    "order": 795,
+    "imdbRating": 7.2
   },
   {
     "id": "the-flash-s09e02",
@@ -10351,7 +11146,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2023-02-15",
-    "order": 796
+    "order": 796,
+    "imdbRating": 7.4
   },
   {
     "id": "the-flash-s09e03",
@@ -10364,7 +11160,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2023-02-22",
-    "order": 797
+    "order": 797,
+    "imdbRating": 7.5
   },
   {
     "id": "the-flash-s09e04",
@@ -10377,7 +11174,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2023-03-01",
-    "order": 798
+    "order": 798,
+    "imdbRating": 7.6
   },
   {
     "id": "the-flash-s09e05",
@@ -10390,7 +11188,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2023-03-08",
-    "order": 799
+    "order": 799,
+    "imdbRating": 7.7
   },
   {
     "id": "superman-and-lois-s03e01",
@@ -10403,7 +11202,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2023-03-14",
-    "order": 800
+    "order": 800,
+    "imdbRating": 7.0
   },
   {
     "id": "the-flash-s09e06",
@@ -10416,7 +11216,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2023-03-15",
-    "order": 801
+    "order": 801,
+    "imdbRating": 7.8
   },
   {
     "id": "superman-and-lois-s03e02",
@@ -10429,7 +11230,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2023-03-21",
-    "order": 802
+    "order": 802,
+    "imdbRating": 7.1
   },
   {
     "id": "superman-and-lois-s03e03",
@@ -10442,7 +11244,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2023-03-28",
-    "order": 803
+    "order": 803,
+    "imdbRating": 7.2
   },
   {
     "id": "the-flash-s09e07",
@@ -10455,7 +11258,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2023-03-29",
-    "order": 804
+    "order": 804,
+    "imdbRating": 8.0
   },
   {
     "id": "superman-and-lois-s03e04",
@@ -10468,7 +11272,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2023-04-04",
-    "order": 805
+    "order": 805,
+    "imdbRating": 7.4
   },
   {
     "id": "the-flash-s09e08",
@@ -10481,7 +11286,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2023-04-05",
-    "order": 806
+    "order": 806,
+    "imdbRating": 7.2
   },
   {
     "id": "superman-and-lois-s03e05",
@@ -10494,7 +11300,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2023-04-11",
-    "order": 807
+    "order": 807,
+    "imdbRating": 6.6
   },
   {
     "id": "superman-and-lois-s03e06",
@@ -10507,7 +11314,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2023-04-25",
-    "order": 808
+    "order": 808,
+    "imdbRating": 6.8
   },
   {
     "id": "the-flash-s09e09",
@@ -10520,7 +11328,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2023-04-26",
-    "order": 809
+    "order": 809,
+    "imdbRating": 7.4
   },
   {
     "id": "superman-and-lois-s03e07",
@@ -10533,7 +11342,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2023-05-02",
-    "order": 810
+    "order": 810,
+    "imdbRating": 6.9
   },
   {
     "id": "the-flash-s09e10",
@@ -10546,7 +11356,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2023-05-03",
-    "order": 811
+    "order": 811,
+    "imdbRating": 7.5
   },
   {
     "id": "superman-and-lois-s03e08",
@@ -10559,7 +11370,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2023-05-09",
-    "order": 812
+    "order": 812,
+    "imdbRating": 7.0
   },
   {
     "id": "the-flash-s09e11",
@@ -10572,7 +11384,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2023-05-10",
-    "order": 813
+    "order": 813,
+    "imdbRating": 7.6
   },
   {
     "id": "the-flash-s09e12",
@@ -10585,7 +11398,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2023-05-17",
-    "order": 814
+    "order": 814,
+    "imdbRating": 7.7
   },
   {
     "id": "superman-and-lois-s03e09",
@@ -10598,7 +11412,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2023-05-23",
-    "order": 815
+    "order": 815,
+    "imdbRating": 7.1
   },
   {
     "id": "the-flash-s09e13",
@@ -10611,7 +11426,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2023-05-24",
-    "order": 816
+    "order": 816,
+    "imdbRating": 7.8
   },
   {
     "id": "superman-and-lois-s03e10",
@@ -10624,7 +11440,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2023-05-30",
-    "order": 817
+    "order": 817,
+    "imdbRating": 7.2
   },
   {
     "id": "superman-and-lois-s03e11",
@@ -10637,7 +11454,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2023-06-06",
-    "order": 818
+    "order": 818,
+    "imdbRating": 7.4
   },
   {
     "id": "superman-and-lois-s03e12",
@@ -10650,7 +11468,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2023-06-20",
-    "order": 819
+    "order": 819,
+    "imdbRating": 6.6
   },
   {
     "id": "superman-and-lois-s03e13",
@@ -10663,7 +11482,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2023-06-27",
-    "order": 820
+    "order": 820,
+    "imdbRating": 6.8
   },
   {
     "id": "superman-and-lois-s04e01",
@@ -10676,7 +11496,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2024-10-07",
-    "order": 821
+    "order": 821,
+    "imdbRating": 7.4
   },
   {
     "id": "superman-and-lois-s04e02",
@@ -10689,7 +11510,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2024-10-07",
-    "order": 822
+    "order": 822,
+    "imdbRating": 6.6
   },
   {
     "id": "superman-and-lois-s04e03",
@@ -10702,7 +11524,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2024-10-14",
-    "order": 823
+    "order": 823,
+    "imdbRating": 6.8
   },
   {
     "id": "superman-and-lois-s04e04",
@@ -10715,7 +11538,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2024-10-21",
-    "order": 824
+    "order": 824,
+    "imdbRating": 6.9
   },
   {
     "id": "superman-and-lois-s04e05",
@@ -10728,7 +11552,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2024-10-28",
-    "order": 825
+    "order": 825,
+    "imdbRating": 7.0
   },
   {
     "id": "superman-and-lois-s04e06",
@@ -10741,7 +11566,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2024-11-04",
-    "order": 826
+    "order": 826,
+    "imdbRating": 7.1
   },
   {
     "id": "superman-and-lois-s04e07",
@@ -10754,7 +11580,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2024-11-11",
-    "order": 827
+    "order": 827,
+    "imdbRating": 7.2
   },
   {
     "id": "superman-and-lois-s04e08",
@@ -10767,7 +11594,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2024-11-18",
-    "order": 828
+    "order": 828,
+    "imdbRating": 7.4
   },
   {
     "id": "superman-and-lois-s04e09",
@@ -10780,7 +11608,8 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2024-11-25",
-    "order": 829
+    "order": 829,
+    "imdbRating": 6.6
   },
   {
     "id": "superman-and-lois-s04e10",
@@ -10793,9 +11622,38 @@
     "crossover": null,
     "runtimeMinutes": 42,
     "airdate": "2024-12-02",
-    "order": 830
+    "order": 830,
+    "imdbRating": 6.8
   }
 ];
+  const SHOW_RUNTIME_DEFAULTS = {
+    Arrow: 42,
+    'The Flash': 42,
+    Supergirl: 42,
+    "DC's Legends of Tomorrow": 42,
+    'Black Lightning': 42,
+    Batwoman: 42,
+    'Superman & Lois': 42,
+    Constantine: 42,
+    Stargirl: 42,
+    Vixen: 7,
+    'Freedom Fighters: The Ray': 7,
+  };
+
+  const SHOW_COLORS = {
+    Arrow: '#e50914',
+    'The Flash': '#f5c518',
+    Supergirl: '#2d9cdb',
+    "DC's Legends of Tomorrow": '#9b59b6',
+    'Black Lightning': '#f39c12',
+    Batwoman: '#e84393',
+    Constantine: '#7bed9f',
+    Stargirl: '#00cec9',
+    'Superman & Lois': '#0984e3',
+    Vixen: '#6ab04c',
+    'Freedom Fighters: The Ray': '#eb4d4b',
+  };
+
   const SHOW_ALIASES = {
   "Arrow": [
     "Arrow"
@@ -10865,11 +11723,22 @@
   }
 
   function normalizeProgress(progress) {
+    const watched = { ...((progress && progress.watched) || {}) };
+    const watchLog = Array.isArray(progress && progress.watchLog)
+      ? progress.watchLog.filter((entry) => entry && entry.id && getEpisodeById(entry.id))
+      : [];
     return {
-      watched: { ...((progress && progress.watched) || {}) },
+      watched,
       currentId: progress && progress.currentId ? progress.currentId : null,
       lastDetectedId: progress && progress.lastDetectedId ? progress.lastDetectedId : null,
       updatedAt: progress && progress.updatedAt ? progress.updatedAt : null,
+      watchLog,
+      milestones: { ...((progress && progress.milestones) || {}) },
+      firstWatchedAt: progress && progress.firstWatchedAt ? progress.firstWatchedAt : null,
+      lastWatchedAt: progress && progress.lastWatchedAt ? progress.lastWatchedAt : null,
+      streakCurrent: Number(progress && progress.streakCurrent) || 0,
+      streakLongest: Number(progress && progress.streakLongest) || 0,
+      streakLastDate: progress && progress.streakLastDate ? progress.streakLastDate : null,
     };
   }
 
@@ -10930,12 +11799,38 @@
     return { episodesLeftInSeason, episodesUntilShowSwitch, episodesUntilNextCrossover };
   }
 
-  function getRemainingRuntimeMinutes(progress, startIndex) {
+  function getEpisodeRuntimeMinutes(episode) {
+    if (!episode) return 42;
+    return episode.runtimeMinutes || SHOW_RUNTIME_DEFAULTS[episode.show] || 42;
+  }
+
+  function getRemainingRuntimeSeconds(progress, startIndex, filterFn) {
     const safe = normalizeProgress(progress);
     return ARROWVERSE_ORDER.slice(startIndex).reduce((total, episode) => {
       if (safe.watched[episode.id]) return total;
-      return total + (episode.runtimeMinutes || 42);
+      if (filterFn && !filterFn(episode, startIndex)) return total;
+      return total + getEpisodeRuntimeMinutes(episode) * 60;
     }, 0);
+  }
+
+  function getRemainingRuntimeMinutes(progress, startIndex, filterFn) {
+    return Math.round(getRemainingRuntimeSeconds(progress, startIndex, filterFn) / 60);
+  }
+
+  function getShowProgress(progress) {
+    const safe = normalizeProgress(progress);
+    const shows = [...new Set(ARROWVERSE_ORDER.map((episode) => episode.show))];
+    return shows.map((show) => {
+      const episodes = ARROWVERSE_ORDER.filter((episode) => episode.show === show);
+      const watched = episodes.filter((episode) => safe.watched[episode.id]).length;
+      return {
+        show,
+        watched,
+        total: episodes.length,
+        percent: episodes.length ? Math.round((watched / episodes.length) * 100) : 0,
+        color: SHOW_COLORS[show] || '#e50914',
+      };
+    });
   }
 
   function getDashboard(progress, explicitId) {
@@ -10945,7 +11840,19 @@
     const next = current ? ARROWVERSE_ORDER[index + 1] || null : null;
     const watchedCount = countWatched(safe);
     const distances = getDistances(index);
-    const timeRemainingMinutes = getRemainingRuntimeMinutes(safe, index);
+    const timeLeftTotal = getRemainingRuntimeSeconds(safe, index);
+    const timeLeftInSeason = current
+      ? getRemainingRuntimeSeconds(safe, index, (episode) => episode.show === current.show && episode.season === current.season)
+      : 0;
+    const timeLeftInShow = current
+      ? getRemainingRuntimeSeconds(safe, index, (episode) => episode.show === current.show)
+      : 0;
+    const crossoverIndex = distances.episodesUntilNextCrossover === null
+      ? null
+      : index + distances.episodesUntilNextCrossover;
+    const timeUntilNextCrossover = crossoverIndex === null
+      ? null
+      : getRemainingRuntimeSeconds(safe, index, (_episode, idx) => idx <= crossoverIndex);
 
     return {
       index,
@@ -10954,7 +11861,12 @@
       watchedCount,
       totalCount: ARROWVERSE_ORDER.length,
       percentWatched: ARROWVERSE_ORDER.length ? Math.round((watchedCount / ARROWVERSE_ORDER.length) * 100) : 0,
-      timeRemainingMinutes,
+      timeRemainingMinutes: Math.round(timeLeftTotal / 60),
+      timeLeftInSeason,
+      timeLeftInShow,
+      timeLeftTotal,
+      timeUntilNextCrossover,
+      showProgress: getShowProgress(safe),
       ...distances,
     };
   }
@@ -11027,9 +11939,20 @@
     return mins ? `${hours}h ${mins}m` : `${hours}h`;
   }
 
+  function formatDurationSeconds(seconds) {
+    if (!Number.isFinite(seconds) || seconds <= 0) return '0m';
+    const rounded = Math.round(seconds);
+    const hours = Math.floor(rounded / 3600);
+    const mins = Math.floor((rounded % 3600) / 60);
+    if (hours > 0) return mins > 0 ? `${hours}h ${mins}m` : `${hours}h`;
+    return `${Math.max(mins, 1)}m`;
+  }
+
   root.ArrowverseData = {
     STORAGE_KEY,
     EPISODES: ARROWVERSE_ORDER,
+    SHOW_RUNTIME_DEFAULTS,
+    SHOW_COLORS,
     SHOW_ALIASES,
     normalizeText,
     formatEpisode,
@@ -11041,8 +11964,11 @@
     countWatched,
     getCurrentIndex,
     getDashboard,
+    getShowProgress,
     markEpisode,
     findEpisodeFromText,
     formatRuntime,
+    formatDurationSeconds,
+    getEpisodeRuntimeMinutes,
   };
 })(globalThis);

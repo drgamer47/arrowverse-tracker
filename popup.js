@@ -1,8 +1,10 @@
 const Data = globalThis.ArrowverseData;
 const Store = globalThis.ArrowverseStore;
+const Analytics = globalThis.ArrowverseAnalytics;
 
 let progress = Data.normalizeProgress(null);
 let dashboard = null;
+let sortByRating = false;
 
 async function getActiveStreamingTab() {
   const [tab] = await chrome.tabs.query({ active: true, currentWindow: true });
@@ -38,10 +40,28 @@ function distanceLabel(value) {
   return pluralize(value, 'episode', 'episodes');
 }
 
+function renderProgressSummary(stats) {
+  const label = document.getElementById('overall-progress-label');
+  const fill = document.getElementById('overall-progress-fill');
+  const shows = document.getElementById('show-progress-bars');
+  if (label) label.textContent = `${stats.watchedCount} / ${stats.totalCount} episodes · ${stats.percentWatched}%`;
+  if (fill) fill.style.width = `${stats.percentWatched}%`;
+  if (!shows) return;
+  shows.innerHTML = (stats.showProgress || [])
+    .map((row) => {
+      const head = `<span class="show-progress-head"><span>${escapeHtml(row.show)}</span><span>${row.watched}/${row.total}</span></span>`;
+      const track = `<span class="mini-track"><span class="mini-fill" style="width:${row.percent}%;background:${row.color}"></span></span>`;
+      return `<article class="show-progress-row">${head}${track}</article>`;
+    })
+    .join('');
+}
+
 function renderSummary() {
   dashboard = Data.getDashboard(progress);
   const current = dashboard.current;
   const next = dashboard.next;
+
+  renderProgressSummary(dashboard);
 
   document.getElementById('current-episode').textContent = Data.formatEpisode(current);
   document.getElementById('current-title').textContent = current
@@ -52,6 +72,10 @@ function renderSummary() {
   document.getElementById('next-episode').textContent = next ? Data.formatEpisode(next) : 'Done';
   document.getElementById('show-switch').textContent = distanceLabel(dashboard.episodesUntilShowSwitch);
   document.getElementById('next-crossover').textContent = distanceLabel(dashboard.episodesUntilNextCrossover);
+  const seasonTime = document.getElementById('time-season');
+  const totalTime = document.getElementById('time-total');
+  if (seasonTime) seasonTime.textContent = Data.formatDurationSeconds(dashboard.timeLeftInSeason);
+  if (totalTime) totalTime.textContent = Data.formatDurationSeconds(dashboard.timeLeftTotal);
 }
 
 function renderShowFilter() {
@@ -68,23 +92,30 @@ function renderEpisodeList() {
   const show = document.getElementById('show-filter').value;
   const currentIndex = Data.getCurrentIndex(progress);
 
-  const items = Data.EPISODES
+  let items = Data.EPISODES
     .map((episode, index) => ({ episode, index }))
     .filter(({ episode }) => !show || episode.show === show)
     .filter(({ episode }) => {
       if (!query) return true;
       return Data.normalizeText(`${episode.show} ${episode.title} ${episode.crossover || ''}`).includes(query);
-    })
-    .slice(0, 80);
+    });
+
+  if (sortByRating) {
+    items.sort((a, b) => (b.episode.imdbRating || 0) - (a.episode.imdbRating || 0));
+  }
+
+  items = items.slice(0, 80);
 
   list.innerHTML = items.map(({ episode, index }) => {
     const watched = progress.watched[episode.id];
     const current = index === currentIndex;
+    const rating = Analytics.formatRating(episode);
     return `
       <li class="${watched ? 'watched' : ''} ${current ? 'current' : ''}" data-id="${episode.id}">
         <button class="episode-toggle" data-id="${episode.id}" title="Toggle watched">${watched ? 'OK' : '+'}</button>
         <div>
           <strong>${escapeHtml(Data.formatEpisode(episode))}</strong>
+          ${rating ? `<span class="ep-rating">${escapeHtml(rating)}</span>` : ''}
           <span>${escapeHtml(episode.title)}</span>
           ${episode.crossover ? `<em>${escapeHtml(episode.crossover)}</em>` : ''}
         </div>
@@ -141,6 +172,11 @@ async function init() {
 
   document.getElementById('episode-search').addEventListener('input', renderEpisodeList);
   document.getElementById('show-filter').addEventListener('change', renderEpisodeList);
+  document.getElementById('sort-rating')?.addEventListener('click', () => {
+    sortByRating = !sortByRating;
+    document.getElementById('sort-rating').classList.toggle('active', sortByRating);
+    renderEpisodeList();
+  });
   document.getElementById('open-app').addEventListener('click', () => {
     chrome.tabs.create({ url: chrome.runtime.getURL('arrowverse.html') });
   });

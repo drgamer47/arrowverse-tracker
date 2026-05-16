@@ -3,9 +3,12 @@
 
   const Data = globalThis.ArrowverseData;
   const Store = globalThis.ArrowverseStore;
+  const Analytics = globalThis.ArrowverseAnalytics;
 
   let progress = Data.normalizeProgress(null);
   let deferredInstallPrompt = null;
+  let sortByRating = false;
+  let bingeMode = 'episodes';
 
   function escapeHtml(value) {
     return String(value || '')
@@ -35,6 +38,39 @@
     return Data.EPISODES[stats.index + stats.episodesUntilNextCrossover] || null;
   }
 
+  function showToast(message) {
+    const toast = document.getElementById('toast');
+    if (!toast) return;
+    toast.textContent = message;
+    toast.classList.add('visible');
+    clearTimeout(showToast._timer);
+    showToast._timer = setTimeout(() => toast.classList.remove('visible'), 4200);
+  }
+
+  function formatDate(ts) {
+    if (!ts) return '—';
+    return new Date(ts).toLocaleDateString(undefined, { year: 'numeric', month: 'short', day: 'numeric' });
+  }
+
+  function renderProgressSummary(stats) {
+    const label = document.getElementById('overallProgressLabel');
+    const fill = document.getElementById('overallProgressFill');
+    const shows = document.getElementById('showProgressBars');
+    if (!label || !fill) return;
+
+    label.textContent = `${stats.watchedCount} / ${stats.totalCount} episodes · ${stats.percentWatched}%`;
+    fill.style.width = `${stats.percentWatched}%`;
+
+    if (!shows) return;
+    shows.innerHTML = (stats.showProgress || [])
+      .map((row) => {
+        const head = `<span class="show-progress-head"><span>${escapeHtml(row.show)}</span><span>${row.watched}/${row.total}</span></span>`;
+        const track = `<span class="mini-track"><span class="mini-fill" style="width:${row.percent}%;background:${row.color}"></span></span>`;
+        return `<article class="show-progress-row">${head}${track}</article>`;
+      })
+      .join('');
+  }
+
   function renderDashboard() {
     const stats = Data.getDashboard(progress);
     const current = stats.current;
@@ -51,16 +87,22 @@
     document.getElementById('nextCrossover').textContent = distanceLabel(stats.episodesUntilNextCrossover);
     document.getElementById('crossoverName').textContent =
       crossover && crossover.crossover ? crossover.crossover : 'No crossover remaining';
-    document.getElementById('timeRemaining').textContent = Data.formatRuntime(stats.timeRemainingMinutes);
+    document.getElementById('timeRemaining').textContent = Data.formatDurationSeconds(stats.timeLeftTotal);
+    const estimates = document.getElementById('timeEstimates');
+    if (estimates) {
+      estimates.textContent = stats.timeUntilNextCrossover === null
+        ? `Season ${Data.formatDurationSeconds(stats.timeLeftInSeason)} · show ${Data.formatDurationSeconds(stats.timeLeftInShow)}`
+        : `Crossover in ${Data.formatDurationSeconds(stats.timeUntilNextCrossover)} · season ${Data.formatDurationSeconds(stats.timeLeftInSeason)}`;
+    }
     document.getElementById('watchedCount').textContent =
       `${stats.watchedCount} of ${stats.totalCount} watched`;
     document.getElementById('progressFill').style.width = `${stats.percentWatched}%`;
+    renderProgressSummary(stats);
   }
 
   function renderSyncStatus(status = Store.getSyncStatus()) {
     const el = document.getElementById('syncStatus');
     if (!el) return;
-
     el.dataset.state = status.state;
     el.textContent = status.message || status.state || 'Local only';
   }
@@ -88,7 +130,7 @@
     const platform = document.getElementById('platformFilter').value;
     const status = document.getElementById('statusFilter').value;
 
-    return Data.EPISODES.map((episode, index) => ({ episode, index })).filter(({ episode }) => {
+    let rows = Data.EPISODES.map((episode, index) => ({ episode, index })).filter(({ episode }) => {
       if (show && episode.show !== show) return false;
       if (platform && episode.platform !== platform) return false;
       if (status === 'watched' && !progress.watched[episode.id]) return false;
@@ -98,6 +140,11 @@
       return Data.normalizeText(`${episode.show} ${episode.title} ${episode.crossover || ''} ${episode.platform}`)
         .includes(query);
     });
+
+    if (sortByRating) {
+      rows.sort((a, b) => (b.episode.imdbRating || 0) - (a.episode.imdbRating || 0));
+    }
+    return rows;
   }
 
   function renderEpisodes() {
@@ -106,23 +153,26 @@
     const rows = getFilteredEpisodes();
 
     container.innerHTML = rows.length
-      ? rows.map(({ episode, index }) => `
-        <article class="episode ${progress.watched[episode.id] ? 'watched' : ''} ${index === currentIndex ? 'current' : ''}" data-id="${escapeHtml(episode.id)}">
+      ? rows
+          .map(({ episode, index }) => {
+            const rating = Analytics.formatRating(episode);
+            return `<article class="episode ${progress.watched[episode.id] ? 'watched' : ''} ${index === currentIndex ? 'current' : ''}" data-id="${escapeHtml(episode.id)}">
           <button class="check" data-action="toggle" data-id="${escapeHtml(episode.id)}">${progress.watched[episode.id] ? 'OK' : '+'}</button>
-          <div class="meta">#${episode.order}</div>
-          <div><div class="title">${escapeHtml(Data.formatEpisode(episode))} - ${escapeHtml(episode.title)}</div><div class="sub">${escapeHtml(episode.airdate)}</div></div>
-          <div class="platform">${escapeHtml(episode.platform)}</div>
-          <div class="runtime">${episode.runtimeMinutes || 42} min</div>
-          <div class="crossover">${escapeHtml(episode.crossover || '')}</div>
-        </article>
-      `).join('')
-      : '<div class="empty">No episodes match these filters.</div>';
+          <span class="meta">#${episode.order}</span>
+          <span class="ep-main"><strong class="title">${escapeHtml(Data.formatEpisode(episode))} - ${escapeHtml(episode.title)}</strong><span class="sub">${escapeHtml(episode.airdate)}</span></span>
+          <span class="platform">${escapeHtml(episode.platform)}</span>
+          <span class="rating">${rating ? escapeHtml(rating) : ''}</span>
+          <span class="runtime">${episode.runtimeMinutes || 42} min</span>
+          <span class="crossover">${escapeHtml(episode.crossover || '')}</span>
+        </article>`;
+          })
+          .join('')
+      : '<p class="empty">No episodes match these filters.</p>';
 
     container.querySelectorAll('[data-action="toggle"]').forEach((button) => {
       button.addEventListener('click', async (event) => {
         event.stopPropagation();
-        const id = button.dataset.id;
-        progress = await Store.markWatched(id, !progress.watched[id]);
+        progress = await Store.markWatched(button.dataset.id, !progress.watched[button.dataset.id]);
         render();
       });
     });
@@ -135,17 +185,137 @@
     });
   }
 
+  function renderBinge() {
+    const episodesInput = document.getElementById('bingeEpisodes');
+    const hoursInput = document.getElementById('bingeHours');
+    const targetInput = document.getElementById('bingeTarget');
+    if (!episodesInput) return;
+
+    const plan = Analytics.computeBingePlan(progress, {
+      episodesPerDay: bingeMode === 'episodes' ? episodesInput.value : 0,
+      hoursPerDay: bingeMode === 'hours' ? hoursInput.value : 0,
+      targetDate: targetInput.value,
+    });
+    document.getElementById('bingeTotalHours').textContent = plan.totalHoursFormatted;
+    document.getElementById('bingeFinish').textContent = plan.finishDate || '—';
+    document.getElementById('bingePace').textContent = plan.paceEpisodes
+      ? `${plan.paceEpisodes} eps/day · ${plan.paceHours} h/day to hit target`
+      : 'Set a target finish date to see required pace';
+  }
+
+  function renderMilestones() {
+    const grid = document.getElementById('milestonesGrid');
+    if (!grid) return;
+    grid.innerHTML = Analytics.getMilestoneList(progress)
+      .map((item) => `<article class="milestone ${item.unlocked ? 'unlocked' : 'locked'}">
+        <span class="milestone-icon">${escapeHtml(item.icon)}</span>
+        <span class="milestone-label">${escapeHtml(item.label)}</span>
+        <span class="milestone-date">${item.unlocked ? formatDate(item.unlockedAt) : 'Locked'}</span>
+      </article>`)
+      .join('');
+  }
+
+  function renderStats() {
+    const stats = Analytics.getStats(progress);
+    document.getElementById('statTotalHours').textContent = `${stats.totalHours} h`;
+    document.getElementById('statAvgPerDay').textContent = stats.episodesPerDay;
+    document.getElementById('statMostShow').textContent = stats.mostWatchedShow;
+    document.getElementById('statStreakCurrent').textContent = stats.streakCurrent;
+    document.getElementById('statStreakLongest').textContent = stats.streakLongest;
+    document.getElementById('statFirst').textContent = formatDate(stats.firstWatchedAt);
+    document.getElementById('statLast').textContent = formatDate(stats.lastWatchedAt);
+
+    const chart = document.getElementById('statsChart');
+    const max = Math.max(1, ...stats.perShow.map((row) => row.watched));
+    chart.innerHTML = stats.perShow
+      .map((row) => `<article class="stat-bar-row">
+        <span class="stat-bar-label">${escapeHtml(row.show)}</span>
+        <span class="stat-bar-track"><span class="stat-bar-fill" style="width:${Math.round((row.watched / max) * 100)}%;background:${row.color}"></span></span>
+        <span class="stat-bar-value">${row.watched}</span>
+      </article>`)
+      .join('');
+  }
+
+  function renderTimeline() {
+    const wrap = document.getElementById('timelineWrap');
+    const tooltip = document.getElementById('timelineTooltip');
+    if (!wrap) return;
+
+    const currentIndex = Data.getCurrentIndex(progress);
+    const shows = [...new Set(Data.EPISODES.map((episode) => episode.show))];
+    const markers = Analytics.getCrossoverMarkers();
+    const cellSize = 10;
+    const gap = 2;
+    const width = Data.EPISODES.length * (cellSize + gap) + 40;
+
+    let html = `<section class="timeline-inner" style="width:${width}px">`;
+    markers.forEach((marker) => {
+      const left = 24 + marker.index * (cellSize + gap);
+      html += `<span class="timeline-crossover" style="left:${left}px" title="${escapeHtml(marker.label)}"><span>${escapeHtml(marker.label)}</span></span>`;
+    });
+
+    shows.forEach((show) => {
+      html += `<article class="timeline-row"><span class="timeline-label">${escapeHtml(show)}</span><span class="timeline-cells">`;
+      Data.EPISODES.forEach((episode, index) => {
+        if (episode.show !== show) {
+          html += '<span class="timeline-cell spacer" aria-hidden="true"></span>';
+          return;
+        }
+        const watched = progress.watched[episode.id];
+        const current = index === currentIndex;
+        const color = Data.SHOW_COLORS[show] || '#e50914';
+        const title = `${Data.formatEpisode(episode)} — ${episode.title}`;
+        html += `<button type="button" class="timeline-cell ${watched ? 'watched' : 'unwatched'} ${current ? 'current' : ''}"
+          style="background:${watched ? color : '#1a1a1a'};${current ? 'box-shadow:0 0 0 2px #e50914' : ''}"
+          data-id="${escapeHtml(episode.id)}" aria-label="${escapeHtml(title)}"></button>`;
+      });
+      html += '</span></article>';
+    });
+    html += '</section>';
+    wrap.innerHTML = html;
+
+    wrap.querySelectorAll('.timeline-cell').forEach((cell) => {
+      cell.addEventListener('mouseenter', () => {
+        const episode = Data.getEpisodeById(cell.dataset.id);
+        if (!episode || !tooltip) return;
+        tooltip.textContent = `${Data.formatEpisode(episode)} — ${episode.title} ${Analytics.formatRating(episode)}`;
+        tooltip.classList.add('visible');
+      });
+      cell.addEventListener('mouseleave', () => tooltip?.classList.remove('visible'));
+      cell.addEventListener('click', async () => {
+        progress = await Store.setCurrent(cell.dataset.id);
+        render();
+      });
+    });
+
+    wrap.querySelector('.timeline-cell.current')?.scrollIntoView({ inline: 'center', block: 'nearest', behavior: 'smooth' });
+  }
+
+  function setActiveTab(tabId) {
+    document.querySelectorAll('.tab-btn').forEach((btn) => {
+      btn.classList.toggle('active', btn.dataset.tab === tabId);
+    });
+    document.querySelectorAll('.tab-panel').forEach((panel) => {
+      panel.classList.toggle('active', panel.id === `tab-${tabId}`);
+    });
+    if (tabId === 'timeline') renderTimeline();
+    if (tabId === 'stats') renderStats();
+    if (tabId === 'milestones') renderMilestones();
+    if (tabId === 'binge') renderBinge();
+  }
+
   function render() {
     renderDashboard();
     renderEpisodes();
     renderSyncStatus();
     renderSyncId();
+    const active = document.querySelector('.tab-btn.active');
+    if (active) setActiveTab(active.dataset.tab);
   }
 
   function registerServiceWorker() {
     if (!('serviceWorker' in navigator)) return;
     if (location.protocol === 'chrome-extension:') return;
-
     navigator.serviceWorker.register('./service-worker.js').catch(() => {
       renderSyncStatus({ state: 'error', message: 'Offline cache unavailable' });
     });
@@ -154,13 +324,11 @@
   function setupInstallPrompt() {
     const installButton = document.getElementById('installApp');
     if (!installButton) return;
-
     window.addEventListener('beforeinstallprompt', (event) => {
       event.preventDefault();
       deferredInstallPrompt = event;
       installButton.classList.remove('install-hidden');
     });
-
     installButton.addEventListener('click', async () => {
       if (!deferredInstallPrompt) return;
       deferredInstallPrompt.prompt();
@@ -174,11 +342,15 @@
     window.addEventListener('arrowverse-sync-status', (event) => {
       renderSyncStatus(event.detail);
     });
-
+    window.addEventListener('arrowverse-milestone', (event) => {
+      (event.detail?.keys || []).forEach((key) => {
+        showToast(`Milestone unlocked: ${Analytics.getMilestoneLabel(key)}`);
+      });
+      renderMilestones();
+    });
     document.getElementById('saveSyncId').addEventListener('click', async () => {
-      const input = document.getElementById('syncId');
       try {
-        Store.setSyncUserId(input.value);
+        Store.setSyncUserId(document.getElementById('syncId').value);
         progress = await Store.getProgress();
         render();
       } catch (error) {
@@ -187,11 +359,43 @@
     });
   }
 
+  function setupTabs() {
+    document.querySelectorAll('.tab-btn').forEach((btn) => {
+      btn.addEventListener('click', () => setActiveTab(btn.dataset.tab));
+    });
+  }
+
+  function setupBinge() {
+    const episodesInput = document.getElementById('bingeEpisodes');
+    const hoursInput = document.getElementById('bingeHours');
+    const targetInput = document.getElementById('bingeTarget');
+    document.querySelectorAll('[name="bingeMode"]').forEach((radio) => {
+      radio.addEventListener('change', () => {
+        bingeMode = radio.value;
+        episodesInput.disabled = bingeMode !== 'episodes';
+        hoursInput.disabled = bingeMode !== 'hours';
+        renderBinge();
+      });
+    });
+    [episodesInput, hoursInput, targetInput].forEach((el) => {
+      el?.addEventListener('input', renderBinge);
+    });
+  }
+
   async function init() {
     registerServiceWorker();
     setupInstallPrompt();
     setupSyncControls();
+    setupTabs();
+    setupBinge();
     renderFilters();
+
+    document.getElementById('sortRating')?.addEventListener('click', () => {
+      sortByRating = !sortByRating;
+      document.getElementById('sortRating').classList.toggle('active', sortByRating);
+      renderEpisodes();
+    });
+
     if (window.ARROWVERSE_SUPABASE_READY) {
       await window.ARROWVERSE_SUPABASE_READY;
     }

@@ -54,6 +54,49 @@
     .title { font-weight: 750; }
     .crossover { color: var(--red); font-weight: 750; }
     .empty { color: var(--muted); text-align: center; padding: 42px; border: 1px dashed #333; border-radius: 16px; }
+    .progress-summary { margin-bottom: 20px; background: #0d0d0d; border: 1px solid var(--line); border-radius: 16px; padding: 14px 16px; }
+    .overall-progress-track { height: 4px; background: #252525; border-radius: 999px; overflow: hidden; margin: 8px 0 12px; }
+    .overall-progress-fill { height: 100%; background: var(--red); width: 0%; transition: width .3s ease; }
+    .overall-progress-label { font-weight: 700; font-size: 14px; }
+    .show-progress-bars { display: grid; gap: 8px; max-height: 220px; overflow: auto; }
+    .show-progress-head { display: flex; justify-content: space-between; font-size: 12px; color: #ccc; margin-bottom: 4px; }
+    .mini-track { height: 4px; background: #222; border-radius: 999px; overflow: hidden; }
+    .mini-fill { display: block; height: 100%; border-radius: 999px; }
+    .tabs { display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 16px; }
+    .tab-btn { background: #1a1a1a; border-color: #333; padding: 10px 16px; }
+    .tab-btn.active { background: var(--red); border-color: var(--red); }
+    .tab-panel { display: none; }
+    .tab-panel.active { display: block; }
+    .rating { color: #f5c518; font-weight: 700; font-size: 13px; }
+    .binge-hero { font-size: clamp(32px, 5vw, 48px); font-weight: 900; color: var(--red); margin: 12px 0; }
+    .binge-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 12px; margin-bottom: 16px; }
+    .binge-card { background: var(--panel); border: 1px solid var(--line); border-radius: 14px; padding: 14px; }
+    .milestones-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(180px, 1fr)); gap: 10px; }
+    .milestone { background: var(--panel); border: 1px solid var(--line); border-radius: 14px; padding: 14px; display: grid; gap: 6px; }
+    .milestone.unlocked { border-color: rgba(229, 9, 20, .6); background: linear-gradient(135deg, rgba(229, 9, 20, .12), #141414); }
+    .milestone.locked { opacity: .45; }
+    .milestone-icon { font-size: 22px; font-weight: 900; color: var(--red); }
+    .stats-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(160px, 1fr)); gap: 12px; margin-bottom: 18px; }
+    .stat-card { background: var(--panel); border: 1px solid var(--line); border-radius: 14px; padding: 14px; }
+    .stat-card strong { display: block; font-size: 22px; margin-top: 6px; }
+    .stat-bar-row { display: grid; grid-template-columns: 140px 1fr 40px; gap: 10px; align-items: center; margin-bottom: 8px; }
+    .stat-bar-track { height: 10px; background: #222; border-radius: 999px; overflow: hidden; }
+    .stat-bar-fill { display: block; height: 100%; border-radius: 999px; }
+    .timeline-shell { position: relative; overflow-x: auto; border: 1px solid var(--line); border-radius: 16px; background: #080808; padding: 16px 12px 24px; max-height: 70vh; }
+    .timeline-inner { position: relative; min-height: 320px; }
+    .timeline-row { display: flex; align-items: center; gap: 8px; margin-bottom: 6px; }
+    .timeline-label { width: 150px; flex-shrink: 0; font-size: 11px; color: #aaa; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+    .timeline-cells { display: flex; gap: 2px; flex-wrap: nowrap; }
+    .timeline-cell { width: 10px; height: 10px; padding: 0; border: none; border-radius: 2px; cursor: pointer; flex-shrink: 0; }
+    .timeline-cell.spacer { background: transparent; cursor: default; pointer-events: none; }
+    .timeline-crossover { position: absolute; top: 0; bottom: 0; width: 0; border-left: 2px dashed var(--red); pointer-events: none; z-index: 2; }
+    .timeline-crossover span { position: absolute; top: 0; left: 4px; font-size: 10px; color: var(--red); white-space: nowrap; max-width: 120px; overflow: hidden; text-overflow: ellipsis; }
+    .timeline-tooltip { position: fixed; bottom: 24px; left: 50%; transform: translateX(-50%); background: #111; border: 1px solid var(--red); padding: 10px 14px; border-radius: 10px; font-size: 13px; opacity: 0; pointer-events: none; transition: opacity .15s; z-index: 20; max-width: 90vw; }
+    .timeline-tooltip.visible { opacity: 1; }
+    #toast { position: fixed; bottom: 24px; right: 24px; background: var(--red); color: #fff; padding: 12px 18px; border-radius: 12px; font-weight: 700; opacity: 0; transform: translateY(12px); transition: all .25s; z-index: 30; }
+    #toast.visible { opacity: 1; transform: translateY(0); }
+    button.active.secondary { border-color: var(--red); color: #fff; }
+    .episode { grid-template-columns: 42px 74px minmax(180px, 1.2fr) 90px 100px 80px minmax(120px, 1fr); }
     @media (max-width: 1100px) {
       .header-grid { grid-template-columns: 1fr; }
       .dashboard { grid-template-columns: 1fr 1fr; }
@@ -133,27 +176,93 @@
       <div class="card"><div class="label">Next Episode</div><div class="value" id="nextEpisode">--</div><div class="sub" id="nextTitle"></div></div>
       <div class="card"><div class="label">Show Switch</div><div class="value" id="showSwitch">--</div><div class="sub">episodes until the next show changes</div></div>
       <div class="card"><div class="label">Next Crossover</div><div class="value" id="nextCrossover">--</div><div class="sub" id="crossoverName"></div></div>
-      <div class="card"><div class="label">Time Remaining</div><div class="value" id="timeRemaining">--</div><div class="sub" id="watchedCount"></div></div>
+      <div class="card"><div class="label">Time Remaining</div><div class="value" id="timeRemaining">--</div><div class="sub" id="timeEstimates"></div><div class="sub" id="watchedCount"></div></div>
     </section>
 
-    <section class="toolbar">
-      <input id="search" type="search" placeholder="Search show, title, crossover..." />
-      <select id="showFilter"></select>
-      <select id="platformFilter"></select>
-      <select id="statusFilter">
-        <option value="">All episodes</option>
-        <option value="unwatched">Unwatched only</option>
-        <option value="watched">Watched only</option>
-        <option value="crossover">Crossovers only</option>
-      </select>
-      <button id="markCurrent">Mark current watched</button>
-      <button id="reset" class="secondary">Reset</button>
+    <section class="progress-summary" aria-label="Overall progress">
+      <div class="overall-progress-label" id="overallProgressLabel">0 / 830 episodes · 0%</div>
+      <div class="overall-progress-track"><div class="overall-progress-fill" id="overallProgressFill"></div></div>
+      <div id="showProgressBars" class="show-progress-bars"></div>
     </section>
 
-    <section id="episodes" class="episode-list"></section>
+    <nav class="tabs" aria-label="Sections">
+      <button type="button" class="tab-btn active" data-tab="episodes">Episodes</button>
+      <button type="button" class="tab-btn" data-tab="binge">Binge Planner</button>
+      <button type="button" class="tab-btn" data-tab="milestones">Milestones</button>
+      <button type="button" class="tab-btn" data-tab="stats">Stats</button>
+      <button type="button" class="tab-btn" data-tab="timeline">Timeline</button>
+    </nav>
+
+    <section id="tab-episodes" class="tab-panel active">
+      <section class="toolbar">
+        <input id="search" type="search" placeholder="Search show, title, crossover..." />
+        <select id="showFilter"></select>
+        <select id="platformFilter"></select>
+        <select id="statusFilter">
+          <option value="">All episodes</option>
+          <option value="unwatched">Unwatched only</option>
+          <option value="watched">Watched only</option>
+          <option value="crossover">Crossovers only</option>
+        </select>
+        <button id="sortRating" type="button" class="secondary">Sort by rating</button>
+        <button id="markCurrent">Mark current watched</button>
+        <button id="reset" class="secondary">Reset</button>
+      </section>
+      <section id="episodes" class="episode-list"></section>
+    </section>
+
+    <section id="tab-binge" class="tab-panel">
+      <p class="label">Total watch time remaining</p>
+      <p class="binge-hero" id="bingeTotalHours">—</p>
+      <div class="binge-grid">
+        <label class="binge-card">Pace mode<br />
+          <label><input type="radio" name="bingeMode" value="episodes" checked /> Episodes / day</label><br />
+          <label><input type="radio" name="bingeMode" value="hours" /> Hours / day</label>
+        </label>
+        <label class="binge-card">Episodes per day<br /><input id="bingeEpisodes" type="number" min="0.25" step="0.25" value="1" /></label>
+        <label class="binge-card">Hours per day<br /><input id="bingeHours" type="number" min="0.25" step="0.25" value="1" disabled /></label>
+        <label class="binge-card">Target finish date<br /><input id="bingeTarget" type="date" /></label>
+      </div>
+      <p><strong>Projected finish:</strong> <span id="bingeFinish">—</span></p>
+      <p id="bingePace" class="sub">Set a target finish date to see required pace</p>
+    </section>
+
+    <section id="tab-milestones" class="tab-panel">
+      <p class="sub">Unlocked milestones glow red. New unlocks show a toast.</p>
+      <div id="milestonesGrid" class="milestones-grid"></div>
+    </section>
+
+    <section id="tab-stats" class="tab-panel">
+      <div class="stats-grid">
+        <article class="stat-card"><span class="label">Total watched</span><strong id="statTotalHours">0 h</strong></article>
+        <article class="stat-card"><span class="label">Avg episodes / day</span><strong id="statAvgPerDay">0</strong></article>
+        <article class="stat-card"><span class="label">Most watched (time)</span><strong id="statMostShow">—</strong></article>
+        <article class="stat-card"><span class="label">Current streak</span><strong id="statStreakCurrent">0</strong></article>
+        <article class="stat-card"><span class="label">Longest streak</span><strong id="statStreakLongest">0</strong></article>
+        <article class="stat-card"><span class="label">First watched</span><strong id="statFirst">—</strong></article>
+        <article class="stat-card"><span class="label">Last watched</span><strong id="statLast">—</strong></article>
+      </div>
+      <div id="statsChart"></div>
+    </section>
+
+    <section id="tab-timeline" class="tab-panel">
+      <p class="sub">Chronological watch order (1–830). Hover for details; click to set current. Red dashed lines = crossovers.</p>
+      <div class="timeline-shell">
+        <div id="timelineWrap"></div>
+      </div>
+    </section>
   </main>
 
+  <div id="timelineTooltip" class="timeline-tooltip" role="status"></div>
+  <div id="toast" role="status" aria-live="polite"></div>
+
   <script src="config.js"></script>
+  <script src="arrowverse-data.js"></script>
+  <script src="arrowverse-analytics.js"></script>
+  <script src="arrowverse-store.js"></script>
+  <script src="arrowverse-app.js"></script>
+
+<script src="config.js"></script>
   <script src="arrowverse-data.js"></script>
   <script src="arrowverse-store.js"></script>
   <script src="arrowverse-app.js"></script>

@@ -18,7 +18,7 @@
         "https://www.amazon.com/*",
         "https://pluto.tv/*"
       ],
-      "js": ["arrowverse-data.js", "arrowverse-store.js", "content.js"],
+      "js": ["arrowverse-data.js", "arrowverse-analytics.js", "arrowverse-store.js", "content.js"],
       "css": ["content.css"],
       "run_at": "document_idle"
     }
