@@ -77,26 +77,22 @@
     const next = stats.next;
     const crossover = getNextCrossover(stats);
 
-    document.getElementById('currentEpisode').textContent = Data.formatEpisode(current);
+    document.getElementById('currentEpisode').textContent = current
+      ? Data.formatEpisode(current)
+      : 'All caught up';
     document.getElementById('currentTitle').textContent = current
-      ? `${current.title}${current.crossover ? ` - ${current.crossover}` : ''}`
-      : '';
-    document.getElementById('nextEpisode').textContent = next ? Data.formatEpisode(next) : 'Series complete';
-    document.getElementById('nextTitle').textContent = next ? next.title : '';
+      ? [current.title, current.crossover].filter(Boolean).join(' · ')
+      : 'Pick an episode below to continue.';
+    document.getElementById('nextEpisode').textContent = next ? Data.formatEpisode(next) : 'Done';
     document.getElementById('showSwitch').textContent = distanceLabel(stats.episodesUntilShowSwitch);
     document.getElementById('nextCrossover').textContent = distanceLabel(stats.episodesUntilNextCrossover);
-    document.getElementById('crossoverName').textContent =
-      crossover && crossover.crossover ? crossover.crossover : 'No crossover remaining';
-    document.getElementById('timeRemaining').textContent = Data.formatDurationSeconds(stats.timeLeftTotal);
-    const estimates = document.getElementById('timeEstimates');
-    if (estimates) {
-      estimates.textContent = stats.timeUntilNextCrossover === null
-        ? `Season ${Data.formatDurationSeconds(stats.timeLeftInSeason)} · show ${Data.formatDurationSeconds(stats.timeLeftInShow)}`
-        : `Crossover in ${Data.formatDurationSeconds(stats.timeUntilNextCrossover)} · season ${Data.formatDurationSeconds(stats.timeLeftInSeason)}`;
+    const crossoverEl = document.getElementById('crossoverName');
+    if (crossoverEl) {
+      const name = crossover?.crossover;
+      crossoverEl.hidden = !name;
+      crossoverEl.textContent = name ? `Next event: ${name}` : '';
     }
-    document.getElementById('watchedCount').textContent =
-      `${stats.watchedCount} of ${stats.totalCount} watched`;
-    document.getElementById('progressFill').style.width = `${stats.percentWatched}%`;
+    document.getElementById('timeRemaining').textContent = Data.formatDurationSeconds(stats.timeLeftTotal);
     renderProgressSummary(stats);
   }
 
@@ -156,14 +152,19 @@
       ? rows
           .map(({ episode, index }) => {
             const rating = Analytics.formatRating(episode);
-            return `<article class="episode ${progress.watched[episode.id] ? 'watched' : ''} ${index === currentIndex ? 'current' : ''}" data-id="${escapeHtml(episode.id)}">
-          <button class="check" data-action="toggle" data-id="${escapeHtml(episode.id)}">${progress.watched[episode.id] ? 'OK' : '+'}</button>
-          <span class="meta">#${episode.order}</span>
-          <span class="ep-main"><strong class="title">${escapeHtml(Data.formatEpisode(episode))} - ${escapeHtml(episode.title)}</strong><span class="sub">${escapeHtml(episode.airdate)}</span></span>
-          <span class="platform">${escapeHtml(episode.platform)}</span>
-          <span class="rating">${rating ? escapeHtml(rating) : ''}</span>
-          <span class="runtime">${episode.runtimeMinutes || 42} min</span>
-          <span class="crossover">${escapeHtml(episode.crossover || '')}</span>
+            const watched = progress.watched[episode.id];
+            const meta = [episode.airdate, episode.platform, `${episode.runtimeMinutes || 42}m`].join(' · ');
+            return `<article class="ep-card ${watched ? 'watched' : ''} ${index === currentIndex ? 'current' : ''}" data-id="${escapeHtml(episode.id)}">
+          <button type="button" class="ep-check" data-action="toggle" data-id="${escapeHtml(episode.id)}" aria-label="${watched ? 'Mark unwatched' : 'Mark watched'}">${watched ? '✓' : ''}</button>
+          <div class="ep-body">
+            <div class="ep-line1">
+              <span class="ep-order">#${episode.order}</span>
+              ${rating ? `<span class="ep-rating">${escapeHtml(rating)}</span>` : ''}
+            </div>
+            <h3 class="ep-title">${escapeHtml(Data.formatEpisode(episode))} — ${escapeHtml(episode.title)}</h3>
+            <p class="ep-meta">${escapeHtml(meta)}</p>
+            ${episode.crossover ? `<p class="ep-crossover">${escapeHtml(episode.crossover)}</p>` : ''}
+          </div>
         </article>`;
           })
           .join('')
@@ -177,7 +178,7 @@
       });
     });
 
-    container.querySelectorAll('.episode').forEach((row) => {
+    container.querySelectorAll('.ep-card').forEach((row) => {
       row.addEventListener('click', async () => {
         progress = await Store.setCurrent(row.dataset.id);
         render();
@@ -196,7 +197,8 @@
       hoursPerDay: bingeMode === 'hours' ? hoursInput.value : 0,
       targetDate: targetInput.value,
     });
-    document.getElementById('bingeTotalHours').textContent = plan.totalHoursFormatted;
+    const bingeHero = document.getElementById('bingeTotalHours');
+    if (bingeHero) bingeHero.innerHTML = `<em>${plan.totalHoursFormatted}</em>`;
     document.getElementById('bingeFinish').textContent = plan.finishDate || '—';
     document.getElementById('bingePace').textContent = plan.paceEpisodes
       ? `${plan.paceEpisodes} eps/day · ${plan.paceHours} h/day to hit target`
@@ -251,7 +253,7 @@
     let html = `<section class="timeline-inner" style="width:${width}px">`;
     markers.forEach((marker) => {
       const left = 24 + marker.index * (cellSize + gap);
-      html += `<span class="timeline-crossover" style="left:${left}px" title="${escapeHtml(marker.label)}"><span>${escapeHtml(marker.label)}</span></span>`;
+      html += `<span class="timeline-crossover" style="left:${left}px" title="${escapeHtml(marker.label)}"></span>`;
     });
 
     shows.forEach((show) => {

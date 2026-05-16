@@ -72,9 +72,7 @@ function renderSummary() {
   document.getElementById('next-episode').textContent = next ? Data.formatEpisode(next) : 'Done';
   document.getElementById('show-switch').textContent = distanceLabel(dashboard.episodesUntilShowSwitch);
   document.getElementById('next-crossover').textContent = distanceLabel(dashboard.episodesUntilNextCrossover);
-  const seasonTime = document.getElementById('time-season');
   const totalTime = document.getElementById('time-total');
-  if (seasonTime) seasonTime.textContent = Data.formatDurationSeconds(dashboard.timeLeftInSeason);
   if (totalTime) totalTime.textContent = Data.formatDurationSeconds(dashboard.timeLeftTotal);
 }
 
@@ -111,13 +109,11 @@ function renderEpisodeList() {
     const current = index === currentIndex;
     const rating = Analytics.formatRating(episode);
     return `
-      <li class="${watched ? 'watched' : ''} ${current ? 'current' : ''}" data-id="${episode.id}">
-        <button class="episode-toggle" data-id="${episode.id}" title="Toggle watched">${watched ? 'OK' : '+'}</button>
-        <div>
-          <strong>${escapeHtml(Data.formatEpisode(episode))}</strong>
-          ${rating ? `<span class="ep-rating">${escapeHtml(rating)}</span>` : ''}
+      <li class="ep-item ${watched ? 'watched' : ''} ${current ? 'current' : ''}" data-id="${episode.id}">
+        <button type="button" class="episode-toggle" data-id="${episode.id}" aria-label="Toggle watched">${watched ? '✓' : ''}</button>
+        <div class="ep-item-body">
+          <strong>${escapeHtml(Data.formatEpisode(episode))}${rating ? ` <span class="ep-rating">${escapeHtml(rating)}</span>` : ''}</strong>
           <span>${escapeHtml(episode.title)}</span>
-          ${episode.crossover ? `<em>${escapeHtml(episode.crossover)}</em>` : ''}
         </div>
       </li>
     `;

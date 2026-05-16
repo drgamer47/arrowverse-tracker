@@ -68,19 +68,13 @@ function ensureOverlay() {
   overlay.innerHTML = `
     <div class="avt-kicker">Arrowverse Tracker</div>
     <div class="avt-current" id="avt-current">Detecting episode...</div>
-    <div class="avt-subtitle" id="avt-title">Open the tracker popup to set a position manually.</div>
-    <div class="avt-row"><span>Episode left</span><strong id="avt-episode-left">--</strong></div>
+    <div class="avt-subtitle" id="avt-title">Open the popup to set your place manually.</div>
+    <div class="avt-row"><span>This episode</span><strong id="avt-episode-left">--</strong></div>
     <div class="avt-row"><span>Next</span><strong id="avt-next">--</strong></div>
-    <div class="avt-row"><span>Season left (eps)</span><strong id="avt-season-eps">--</strong></div>
-    <div class="avt-row"><span>Season left (time)</span><strong id="avt-season-left">--</strong></div>
-    <div class="avt-row"><span>Show left</span><strong id="avt-show-left">--</strong></div>
-    <div class="avt-row"><span>Total left</span><strong id="avt-total-left">--</strong></div>
-    <div class="avt-row"><span>Until show switch</span><strong id="avt-show-switch">--</strong></div>
-    <div class="avt-row"><span>Until crossover</span><strong id="avt-crossover">--</strong></div>
-    <div class="avt-row"><span>Crossover time</span><strong id="avt-crossover-time">--</strong></div>
-    <div class="avt-hint">Alt+Shift+A toggles this overlay</div>
+    <div class="avt-row"><span>Left in saga</span><strong id="avt-total-left">--</strong></div>
+    <div class="avt-row"><span>Season · show</span><strong id="avt-season-show">--</strong></div>
+    <div class="avt-hint">Alt+Shift+A toggles overlay</div>
   `;
-  document.documentElement.appendChild(overlay);
   return overlay;
 }
 
@@ -133,32 +127,12 @@ function renderOverlay() {
   overlay.querySelector('#avt-next').textContent = next
     ? Data.formatEpisode(next)
     : 'Series complete';
-  const seasonEps = overlay.querySelector('#avt-season-eps');
-  if (seasonEps) {
-    seasonEps.textContent = pluralize(currentStats.episodesLeftInSeason, 'episode', 'episodes');
-  }
-  overlay.querySelector('#avt-season-left').textContent =
-    Data.formatDurationSeconds(currentStats.timeLeftInSeason);
-  const showLeft = overlay.querySelector('#avt-show-left');
-  if (showLeft) showLeft.textContent = Data.formatDurationSeconds(currentStats.timeLeftInShow);
   const totalLeft = overlay.querySelector('#avt-total-left');
   if (totalLeft) totalLeft.textContent = Data.formatDurationSeconds(currentStats.timeLeftTotal);
-  const crossoverTime = overlay.querySelector('#avt-crossover-time');
-  if (crossoverTime) {
-    crossoverTime.textContent = currentStats.timeUntilNextCrossover === null
-      ? 'None'
-      : Data.formatDurationSeconds(currentStats.timeUntilNextCrossover);
+  const seasonShow = overlay.querySelector('#avt-season-show');
+  if (seasonShow) {
+    seasonShow.textContent = `${Data.formatDurationSeconds(currentStats.timeLeftInSeason)} · ${Data.formatDurationSeconds(currentStats.timeLeftInShow)}`;
   }
-  overlay.querySelector('#avt-show-switch').textContent =
-    currentStats.episodesUntilShowSwitch === 0
-      ? 'After this episode'
-      : pluralize(currentStats.episodesUntilShowSwitch, 'episode', 'episodes');
-  overlay.querySelector('#avt-crossover').textContent =
-    currentStats.episodesUntilNextCrossover === null
-      ? 'None remaining'
-      : currentStats.episodesUntilNextCrossover === 0
-        ? current.crossover || 'Now'
-        : pluralize(currentStats.episodesUntilNextCrossover, 'episode', 'episodes');
 }
 
 async function refreshProgress() {

@@ -28,49 +28,141 @@
     details input { width: 100%; margin: 10px 0 8px; font-family: Consolas, monospace; font-size: 12px; }
     details button { width: 100%; }
     details p { font-size: 12px; margin-top: 8px; }
-    main { padding: 24px clamp(16px, 4vw, 42px) 56px; }
-    .dashboard { display: grid; grid-template-columns: minmax(280px, 1.6fr) repeat(4, minmax(150px, 1fr)); gap: 14px; margin-bottom: 22px; }
-    .card { background: linear-gradient(135deg, rgba(229, 9, 20, .14), rgba(18, 18, 18, .98)); border: 1px solid var(--line); border-radius: 18px; padding: 18px; min-height: 118px; box-shadow: 0 18px 40px rgba(0, 0, 0, .24); }
-    .card.primary { border-color: rgba(229, 9, 20, .5); }
-    .label { color: var(--muted); font-size: 12px; text-transform: uppercase; letter-spacing: .1em; margin-bottom: 8px; }
-    .big { font-size: clamp(24px, 3vw, 38px); font-weight: 850; line-height: 1.05; }
-    .value { font-size: 20px; font-weight: 800; line-height: 1.2; }
-    .sub { color: #bfbfbf; font-size: 14px; line-height: 1.45; margin-top: 8px; }
-    .progress-track { height: 8px; background: #252525; border-radius: 999px; overflow: hidden; margin-top: 14px; }
-    .progress-fill { height: 100%; background: var(--red); width: 0%; }
-    .toolbar { display: grid; grid-template-columns: minmax(220px, 1fr) 190px 150px 170px auto auto; gap: 10px; align-items: center; background: #0d0d0d; border: 1px solid var(--line); border-radius: 16px; padding: 12px; margin-bottom: 16px; }
+    main { padding: 24px clamp(16px, 4vw, 42px) 56px; max-width: 1200px; margin: 0 auto; }
+    .label { color: var(--muted); font-size: 11px; text-transform: uppercase; letter-spacing: .12em; font-weight: 600; }
+    .sub { color: #a8a8a8; font-size: 13px; line-height: 1.5; margin: 0; }
+    .hero-panel {
+      background: linear-gradient(160deg, rgba(229, 9, 20, .18) 0%, #101010 42%, #0a0a0a 100%);
+      border: 1px solid rgba(229, 9, 20, .35);
+      border-radius: 20px;
+      padding: 20px 22px;
+      margin-bottom: 16px;
+      box-shadow: 0 20px 50px rgba(0, 0, 0, .35);
+    }
+    .hero-top { display: flex; flex-wrap: wrap; gap: 16px 24px; justify-content: space-between; align-items: flex-start; margin-bottom: 14px; }
+    .hero-now { flex: 1 1 280px; min-width: 0; }
+    .hero-now h2 { margin: 6px 0 4px; font-size: clamp(22px, 3vw, 32px); font-weight: 800; line-height: 1.15; letter-spacing: -.02em; }
+    .hero-now p { margin: 0; color: #c8c8c8; font-size: 14px; line-height: 1.4; }
+    .hero-time { text-align: right; flex-shrink: 0; }
+    .hero-time strong { display: block; font-size: 28px; font-weight: 800; color: #fff; line-height: 1; }
+    .hero-time span { font-size: 11px; color: var(--muted); text-transform: uppercase; letter-spacing: .1em; }
+    .progress-row { display: flex; justify-content: space-between; align-items: baseline; gap: 12px; margin-bottom: 8px; font-size: 13px; font-weight: 600; }
+    .overall-progress-track { height: 6px; background: #2a2a2a; border-radius: 999px; overflow: hidden; }
+    .overall-progress-fill { height: 100%; background: var(--red); width: 0%; transition: width .35s ease; }
+    .chips { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 14px; }
+    .chip {
+      background: rgba(255, 255, 255, .04);
+      border: 1px solid var(--line);
+      border-radius: 999px;
+      padding: 8px 14px;
+      font-size: 12px;
+      color: #ccc;
+      min-width: 0;
+    }
+    .chip strong { color: #fff; font-weight: 700; margin-left: 6px; }
+    .show-breakdown { margin-bottom: 18px; border: 1px solid var(--line); border-radius: 14px; background: #0c0c0c; }
+    .show-breakdown summary { padding: 12px 16px; cursor: pointer; font-weight: 600; font-size: 13px; color: #ddd; list-style: none; }
+    .show-breakdown summary::-webkit-details-marker { display: none; }
+    .show-breakdown[open] summary { border-bottom: 1px solid var(--line); }
+    .show-breakdown .show-progress-bars { padding: 12px 16px 14px; display: grid; gap: 10px; max-height: 280px; overflow: auto; }
+    .show-progress-head { display: flex; justify-content: space-between; font-size: 12px; color: #bbb; margin-bottom: 4px; }
+    .mini-track { height: 4px; background: #222; border-radius: 999px; overflow: hidden; }
+    .mini-fill { display: block; height: 100%; border-radius: 999px; }
+    .tab-nav {
+      display: flex;
+      gap: 4px;
+      margin-bottom: 20px;
+      padding: 4px;
+      background: #0e0e0e;
+      border: 1px solid var(--line);
+      border-radius: 14px;
+      overflow-x: auto;
+    }
+    .tab-btn {
+      flex: 1 0 auto;
+      background: transparent;
+      border: none;
+      color: #888;
+      padding: 10px 16px;
+      border-radius: 10px;
+      font-size: 13px;
+      font-weight: 600;
+      white-space: nowrap;
+    }
+    .tab-btn:hover { color: #fff; background: rgba(255, 255, 255, .05); }
+    .tab-btn.active { background: var(--red); color: #fff; }
+    .tab-panel { display: none; animation: fadeIn .2s ease; }
+    .tab-panel.active { display: block; }
+    @keyframes fadeIn { from { opacity: 0; transform: translateY(4px); } to { opacity: 1; transform: none; } }
+    .toolbar {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+      background: #0d0d0d;
+      border: 1px solid var(--line);
+      border-radius: 14px;
+      padding: 12px;
+      margin-bottom: 14px;
+    }
+    .toolbar-search { width: 100%; }
+    .toolbar-row { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; }
+    .toolbar-row select { flex: 1 1 120px; min-width: 100px; }
+    .toolbar-actions { margin-left: auto; }
+    .btn-ghost { background: #1e1e1e !important; border-color: #333 !important; }
     input, select, button { background: #181818; color: #fff; border: 1px solid #333; border-radius: 10px; padding: 11px 12px; font: inherit; }
     input:focus, select:focus { border-color: var(--red); outline: none; }
     button { background: var(--red); border-color: var(--red); font-weight: 750; cursor: pointer; }
     button.secondary { background: #242424; border-color: #3a3a3a; }
     button:hover { filter: brightness(1.1); }
-    .episode-list { display: grid; gap: 8px; }
-    .episode { display: grid; grid-template-columns: 42px 74px minmax(200px, 1.4fr) minmax(160px, .8fr) 110px 150px; gap: 12px; align-items: center; background: var(--panel); border: 1px solid var(--line); border-radius: 14px; padding: 12px; }
-    .episode.current { border-color: rgba(229, 9, 20, .75); box-shadow: inset 4px 0 0 var(--red); }
-    .episode.watched { opacity: .62; }
-    .check { width: 30px; height: 30px; padding: 0; border-radius: 999px; background: #2a2a2a; border-color: #444; }
-    .watched .check { background: var(--red); border-color: var(--red); }
-    .meta { color: var(--muted); font-size: 12px; text-transform: uppercase; letter-spacing: .07em; }
-    .title { font-weight: 750; }
-    .crossover { color: var(--red); font-weight: 750; }
-    .empty { color: var(--muted); text-align: center; padding: 42px; border: 1px dashed #333; border-radius: 16px; }
-    .progress-summary { margin-bottom: 20px; background: #0d0d0d; border: 1px solid var(--line); border-radius: 16px; padding: 14px 16px; }
-    .overall-progress-track { height: 4px; background: #252525; border-radius: 999px; overflow: hidden; margin: 8px 0 12px; }
-    .overall-progress-fill { height: 100%; background: var(--red); width: 0%; transition: width .3s ease; }
-    .overall-progress-label { font-weight: 700; font-size: 14px; }
-    .show-progress-bars { display: grid; gap: 8px; max-height: 220px; overflow: auto; }
-    .show-progress-head { display: flex; justify-content: space-between; font-size: 12px; color: #ccc; margin-bottom: 4px; }
-    .mini-track { height: 4px; background: #222; border-radius: 999px; overflow: hidden; }
-    .mini-fill { display: block; height: 100%; border-radius: 999px; }
-    .tabs { display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 16px; }
-    .tab-btn { background: #1a1a1a; border-color: #333; padding: 10px 16px; }
-    .tab-btn.active { background: var(--red); border-color: var(--red); }
-    .tab-panel { display: none; }
-    .tab-panel.active { display: block; }
-    .rating { color: #f5c518; font-weight: 700; font-size: 13px; }
-    .binge-hero { font-size: clamp(32px, 5vw, 48px); font-weight: 900; color: var(--red); margin: 12px 0; }
-    .binge-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 12px; margin-bottom: 16px; }
-    .binge-card { background: var(--panel); border: 1px solid var(--line); border-radius: 14px; padding: 14px; }
+    .episode-list { display: grid; gap: 6px; }
+    .ep-card {
+      display: flex;
+      gap: 12px;
+      align-items: flex-start;
+      background: var(--panel);
+      border: 1px solid var(--line);
+      border-radius: 12px;
+      padding: 12px 14px;
+      cursor: pointer;
+      transition: border-color .15s, background .15s;
+    }
+    .ep-card:hover { border-color: #3a3a3a; background: #161616; }
+    .ep-card.current { border-color: rgba(229, 9, 20, .65); background: linear-gradient(90deg, rgba(229, 9, 20, .08), var(--panel)); }
+    .ep-card.watched { opacity: .55; }
+    .ep-check {
+      width: 32px;
+      height: 32px;
+      flex-shrink: 0;
+      padding: 0;
+      border-radius: 50%;
+      background: #252525;
+      border: 1px solid #404040;
+      color: #666;
+      font-size: 14px;
+      line-height: 1;
+    }
+    .ep-card.watched .ep-check { background: var(--red); border-color: var(--red); color: #fff; }
+    .ep-body { flex: 1; min-width: 0; }
+    .ep-line1 { display: flex; align-items: center; gap: 8px; flex-wrap: wrap; margin-bottom: 4px; }
+    .ep-order { font-size: 11px; color: var(--muted); font-weight: 600; }
+    .ep-rating { font-size: 12px; color: #f5c518; font-weight: 700; }
+    .ep-title { margin: 0; font-size: 15px; font-weight: 700; line-height: 1.3; }
+    .ep-meta { margin: 4px 0 0; font-size: 12px; color: #888; }
+    .ep-crossover { margin: 6px 0 0; font-size: 12px; color: var(--red); font-weight: 600; }
+    .empty { color: var(--muted); text-align: center; padding: 36px; border: 1px dashed #333; border-radius: 14px; }
+    .panel-intro { margin: 0 0 16px; }
+    .binge-hero { font-size: clamp(28px, 4vw, 40px); font-weight: 800; color: #fff; margin: 4px 0 20px; letter-spacing: -.02em; }
+    .binge-hero em { font-style: normal; color: var(--red); }
+    .binge-form { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 12px; margin-bottom: 16px; }
+    .field { background: var(--panel); border: 1px solid var(--line); border-radius: 12px; padding: 14px; display: flex; flex-direction: column; gap: 8px; }
+    .field label { font-size: 12px; color: var(--muted); font-weight: 600; text-transform: uppercase; letter-spacing: .06em; }
+    .field input[type="number"], .field input[type="date"] { width: 100%; }
+    .pace-toggle { display: flex; gap: 8px; }
+    .pace-toggle label { flex: 1; text-align: center; padding: 8px; border-radius: 8px; background: #1a1a1a; border: 1px solid #333; cursor: pointer; font-size: 12px; text-transform: none; letter-spacing: 0; color: #ccc; }
+    .pace-toggle input { display: none; }
+    .pace-toggle input:checked + span { color: #fff; }
+    .pace-toggle label:has(input:checked) { border-color: var(--red); background: rgba(229, 9, 20, .15); }
+    .binge-result { background: #111; border-radius: 12px; padding: 14px 16px; border: 1px solid var(--line); font-size: 14px; }
     .milestones-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(180px, 1fr)); gap: 10px; }
     .milestone { background: var(--panel); border: 1px solid var(--line); border-radius: 14px; padding: 14px; display: grid; gap: 6px; }
     .milestone.unlocked { border-color: rgba(229, 9, 20, .6); background: linear-gradient(135deg, rgba(229, 9, 20, .12), #141414); }
@@ -90,58 +182,23 @@
     .timeline-cell { width: 10px; height: 10px; padding: 0; border: none; border-radius: 2px; cursor: pointer; flex-shrink: 0; }
     .timeline-cell.spacer { background: transparent; cursor: default; pointer-events: none; }
     .timeline-crossover { position: absolute; top: 0; bottom: 0; width: 0; border-left: 2px dashed var(--red); pointer-events: none; z-index: 2; }
-    .timeline-crossover span { position: absolute; top: 0; left: 4px; font-size: 10px; color: var(--red); white-space: nowrap; max-width: 120px; overflow: hidden; text-overflow: ellipsis; }
+    .timeline-crossover::after { content: ''; }
     .timeline-tooltip { position: fixed; bottom: 24px; left: 50%; transform: translateX(-50%); background: #111; border: 1px solid var(--red); padding: 10px 14px; border-radius: 10px; font-size: 13px; opacity: 0; pointer-events: none; transition: opacity .15s; z-index: 20; max-width: 90vw; }
     .timeline-tooltip.visible { opacity: 1; }
     #toast { position: fixed; bottom: 24px; right: 24px; background: var(--red); color: #fff; padding: 12px 18px; border-radius: 12px; font-weight: 700; opacity: 0; transform: translateY(12px); transition: all .25s; z-index: 30; }
     #toast.visible { opacity: 1; transform: translateY(0); }
-    button.active.secondary { border-color: var(--red); color: #fff; }
-    .episode { grid-template-columns: 42px 74px minmax(180px, 1.2fr) 90px 100px 80px minmax(120px, 1fr); }
+    button.active.btn-ghost { border-color: var(--red) !important; color: #fff; }
     @media (max-width: 1100px) {
       .header-grid { grid-template-columns: 1fr; }
-      .dashboard { grid-template-columns: 1fr 1fr; }
-      .toolbar { grid-template-columns: 1fr 1fr; }
-      .episode { grid-template-columns: 42px 70px 1fr; }
-      .episode .platform, .episode .runtime, .episode .crossover { grid-column: 3; }
+      .hero-time { text-align: left; width: 100%; }
     }
     @media (max-width: 720px) {
       header { padding: 18px 14px; position: static; }
-      h1 { font-size: 30px; line-height: 1; }
-      header p, .sub { font-size: 15px; }
+      h1 { font-size: 28px; }
       main { padding: 16px 12px 40px; }
-      .dashboard { grid-template-columns: 1fr; gap: 10px; }
-      .card { min-height: 132px; padding: 18px; }
-      .big { font-size: 32px; }
-      .value { font-size: 24px; }
-      .toolbar {
-        display: flex;
-        overflow-x: auto;
-        gap: 10px;
-        padding: 12px;
-        scroll-snap-type: x proximity;
-      }
-      .toolbar > * {
-        min-width: 210px;
-        min-height: 48px;
-        scroll-snap-align: start;
-      }
-      .toolbar button {
-        min-width: 190px;
-      }
-      .episode { grid-template-columns: 38px 1fr; }
-      .episode .meta, .episode .title, .episode .platform, .episode .runtime, .episode .crossover { grid-column: 2; }
-      .episode {
-        min-height: 120px;
-        padding: 16px 14px;
-        gap: 12px;
-      }
-      .check {
-        width: 36px;
-        height: 36px;
-        font-size: 15px;
-      }
-      .title { font-size: 17px; line-height: 1.3; }
-      .meta, .platform, .runtime, .crossover { font-size: 14px; }
+      .hero-panel { padding: 16px; }
+      .toolbar-actions { width: 100%; margin-left: 0; }
+      .toolbar-actions button { flex: 1; }
     }
   </style>
 </head>
@@ -166,28 +223,38 @@
     </div>
   </header>
   <main>
-    <section class="dashboard" aria-live="polite">
-      <div class="card primary">
-        <div class="label">Current Position</div>
-        <div class="big" id="currentEpisode">Loading...</div>
-        <div class="sub" id="currentTitle"></div>
-        <div class="progress-track"><div class="progress-fill" id="progressFill"></div></div>
+    <section class="hero-panel" aria-live="polite">
+      <div class="hero-top">
+        <div class="hero-now">
+          <span class="label">Now watching</span>
+          <h2 id="currentEpisode">Loading…</h2>
+          <p id="currentTitle"></p>
+        </div>
+        <div class="hero-time">
+          <span>Remaining</span>
+          <strong id="timeRemaining">—</strong>
+        </div>
       </div>
-      <div class="card"><div class="label">Next Episode</div><div class="value" id="nextEpisode">--</div><div class="sub" id="nextTitle"></div></div>
-      <div class="card"><div class="label">Show Switch</div><div class="value" id="showSwitch">--</div><div class="sub">episodes until the next show changes</div></div>
-      <div class="card"><div class="label">Next Crossover</div><div class="value" id="nextCrossover">--</div><div class="sub" id="crossoverName"></div></div>
-      <div class="card"><div class="label">Time Remaining</div><div class="value" id="timeRemaining">--</div><div class="sub" id="timeEstimates"></div><div class="sub" id="watchedCount"></div></div>
-    </section>
-
-    <section class="progress-summary" aria-label="Overall progress">
-      <div class="overall-progress-label" id="overallProgressLabel">0 / 830 episodes · 0%</div>
+      <div class="progress-row">
+        <span id="overallProgressLabel">0 / 830 · 0%</span>
+      </div>
       <div class="overall-progress-track"><div class="overall-progress-fill" id="overallProgressFill"></div></div>
-      <div id="showProgressBars" class="show-progress-bars"></div>
+      <div class="chips">
+        <span class="chip">Next<strong id="nextEpisode">—</strong></span>
+        <span class="chip">Switch<strong id="showSwitch">—</strong></span>
+        <span class="chip">Crossover<strong id="nextCrossover">—</strong></span>
+      </div>
+      <p id="crossoverName" class="sub" hidden></p>
     </section>
 
-    <nav class="tabs" aria-label="Sections">
+    <details class="show-breakdown">
+      <summary>Progress by show</summary>
+      <div id="showProgressBars" class="show-progress-bars"></div>
+    </details>
+
+    <nav class="tab-nav" aria-label="Sections">
       <button type="button" class="tab-btn active" data-tab="episodes">Episodes</button>
-      <button type="button" class="tab-btn" data-tab="binge">Binge Planner</button>
+      <button type="button" class="tab-btn" data-tab="binge">Planner</button>
       <button type="button" class="tab-btn" data-tab="milestones">Milestones</button>
       <button type="button" class="tab-btn" data-tab="stats">Stats</button>
       <button type="button" class="tab-btn" data-tab="timeline">Timeline</button>
@@ -195,63 +262,80 @@
 
     <section id="tab-episodes" class="tab-panel active">
       <section class="toolbar">
-        <input id="search" type="search" placeholder="Search show, title, crossover..." />
-        <select id="showFilter"></select>
-        <select id="platformFilter"></select>
-        <select id="statusFilter">
-          <option value="">All episodes</option>
-          <option value="unwatched">Unwatched only</option>
-          <option value="watched">Watched only</option>
-          <option value="crossover">Crossovers only</option>
-        </select>
-        <button id="sortRating" type="button" class="secondary">Sort by rating</button>
-        <button id="markCurrent">Mark current watched</button>
-        <button id="reset" class="secondary">Reset</button>
+        <input id="search" class="toolbar-search" type="search" placeholder="Search episodes…" />
+        <div class="toolbar-row">
+          <select id="showFilter" aria-label="Show"></select>
+          <select id="platformFilter" aria-label="Platform"></select>
+          <select id="statusFilter" aria-label="Status">
+            <option value="">All</option>
+            <option value="unwatched">Unwatched</option>
+            <option value="watched">Watched</option>
+            <option value="crossover">Crossovers</option>
+          </select>
+        </div>
+        <div class="toolbar-row toolbar-actions">
+          <button id="sortRating" type="button" class="btn-ghost">By rating</button>
+          <button id="markCurrent" type="button">Mark watched</button>
+          <button id="reset" type="button" class="btn-ghost">Reset</button>
+        </div>
       </section>
       <section id="episodes" class="episode-list"></section>
     </section>
 
     <section id="tab-binge" class="tab-panel">
-      <p class="label">Total watch time remaining</p>
-      <p class="binge-hero" id="bingeTotalHours">—</p>
-      <div class="binge-grid">
-        <label class="binge-card">Pace mode<br />
-          <label><input type="radio" name="bingeMode" value="episodes" checked /> Episodes / day</label><br />
-          <label><input type="radio" name="bingeMode" value="hours" /> Hours / day</label>
-        </label>
-        <label class="binge-card">Episodes per day<br /><input id="bingeEpisodes" type="number" min="0.25" step="0.25" value="1" /></label>
-        <label class="binge-card">Hours per day<br /><input id="bingeHours" type="number" min="0.25" step="0.25" value="1" disabled /></label>
-        <label class="binge-card">Target finish date<br /><input id="bingeTarget" type="date" /></label>
+      <p class="label">Time left in the saga</p>
+      <p class="binge-hero" id="bingeTotalHours"><em>—</em></p>
+      <div class="binge-form">
+        <div class="field">
+          <span class="label">Pace</span>
+          <div class="pace-toggle">
+            <label><input type="radio" name="bingeMode" value="episodes" checked /><span>Episodes/day</span></label>
+            <label><input type="radio" name="bingeMode" value="hours" /><span>Hours/day</span></label>
+          </div>
+        </div>
+        <div class="field">
+          <label for="bingeEpisodes">Episodes per day</label>
+          <input id="bingeEpisodes" type="number" min="0.25" step="0.25" value="1" />
+        </div>
+        <div class="field">
+          <label for="bingeHours">Hours per day</label>
+          <input id="bingeHours" type="number" min="0.25" step="0.25" value="1" disabled />
+        </div>
+        <div class="field">
+          <label for="bingeTarget">Finish by (optional)</label>
+          <input id="bingeTarget" type="date" />
+        </div>
       </div>
-      <p><strong>Projected finish:</strong> <span id="bingeFinish">—</span></p>
-      <p id="bingePace" class="sub">Set a target finish date to see required pace</p>
+      <div class="binge-result">
+        <p><strong>Finish at this pace:</strong> <span id="bingeFinish">—</span></p>
+        <p id="bingePace" class="sub">Add a target date to see required daily pace.</p>
+      </div>
     </section>
 
     <section id="tab-milestones" class="tab-panel">
-      <p class="sub">Unlocked milestones glow red. New unlocks show a toast.</p>
+      <p class="panel-intro sub">Earn badges as you watch. Unlocked milestones highlight in red.</p>
       <div id="milestonesGrid" class="milestones-grid"></div>
     </section>
 
     <section id="tab-stats" class="tab-panel">
       <div class="stats-grid">
-        <article class="stat-card"><span class="label">Total watched</span><strong id="statTotalHours">0 h</strong></article>
-        <article class="stat-card"><span class="label">Avg episodes / day</span><strong id="statAvgPerDay">0</strong></article>
-        <article class="stat-card"><span class="label">Most watched (time)</span><strong id="statMostShow">—</strong></article>
-        <article class="stat-card"><span class="label">Current streak</span><strong id="statStreakCurrent">0</strong></article>
-        <article class="stat-card"><span class="label">Longest streak</span><strong id="statStreakLongest">0</strong></article>
-        <article class="stat-card"><span class="label">First watched</span><strong id="statFirst">—</strong></article>
-        <article class="stat-card"><span class="label">Last watched</span><strong id="statLast">—</strong></article>
+        <article class="stat-card"><span class="label">Watched</span><strong id="statTotalHours">0 h</strong></article>
+        <article class="stat-card"><span class="label">Per day</span><strong id="statAvgPerDay">0</strong></article>
+        <article class="stat-card"><span class="label">Top show</span><strong id="statMostShow">—</strong></article>
+        <article class="stat-card"><span class="label">Streak</span><strong id="statStreakCurrent">0</strong></article>
+        <article class="stat-card"><span class="label">Best streak</span><strong id="statStreakLongest">0</strong></article>
+        <article class="stat-card"><span class="label">Started</span><strong id="statFirst">—</strong></article>
+        <article class="stat-card"><span class="label">Last watch</span><strong id="statLast">—</strong></article>
       </div>
       <div id="statsChart"></div>
     </section>
 
     <section id="tab-timeline" class="tab-panel">
-      <p class="sub">Chronological watch order (1–830). Hover for details; click to set current. Red dashed lines = crossovers.</p>
+      <p class="panel-intro sub">830 episodes in watch order. Hover for info, click to jump. Dashed lines = crossovers.</p>
       <div class="timeline-shell">
         <div id="timelineWrap"></div>
       </div>
     </section>
-  </main>
 
   <div id="timelineTooltip" class="timeline-tooltip" role="status"></div>
   <div id="toast" role="status" aria-live="polite"></div>
@@ -259,11 +343,6 @@
   <script src="config.js"></script>
   <script src="arrowverse-data.js"></script>
   <script src="arrowverse-analytics.js"></script>
-  <script src="arrowverse-store.js"></script>
-  <script src="arrowverse-app.js"></script>
-
-<script src="config.js"></script>
-  <script src="arrowverse-data.js"></script>
   <script src="arrowverse-store.js"></script>
   <script src="arrowverse-app.js"></script>
 </body>
